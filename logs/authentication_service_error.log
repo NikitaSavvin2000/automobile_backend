@@ -1,0 +1,2165 @@
+[2025-12-16 20:08:45] [ERROR] [authentication_service] Failed to start server: [Errno 5] Input/output error
+[2025-12-17 12:06:55] [ERROR] [authentication_service] Unhandled exception at http://0.0.0.0:7079/authentication_service/api/v1/register/send_code: Class <class 'src.models.user_models.User'> does not have a mapped column named 'organization_id'
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 120, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 106, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 430, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 316, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/api/v1/registration.py", line 88, in register_organization_and_superuser
+    result = await send_verify_code(payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/services/create_org_and_superuser.py", line 141, in send_verify_code
+    await check_email_exists(session=session, email=payload.email)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/services/create_org_and_superuser.py", line 31, in check_email_exists
+    result = await session.execute(
+             ^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/ext/asyncio/session.py", line 449, in execute
+    result = await greenlet_spawn(
+             ^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 203, in greenlet_spawn
+    result = context.switch(value)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 2351, in execute
+    return self._execute_internal(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 2249, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<4 lines>...
+        conn,
+        ^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/context.py", line 306, in orm_execute_statement
+    result = conn.execute(
+        statement, params or {}, execution_options=execution_options
+    )
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1419, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/sql/elements.py", line 527, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1633, in _execute_clauseelement
+    compiled_sql, extracted_params, cache_hit = elem._compile_w_cache(
+                                                ~~~~~~~~~~~~~~~~~~~~~^
+        dialect=dialect,
+        ^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        linting=self.dialect.compiler_linting | compiler.WARN_LINTING,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/sql/elements.py", line 716, in _compile_w_cache
+    compiled_sql = self._compiler(
+        dialect,
+    ...<4 lines>...
+        **kw,
+    )
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/sql/elements.py", line 324, in _compiler
+    return dialect.statement_compiler(dialect, self, **kw)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/sql/compiler.py", line 1447, in __init__
+    Compiled.__init__(self, dialect, statement, **kwargs)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/sql/compiler.py", line 887, in __init__
+    self.string = self.process(self.statement, **compile_kwargs)
+                  ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/sql/compiler.py", line 933, in process
+    return obj._compiler_dispatch(self, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/sql/visitors.py", line 138, in _compiler_dispatch
+    return meth(self, **kw)  # type: ignore  # noqa: E501
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/sql/compiler.py", line 4782, in visit_select
+    compile_state = select_stmt._compile_state_factory(
+        select_stmt, self, **kwargs
+    )
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/sql/base.py", line 701, in create_for_statement
+    return klass.create_for_statement(statement, compiler, **kw)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/context.py", line 447, in create_for_statement
+    return cls._create_orm_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~^
+        cast("Union[Select, FromStatement]", statement),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        **kw,
+        ^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/context.py", line 1175, in _create_orm_context
+    _QueryEntity.to_compile_state(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<2 lines>...
+        is_current_entities=True,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/context.py", line 2628, in to_compile_state
+    _MapperEntity(
+    ~~~~~~~~~~~~~^
+        compile_state,
+        ^^^^^^^^^^^^^^
+    ...<2 lines>...
+        is_current_entities,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/context.py", line 2708, in __init__
+    entity._post_inspect
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/util/langhelpers.py", line 1338, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ~~~~~~~~~^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/mapper.py", line 2733, in _post_inspect
+    self._check_configure()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/mapper.py", line 2410, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/mapper.py", line 4227, in _configure_registries
+    _do_configure_registries(registries, cascade)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/mapper.py", line 4268, in _do_configure_registries
+    mapper._post_configure_properties()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/mapper.py", line 2427, in _post_configure_properties
+    prop.init()
+    ~~~~~~~~~^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/interfaces.py", line 595, in init
+    self.do_init()
+    ~~~~~~~~~~~~^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/relationships.py", line 1654, in do_init
+    self._process_dependent_arguments()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/relationships.py", line 1695, in _process_dependent_arguments
+    rel_arg._resolve_against_registry(self._clsregistry_resolvers[1])
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/relationships.py", line 270, in _resolve_against_registry
+    self.resolved = clsregistry_resolver(
+                    ~~~~~~~~~~~~~~~~~~~~~
+        attr_value, self.name == "secondary"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    )()
+    ~^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/clsregistry.py", line 533, in __call__
+    x = eval(self.arg, globals(), self._dict)
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(tracker_fd=7, pipe_handle=9)
+                       ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/clsregistry.py", line 368, in __getattr__
+    raise AttributeError(
+    ...<2 lines>...
+    )
+AttributeError: Class <class 'src.models.user_models.User'> does not have a mapped column named 'organization_id'
+[2025-12-17 12:08:05] [ERROR] [authentication_service] Unhandled exception at http://0.0.0.0:7079/authentication_service/api/v1/register/send_code: Class <class 'src.models.user_models.User'> does not have a mapped column named 'organization_id'
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 120, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 106, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 430, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 316, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/api/v1/registration.py", line 88, in register_organization_and_superuser
+    result = await send_verify_code(payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/services/create_org_and_superuser.py", line 137, in send_verify_code
+    await check_email_exists(session=session, email=payload.email)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/services/create_org_and_superuser.py", line 31, in check_email_exists
+    result = await session.execute(
+             ^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/ext/asyncio/session.py", line 449, in execute
+    result = await greenlet_spawn(
+             ^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 203, in greenlet_spawn
+    result = context.switch(value)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 2351, in execute
+    return self._execute_internal(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 2249, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<4 lines>...
+        conn,
+        ^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/context.py", line 306, in orm_execute_statement
+    result = conn.execute(
+        statement, params or {}, execution_options=execution_options
+    )
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1419, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/sql/elements.py", line 527, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1633, in _execute_clauseelement
+    compiled_sql, extracted_params, cache_hit = elem._compile_w_cache(
+                                                ~~~~~~~~~~~~~~~~~~~~~^
+        dialect=dialect,
+        ^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        linting=self.dialect.compiler_linting | compiler.WARN_LINTING,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/sql/elements.py", line 716, in _compile_w_cache
+    compiled_sql = self._compiler(
+        dialect,
+    ...<4 lines>...
+        **kw,
+    )
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/sql/elements.py", line 324, in _compiler
+    return dialect.statement_compiler(dialect, self, **kw)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/sql/compiler.py", line 1447, in __init__
+    Compiled.__init__(self, dialect, statement, **kwargs)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/sql/compiler.py", line 887, in __init__
+    self.string = self.process(self.statement, **compile_kwargs)
+                  ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/sql/compiler.py", line 933, in process
+    return obj._compiler_dispatch(self, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/sql/visitors.py", line 138, in _compiler_dispatch
+    return meth(self, **kw)  # type: ignore  # noqa: E501
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/sql/compiler.py", line 4782, in visit_select
+    compile_state = select_stmt._compile_state_factory(
+        select_stmt, self, **kwargs
+    )
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/sql/base.py", line 701, in create_for_statement
+    return klass.create_for_statement(statement, compiler, **kw)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/context.py", line 447, in create_for_statement
+    return cls._create_orm_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~^
+        cast("Union[Select, FromStatement]", statement),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        **kw,
+        ^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/context.py", line 1175, in _create_orm_context
+    _QueryEntity.to_compile_state(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<2 lines>...
+        is_current_entities=True,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/context.py", line 2628, in to_compile_state
+    _MapperEntity(
+    ~~~~~~~~~~~~~^
+        compile_state,
+        ^^^^^^^^^^^^^^
+    ...<2 lines>...
+        is_current_entities,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/context.py", line 2708, in __init__
+    entity._post_inspect
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/util/langhelpers.py", line 1338, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ~~~~~~~~~^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/mapper.py", line 2733, in _post_inspect
+    self._check_configure()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/mapper.py", line 2410, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/mapper.py", line 4227, in _configure_registries
+    _do_configure_registries(registries, cascade)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/mapper.py", line 4268, in _do_configure_registries
+    mapper._post_configure_properties()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/mapper.py", line 2427, in _post_configure_properties
+    prop.init()
+    ~~~~~~~~~^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/interfaces.py", line 595, in init
+    self.do_init()
+    ~~~~~~~~~~~~^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/relationships.py", line 1654, in do_init
+    self._process_dependent_arguments()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/relationships.py", line 1695, in _process_dependent_arguments
+    rel_arg._resolve_against_registry(self._clsregistry_resolvers[1])
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/relationships.py", line 270, in _resolve_against_registry
+    self.resolved = clsregistry_resolver(
+                    ~~~~~~~~~~~~~~~~~~~~~
+        attr_value, self.name == "secondary"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    )()
+    ~^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/clsregistry.py", line 533, in __call__
+    x = eval(self.arg, globals(), self._dict)
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(tracker_fd=7, pipe_handle=17)
+                       ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/clsregistry.py", line 368, in __getattr__
+    raise AttributeError(
+    ...<2 lines>...
+    )
+AttributeError: Class <class 'src.models.user_models.User'> does not have a mapped column named 'organization_id'
+[2025-12-17 12:11:01] [ERROR] [authentication_service] Unhandled exception at http://0.0.0.0:7079/authentication_service/api/v1/register/send_code: Class <class 'src.models.user_models.User'> does not have a mapped column named 'organization_id'
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 120, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 106, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 430, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 316, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/api/v1/registration.py", line 88, in register_organization_and_superuser
+    result = await send_verify_code(payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/services/create_org_and_superuser.py", line 137, in send_verify_code
+    await check_email_exists(session=session, email=payload.email)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/services/create_org_and_superuser.py", line 31, in check_email_exists
+    result = await session.execute(
+             ^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/ext/asyncio/session.py", line 449, in execute
+    result = await greenlet_spawn(
+             ^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 203, in greenlet_spawn
+    result = context.switch(value)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 2351, in execute
+    return self._execute_internal(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 2249, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<4 lines>...
+        conn,
+        ^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/context.py", line 306, in orm_execute_statement
+    result = conn.execute(
+        statement, params or {}, execution_options=execution_options
+    )
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1419, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/sql/elements.py", line 527, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1633, in _execute_clauseelement
+    compiled_sql, extracted_params, cache_hit = elem._compile_w_cache(
+                                                ~~~~~~~~~~~~~~~~~~~~~^
+        dialect=dialect,
+        ^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        linting=self.dialect.compiler_linting | compiler.WARN_LINTING,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/sql/elements.py", line 716, in _compile_w_cache
+    compiled_sql = self._compiler(
+        dialect,
+    ...<4 lines>...
+        **kw,
+    )
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/sql/elements.py", line 324, in _compiler
+    return dialect.statement_compiler(dialect, self, **kw)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/sql/compiler.py", line 1447, in __init__
+    Compiled.__init__(self, dialect, statement, **kwargs)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/sql/compiler.py", line 887, in __init__
+    self.string = self.process(self.statement, **compile_kwargs)
+                  ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/sql/compiler.py", line 933, in process
+    return obj._compiler_dispatch(self, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/sql/visitors.py", line 138, in _compiler_dispatch
+    return meth(self, **kw)  # type: ignore  # noqa: E501
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/sql/compiler.py", line 4782, in visit_select
+    compile_state = select_stmt._compile_state_factory(
+        select_stmt, self, **kwargs
+    )
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/sql/base.py", line 701, in create_for_statement
+    return klass.create_for_statement(statement, compiler, **kw)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/context.py", line 447, in create_for_statement
+    return cls._create_orm_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~^
+        cast("Union[Select, FromStatement]", statement),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        **kw,
+        ^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/context.py", line 1175, in _create_orm_context
+    _QueryEntity.to_compile_state(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<2 lines>...
+        is_current_entities=True,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/context.py", line 2628, in to_compile_state
+    _MapperEntity(
+    ~~~~~~~~~~~~~^
+        compile_state,
+        ^^^^^^^^^^^^^^
+    ...<2 lines>...
+        is_current_entities,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/context.py", line 2708, in __init__
+    entity._post_inspect
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/util/langhelpers.py", line 1338, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ~~~~~~~~~^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/mapper.py", line 2733, in _post_inspect
+    self._check_configure()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/mapper.py", line 2410, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/mapper.py", line 4227, in _configure_registries
+    _do_configure_registries(registries, cascade)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/mapper.py", line 4268, in _do_configure_registries
+    mapper._post_configure_properties()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/mapper.py", line 2427, in _post_configure_properties
+    prop.init()
+    ~~~~~~~~~^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/interfaces.py", line 595, in init
+    self.do_init()
+    ~~~~~~~~~~~~^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/relationships.py", line 1654, in do_init
+    self._process_dependent_arguments()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/relationships.py", line 1695, in _process_dependent_arguments
+    rel_arg._resolve_against_registry(self._clsregistry_resolvers[1])
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/relationships.py", line 270, in _resolve_against_registry
+    self.resolved = clsregistry_resolver(
+                    ~~~~~~~~~~~~~~~~~~~~~
+        attr_value, self.name == "secondary"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    )()
+    ~^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/clsregistry.py", line 533, in __call__
+    x = eval(self.arg, globals(), self._dict)
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(tracker_fd=7, pipe_handle=17)
+                       ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/clsregistry.py", line 368, in __getattr__
+    raise AttributeError(
+    ...<2 lines>...
+    )
+AttributeError: Class <class 'src.models.user_models.User'> does not have a mapped column named 'organization_id'
+[2025-12-17 12:12:37] [ERROR] [authentication_service] Unhandled exception at http://0.0.0.0:7079/authentication_service/api/v1/register/send_code: Class <class 'src.models.user_models.User'> does not have a mapped column named 'organization_id'
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 120, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 106, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 430, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 316, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/api/v1/registration.py", line 88, in send_code_func
+    result = await send_verify_code(payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/services/create_org_and_superuser.py", line 137, in send_verify_code
+    await check_email_exists(session=session, email=payload.email)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/services/create_org_and_superuser.py", line 31, in check_email_exists
+    result = await session.execute(
+             ^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/ext/asyncio/session.py", line 449, in execute
+    result = await greenlet_spawn(
+             ^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 203, in greenlet_spawn
+    result = context.switch(value)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 2351, in execute
+    return self._execute_internal(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 2249, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<4 lines>...
+        conn,
+        ^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/context.py", line 306, in orm_execute_statement
+    result = conn.execute(
+        statement, params or {}, execution_options=execution_options
+    )
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1419, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/sql/elements.py", line 527, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1633, in _execute_clauseelement
+    compiled_sql, extracted_params, cache_hit = elem._compile_w_cache(
+                                                ~~~~~~~~~~~~~~~~~~~~~^
+        dialect=dialect,
+        ^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        linting=self.dialect.compiler_linting | compiler.WARN_LINTING,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/sql/elements.py", line 716, in _compile_w_cache
+    compiled_sql = self._compiler(
+        dialect,
+    ...<4 lines>...
+        **kw,
+    )
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/sql/elements.py", line 324, in _compiler
+    return dialect.statement_compiler(dialect, self, **kw)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/sql/compiler.py", line 1447, in __init__
+    Compiled.__init__(self, dialect, statement, **kwargs)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/sql/compiler.py", line 887, in __init__
+    self.string = self.process(self.statement, **compile_kwargs)
+                  ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/sql/compiler.py", line 933, in process
+    return obj._compiler_dispatch(self, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/sql/visitors.py", line 138, in _compiler_dispatch
+    return meth(self, **kw)  # type: ignore  # noqa: E501
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/sql/compiler.py", line 4782, in visit_select
+    compile_state = select_stmt._compile_state_factory(
+        select_stmt, self, **kwargs
+    )
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/sql/base.py", line 701, in create_for_statement
+    return klass.create_for_statement(statement, compiler, **kw)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/context.py", line 447, in create_for_statement
+    return cls._create_orm_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~^
+        cast("Union[Select, FromStatement]", statement),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        **kw,
+        ^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/context.py", line 1175, in _create_orm_context
+    _QueryEntity.to_compile_state(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<2 lines>...
+        is_current_entities=True,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/context.py", line 2628, in to_compile_state
+    _MapperEntity(
+    ~~~~~~~~~~~~~^
+        compile_state,
+        ^^^^^^^^^^^^^^
+    ...<2 lines>...
+        is_current_entities,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/context.py", line 2708, in __init__
+    entity._post_inspect
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/util/langhelpers.py", line 1338, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ~~~~~~~~~^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/mapper.py", line 2733, in _post_inspect
+    self._check_configure()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/mapper.py", line 2410, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/mapper.py", line 4227, in _configure_registries
+    _do_configure_registries(registries, cascade)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/mapper.py", line 4268, in _do_configure_registries
+    mapper._post_configure_properties()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/mapper.py", line 2427, in _post_configure_properties
+    prop.init()
+    ~~~~~~~~~^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/interfaces.py", line 595, in init
+    self.do_init()
+    ~~~~~~~~~~~~^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/relationships.py", line 1654, in do_init
+    self._process_dependent_arguments()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/relationships.py", line 1695, in _process_dependent_arguments
+    rel_arg._resolve_against_registry(self._clsregistry_resolvers[1])
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/relationships.py", line 270, in _resolve_against_registry
+    self.resolved = clsregistry_resolver(
+                    ~~~~~~~~~~~~~~~~~~~~~
+        attr_value, self.name == "secondary"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    )()
+    ~^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/clsregistry.py", line 533, in __call__
+    x = eval(self.arg, globals(), self._dict)
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(tracker_fd=7, pipe_handle=13)
+                       ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/clsregistry.py", line 368, in __getattr__
+    raise AttributeError(
+    ...<2 lines>...
+    )
+AttributeError: Class <class 'src.models.user_models.User'> does not have a mapped column named 'organization_id'
+[2025-12-17 12:13:43] [ERROR] [authentication_service] Unhandled exception at http://0.0.0.0:7079/authentication_service/api/v1/register/send_code: Class <class 'src.models.user_models.User'> does not have a mapped column named 'organization_id'
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 120, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 106, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 430, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 316, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/api/v1/registration.py", line 88, in send_code_func
+    result = await send_verify_code(payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/services/create_org_and_superuser.py", line 137, in send_verify_code
+    await check_email_exists(session=session, email=payload.email)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/services/create_org_and_superuser.py", line 31, in check_email_exists
+    result = await session.execute(
+             ^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/ext/asyncio/session.py", line 449, in execute
+    result = await greenlet_spawn(
+             ^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 203, in greenlet_spawn
+    result = context.switch(value)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 2351, in execute
+    return self._execute_internal(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 2249, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<4 lines>...
+        conn,
+        ^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/context.py", line 306, in orm_execute_statement
+    result = conn.execute(
+        statement, params or {}, execution_options=execution_options
+    )
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1419, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/sql/elements.py", line 527, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1633, in _execute_clauseelement
+    compiled_sql, extracted_params, cache_hit = elem._compile_w_cache(
+                                                ~~~~~~~~~~~~~~~~~~~~~^
+        dialect=dialect,
+        ^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        linting=self.dialect.compiler_linting | compiler.WARN_LINTING,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/sql/elements.py", line 716, in _compile_w_cache
+    compiled_sql = self._compiler(
+        dialect,
+    ...<4 lines>...
+        **kw,
+    )
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/sql/elements.py", line 324, in _compiler
+    return dialect.statement_compiler(dialect, self, **kw)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/sql/compiler.py", line 1447, in __init__
+    Compiled.__init__(self, dialect, statement, **kwargs)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/sql/compiler.py", line 887, in __init__
+    self.string = self.process(self.statement, **compile_kwargs)
+                  ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/sql/compiler.py", line 933, in process
+    return obj._compiler_dispatch(self, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/sql/visitors.py", line 138, in _compiler_dispatch
+    return meth(self, **kw)  # type: ignore  # noqa: E501
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/sql/compiler.py", line 4782, in visit_select
+    compile_state = select_stmt._compile_state_factory(
+        select_stmt, self, **kwargs
+    )
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/sql/base.py", line 701, in create_for_statement
+    return klass.create_for_statement(statement, compiler, **kw)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/context.py", line 447, in create_for_statement
+    return cls._create_orm_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~^
+        cast("Union[Select, FromStatement]", statement),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        **kw,
+        ^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/context.py", line 1175, in _create_orm_context
+    _QueryEntity.to_compile_state(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<2 lines>...
+        is_current_entities=True,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/context.py", line 2628, in to_compile_state
+    _MapperEntity(
+    ~~~~~~~~~~~~~^
+        compile_state,
+        ^^^^^^^^^^^^^^
+    ...<2 lines>...
+        is_current_entities,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/context.py", line 2708, in __init__
+    entity._post_inspect
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/util/langhelpers.py", line 1338, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ~~~~~~~~~^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/mapper.py", line 2733, in _post_inspect
+    self._check_configure()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/mapper.py", line 2410, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/mapper.py", line 4227, in _configure_registries
+    _do_configure_registries(registries, cascade)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/mapper.py", line 4268, in _do_configure_registries
+    mapper._post_configure_properties()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/mapper.py", line 2427, in _post_configure_properties
+    prop.init()
+    ~~~~~~~~~^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/interfaces.py", line 595, in init
+    self.do_init()
+    ~~~~~~~~~~~~^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/relationships.py", line 1654, in do_init
+    self._process_dependent_arguments()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/relationships.py", line 1695, in _process_dependent_arguments
+    rel_arg._resolve_against_registry(self._clsregistry_resolvers[1])
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/relationships.py", line 270, in _resolve_against_registry
+    self.resolved = clsregistry_resolver(
+                    ~~~~~~~~~~~~~~~~~~~~~
+        attr_value, self.name == "secondary"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    )()
+    ~^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/clsregistry.py", line 533, in __call__
+    x = eval(self.arg, globals(), self._dict)
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(tracker_fd=7, pipe_handle=21)
+                       ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/clsregistry.py", line 368, in __getattr__
+    raise AttributeError(
+    ...<2 lines>...
+    )
+AttributeError: Class <class 'src.models.user_models.User'> does not have a mapped column named 'organization_id'
+[2025-12-17 12:20:39] [ERROR] [authentication_service] Unhandled exception at http://0.0.0.0:7079/authentication_service/api/v1/register/send_code: Class <class 'src.models.user_models.User'> does not have a mapped column named 'organization_id'
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 120, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 106, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 430, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 316, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/api/v1/registration.py", line 88, in send_code_func
+    result = await send_verify_code(payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/services/create_org_and_superuser.py", line 127, in send_verify_code
+    await check_email_exists(session=session, email=payload.email)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/services/create_org_and_superuser.py", line 31, in check_email_exists
+    result = await session.execute(
+             ^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/ext/asyncio/session.py", line 449, in execute
+    result = await greenlet_spawn(
+             ^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 203, in greenlet_spawn
+    result = context.switch(value)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 2351, in execute
+    return self._execute_internal(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 2249, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<4 lines>...
+        conn,
+        ^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/context.py", line 306, in orm_execute_statement
+    result = conn.execute(
+        statement, params or {}, execution_options=execution_options
+    )
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1419, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/sql/elements.py", line 527, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1633, in _execute_clauseelement
+    compiled_sql, extracted_params, cache_hit = elem._compile_w_cache(
+                                                ~~~~~~~~~~~~~~~~~~~~~^
+        dialect=dialect,
+        ^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        linting=self.dialect.compiler_linting | compiler.WARN_LINTING,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/sql/elements.py", line 716, in _compile_w_cache
+    compiled_sql = self._compiler(
+        dialect,
+    ...<4 lines>...
+        **kw,
+    )
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/sql/elements.py", line 324, in _compiler
+    return dialect.statement_compiler(dialect, self, **kw)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/sql/compiler.py", line 1447, in __init__
+    Compiled.__init__(self, dialect, statement, **kwargs)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/sql/compiler.py", line 887, in __init__
+    self.string = self.process(self.statement, **compile_kwargs)
+                  ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/sql/compiler.py", line 933, in process
+    return obj._compiler_dispatch(self, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/sql/visitors.py", line 138, in _compiler_dispatch
+    return meth(self, **kw)  # type: ignore  # noqa: E501
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/sql/compiler.py", line 4782, in visit_select
+    compile_state = select_stmt._compile_state_factory(
+        select_stmt, self, **kwargs
+    )
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/sql/base.py", line 701, in create_for_statement
+    return klass.create_for_statement(statement, compiler, **kw)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/context.py", line 447, in create_for_statement
+    return cls._create_orm_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~^
+        cast("Union[Select, FromStatement]", statement),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        **kw,
+        ^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/context.py", line 1175, in _create_orm_context
+    _QueryEntity.to_compile_state(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<2 lines>...
+        is_current_entities=True,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/context.py", line 2628, in to_compile_state
+    _MapperEntity(
+    ~~~~~~~~~~~~~^
+        compile_state,
+        ^^^^^^^^^^^^^^
+    ...<2 lines>...
+        is_current_entities,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/context.py", line 2708, in __init__
+    entity._post_inspect
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/util/langhelpers.py", line 1338, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ~~~~~~~~~^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/mapper.py", line 2733, in _post_inspect
+    self._check_configure()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/mapper.py", line 2410, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/mapper.py", line 4227, in _configure_registries
+    _do_configure_registries(registries, cascade)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/mapper.py", line 4268, in _do_configure_registries
+    mapper._post_configure_properties()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/mapper.py", line 2427, in _post_configure_properties
+    prop.init()
+    ~~~~~~~~~^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/interfaces.py", line 595, in init
+    self.do_init()
+    ~~~~~~~~~~~~^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/relationships.py", line 1654, in do_init
+    self._process_dependent_arguments()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/relationships.py", line 1695, in _process_dependent_arguments
+    rel_arg._resolve_against_registry(self._clsregistry_resolvers[1])
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/relationships.py", line 270, in _resolve_against_registry
+    self.resolved = clsregistry_resolver(
+                    ~~~~~~~~~~~~~~~~~~~~~
+        attr_value, self.name == "secondary"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    )()
+    ~^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/clsregistry.py", line 533, in __call__
+    x = eval(self.arg, globals(), self._dict)
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(tracker_fd=7, pipe_handle=17)
+                       ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/clsregistry.py", line 368, in __getattr__
+    raise AttributeError(
+    ...<2 lines>...
+    )
+AttributeError: Class <class 'src.models.user_models.User'> does not have a mapped column named 'organization_id'
+[2025-12-17 12:22:00] [ERROR] [authentication_service] SQLAlchemyError at http://0.0.0.0:7079/authentication_service/api/v1/register/send_code: Mapper 'Mapper[Role(roles)]' has no property 'permissions'.  If this property was indicated from other mappers or configure events, ensure registry.configure() has been called.
+[2025-12-17 12:22:35] [ERROR] [authentication_service] Unhandled exception at http://0.0.0.0:7079/authentication_service/api/v1/register/send_code: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 120, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 106, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 430, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 316, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/api/v1/registration.py", line 88, in send_code_func
+    result = await send_verify_code(payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/services/create_org_and_superuser.py", line 128, in send_verify_code
+    await create_user_record(
+    ...<2 lines>...
+    )
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/services/create_org_and_superuser.py", line 69, in create_user_record
+    hashed_pwd = hash_password(plain_password)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/core/security/password.py", line 14, in hash_password
+    return pwd_context.hash(plain_password)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/passlib/context.py", line 2258, in hash
+    return record.hash(secret, **kwds)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/passlib/utils/handlers.py", line 779, in hash
+    self.checksum = self._calc_checksum(secret)
+                    ~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/passlib/handlers/bcrypt.py", line 591, in _calc_checksum
+    self._stub_requires_backend()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/passlib/utils/handlers.py", line 2254, in _stub_requires_backend
+    cls.set_backend()
+    ~~~~~~~~~~~~~~~^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/passlib/utils/handlers.py", line 2156, in set_backend
+    return owner.set_backend(name, dryrun=dryrun)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/passlib/utils/handlers.py", line 2163, in set_backend
+    return cls.set_backend(name, dryrun=dryrun)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/passlib/utils/handlers.py", line 2188, in set_backend
+    cls._set_backend(name, dryrun)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/passlib/utils/handlers.py", line 2311, in _set_backend
+    super(SubclassBackendMixin, cls)._set_backend(name, dryrun)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/passlib/utils/handlers.py", line 2224, in _set_backend
+    ok = loader(**kwds)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/passlib/handlers/bcrypt.py", line 626, in _load_backend_mixin
+    return mixin_cls._finalize_backend_mixin(name, dryrun)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/passlib/handlers/bcrypt.py", line 421, in _finalize_backend_mixin
+    if detect_wrap_bug(IDENT_2A):
+       ~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/passlib/handlers/bcrypt.py", line 380, in detect_wrap_bug
+    if verify(secret, bug_hash):
+       ~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/passlib/utils/handlers.py", line 792, in verify
+    return consteq(self._calc_checksum(secret), chk)
+                   ~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/passlib/handlers/bcrypt.py", line 655, in _calc_checksum
+    hash = _bcrypt.hashpw(secret, config)
+ValueError: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+[2025-12-17 12:24:57] [ERROR] [authentication_service] Unhandled exception at http://0.0.0.0:7079/authentication_service/api/v1/register/send_code: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 120, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 106, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 430, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 316, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/api/v1/registration.py", line 88, in send_code_func
+    result = await send_verify_code(payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/services/create_org_and_superuser.py", line 128, in send_verify_code
+    await create_user_record(
+    ...<2 lines>...
+    )
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/services/create_org_and_superuser.py", line 69, in create_user_record
+    hashed_pwd = hash_password(plain_password)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/core/security/password.py", line 14, in hash_password
+    return pwd_context.hash(plain_password)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/passlib/context.py", line 2258, in hash
+    return record.hash(secret, **kwds)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/passlib/utils/handlers.py", line 779, in hash
+    self.checksum = self._calc_checksum(secret)
+                    ~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/passlib/handlers/bcrypt.py", line 591, in _calc_checksum
+    self._stub_requires_backend()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/passlib/utils/handlers.py", line 2254, in _stub_requires_backend
+    cls.set_backend()
+    ~~~~~~~~~~~~~~~^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/passlib/utils/handlers.py", line 2156, in set_backend
+    return owner.set_backend(name, dryrun=dryrun)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/passlib/utils/handlers.py", line 2163, in set_backend
+    return cls.set_backend(name, dryrun=dryrun)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/passlib/utils/handlers.py", line 2188, in set_backend
+    cls._set_backend(name, dryrun)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/passlib/utils/handlers.py", line 2311, in _set_backend
+    super(SubclassBackendMixin, cls)._set_backend(name, dryrun)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/passlib/utils/handlers.py", line 2224, in _set_backend
+    ok = loader(**kwds)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/passlib/handlers/bcrypt.py", line 626, in _load_backend_mixin
+    return mixin_cls._finalize_backend_mixin(name, dryrun)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/passlib/handlers/bcrypt.py", line 421, in _finalize_backend_mixin
+    if detect_wrap_bug(IDENT_2A):
+       ~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/passlib/handlers/bcrypt.py", line 380, in detect_wrap_bug
+    if verify(secret, bug_hash):
+       ~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/passlib/utils/handlers.py", line 792, in verify
+    return consteq(self._calc_checksum(secret), chk)
+                   ~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/passlib/handlers/bcrypt.py", line 655, in _calc_checksum
+    hash = _bcrypt.hashpw(secret, config)
+ValueError: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+[2025-12-17 12:33:53] [ERROR] [authentication_service] Unhandled exception at http://0.0.0.0:7079/authentication_service/api/v1/register/send_code: 'verify_code' is an invalid keyword argument for User
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 120, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 106, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 430, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 316, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/api/v1/registration.py", line 88, in send_code_func
+    result = await send_verify_code(payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/services/create_org_and_superuser.py", line 128, in send_verify_code
+    await create_user_record(
+    ...<2 lines>...
+    )
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/services/create_org_and_superuser.py", line 71, in create_user_record
+    user = User(
+        name=name,
+    ...<5 lines>...
+        role_id=2,
+    )
+  File "<string>", line 4, in __init__
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/state.py", line 596, in _initialize_instance
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/util/langhelpers.py", line 224, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/state.py", line 594, in _initialize_instance
+    manager.original_init(*mixed[1:], **kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/decl_base.py", line 2179, in _declarative_constructor
+    raise TypeError(
+        "%r is an invalid keyword argument for %s" % (k, cls_.__name__)
+    )
+TypeError: 'verify_code' is an invalid keyword argument for User
+[2025-12-17 12:37:05] [ERROR] [authentication_service] SQLAlchemyError at http://0.0.0.0:7079/authentication_service/api/v1/register/send_code: (sqlalchemy.dialects.postgresql.asyncpg.Error) <class 'asyncpg.exceptions.DataError'>: invalid input for query argument $10: 7021 (expected str, got int)
+[SQL: INSERT INTO users (name, email, nickname, password, created_at, updated_at, last_activity, is_active, is_blocked, is_deleted, role_id, verify_code, code_date_expired) VALUES ($1::VARCHAR, $2::VARCHAR, $3::VARCHAR, $4::VARCHAR, now(), now(), $5::TIMESTAMP WITH TIME ZONE, $6::BOOLEAN, $7::BOOLEAN, $8::BOOLEAN, $9::INTEGER, $10::VARCHAR, $11::TIMESTAMP WITH TIME ZONE) RETURNING users.id, users.created_at, users.updated_at]
+[parameters: ('Никита Саввин', 'savvin.nikita.work@yandex.ru', None, 'gAAAAABpQnnBPBgTZV3So95RGrT_qGOnL-O5yw_xk9NPVO4dnhtLbzAuduLqcPMtZHeZPh97fMjyQJsIpIhFAqwedIyehr4j_w==', None, False, False, False, 2, 7021, datetime.datetime(2025, 12, 17, 9, 52, 5, 125197, tzinfo=datetime.timezone.utc))]
+(Background on this error at: https://sqlalche.me/e/20/dbapi)
+[2025-12-17 12:37:50] [ERROR] [authentication_service] Unhandled exception at http://0.0.0.0:7079/authentication_service/api/v1/register/send_code: name 'create_userrecord' is not defined
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 120, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 106, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 430, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 316, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/api/v1/registration.py", line 88, in send_code_func
+    result = await send_verify_code(payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/services/create_org_and_superuser.py", line 128, in send_verify_code
+    await create_userrecord(
+          ^^^^^^^^^^^^^^^^^
+NameError: name 'create_userrecord' is not defined. Did you mean: 'create_user_record'?
+[2025-12-17 12:38:07] [ERROR] [authentication_service] SQLAlchemyError at http://0.0.0.0:7079/authentication_service/api/v1/register/send_code: (sqlalchemy.dialects.postgresql.asyncpg.Error) <class 'asyncpg.exceptions.DataError'>: invalid input for query argument $10: 6724 (expected str, got int)
+[SQL: INSERT INTO users (name, email, nickname, password, created_at, updated_at, last_activity, is_active, is_blocked, is_deleted, role_id, verify_code, code_date_expired) VALUES ($1::VARCHAR, $2::VARCHAR, $3::VARCHAR, $4::VARCHAR, now(), now(), $5::TIMESTAMP WITH TIME ZONE, $6::BOOLEAN, $7::BOOLEAN, $8::BOOLEAN, $9::INTEGER, $10::VARCHAR, $11::TIMESTAMP WITH TIME ZONE) RETURNING users.id, users.created_at, users.updated_at]
+[parameters: ('Никита Саввин', 'savvin.nikita.work@yandex.ru', None, 'gAAAAABpQnn_ItMoASw07FciA_CfKR6M4wYyzw_tLVXspDY2kUlRBiXPIxp8Gi2d-dvVP2sOm1k0NbHDCMDSCf86jb9DWyjy0A==', None, False, False, False, 2, 6724, datetime.datetime(2025, 12, 17, 9, 53, 7, 764711, tzinfo=datetime.timezone.utc))]
+(Background on this error at: https://sqlalche.me/e/20/dbapi)
+[2025-12-17 12:40:46] [ERROR] [authentication_service] Ошибка подключения к базе данных: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.ForeignKeyViolationError'>: insert or update on table "users" violates foreign key constraint "users_role_id_fkey"
+DETAIL:  Key (role_id)=(2) is not present in table "roles".
+[SQL: INSERT INTO users (name, email, nickname, password, created_at, updated_at, last_activity, is_active, is_blocked, is_deleted, role_id, verify_code, code_date_expired) VALUES ($1::VARCHAR, $2::VARCHAR, $3::VARCHAR, $4::VARCHAR, now(), now(), $5::TIMESTAMP WITH TIME ZONE, $6::BOOLEAN, $7::BOOLEAN, $8::BOOLEAN, $9::INTEGER, $10::VARCHAR, $11::TIMESTAMP WITH TIME ZONE) RETURNING users.id, users.created_at, users.updated_at]
+[parameters: ('Никита Саввин', 'savvin.nikita.work@yandex.ru', None, 'gAAAAABpQnqergrZdtLTbnTwC6-16H1YG4llNLSovJ6BcnzcFN_3A80d6XdZOP66NUyAjSIVaJ6GlxzG8rK8CgITnbDD_xjvvw==', None, False, False, False, 2, '9487', datetime.datetime(2025, 12, 17, 9, 55, 46, 598978, tzinfo=datetime.timezone.utc))]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2025-12-17 12:40:46] [ERROR] [authentication_service] DatabaseError at http://0.0.0.0:7079/authentication_service/api/v1/register/send_code: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.ForeignKeyViolationError'>: insert or update on table "users" violates foreign key constraint "users_role_id_fkey"
+DETAIL:  Key (role_id)=(2) is not present in table "roles".
+[SQL: INSERT INTO users (name, email, nickname, password, created_at, updated_at, last_activity, is_active, is_blocked, is_deleted, role_id, verify_code, code_date_expired) VALUES ($1::VARCHAR, $2::VARCHAR, $3::VARCHAR, $4::VARCHAR, now(), now(), $5::TIMESTAMP WITH TIME ZONE, $6::BOOLEAN, $7::BOOLEAN, $8::BOOLEAN, $9::INTEGER, $10::VARCHAR, $11::TIMESTAMP WITH TIME ZONE) RETURNING users.id, users.created_at, users.updated_at]
+[parameters: ('Никита Саввин', 'savvin.nikita.work@yandex.ru', None, 'gAAAAABpQnqergrZdtLTbnTwC6-16H1YG4llNLSovJ6BcnzcFN_3A80d6XdZOP66NUyAjSIVaJ6GlxzG8rK8CgITnbDD_xjvvw==', None, False, False, False, 2, '9487', datetime.datetime(2025, 12, 17, 9, 55, 46, 598978, tzinfo=datetime.timezone.utc))]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2025-12-17 12:42:51] [ERROR] [authentication_service] Unhandled exception at http://0.0.0.0:7079/authentication_service/api/v1/register/send_code: 1 validation error:
+  {'type': 'model_attributes_type', 'loc': ('response',), 'msg': 'Input should be a valid dictionary or object to extract fields from', 'input': 'Письмо успешно отправлено, проверьте почту savvin.nikita.work@yandex.ru'}
+
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/api/v1/registration.py", line 54, in send_code_func
+    POST /authentication_service/api/v1/register/send_code
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 120, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 106, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 452, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 278, in serialize_response
+    raise ResponseValidationError(
+    ...<3 lines>...
+    )
+fastapi.exceptions.ResponseValidationError: 1 validation error:
+  {'type': 'model_attributes_type', 'loc': ('response',), 'msg': 'Input should be a valid dictionary or object to extract fields from', 'input': 'Письмо успешно отправлено, проверьте почту savvin.nikita.work@yandex.ru'}
+
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/api/v1/registration.py", line 54, in send_code_func
+    POST /authentication_service/api/v1/register/send_code
+[2025-12-17 12:44:06] [ERROR] [authentication_service] Unhandled exception at http://0.0.0.0:7079/authentication_service/api/v1/register/send_code: 3 validation errors:
+  {'type': 'missing', 'loc': ('response', 'user_id'), 'msg': 'Field required', 'input': {'message': 'Письмо успешно отправлено, проверьте почту savvin.nikita.work@yandex.ru'}}
+  {'type': 'missing', 'loc': ('response', 'access_token'), 'msg': 'Field required', 'input': {'message': 'Письмо успешно отправлено, проверьте почту savvin.nikita.work@yandex.ru'}}
+  {'type': 'missing', 'loc': ('response', 'refresh_token'), 'msg': 'Field required', 'input': {'message': 'Письмо успешно отправлено, проверьте почту savvin.nikita.work@yandex.ru'}}
+
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/api/v1/registration.py", line 54, in send_code_func
+    POST /authentication_service/api/v1/register/send_code
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 120, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 106, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 452, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 278, in serialize_response
+    raise ResponseValidationError(
+    ...<3 lines>...
+    )
+fastapi.exceptions.ResponseValidationError: 3 validation errors:
+  {'type': 'missing', 'loc': ('response', 'user_id'), 'msg': 'Field required', 'input': {'message': 'Письмо успешно отправлено, проверьте почту savvin.nikita.work@yandex.ru'}}
+  {'type': 'missing', 'loc': ('response', 'access_token'), 'msg': 'Field required', 'input': {'message': 'Письмо успешно отправлено, проверьте почту savvin.nikita.work@yandex.ru'}}
+  {'type': 'missing', 'loc': ('response', 'refresh_token'), 'msg': 'Field required', 'input': {'message': 'Письмо успешно отправлено, проверьте почту savvin.nikita.work@yandex.ru'}}
+
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/api/v1/registration.py", line 54, in send_code_func
+    POST /authentication_service/api/v1/register/send_code
+[2025-12-17 12:45:41] [ERROR] [authentication_service] Unhandled exception at http://0.0.0.0:7079/authentication_service/api/v1/register/send_code: 3 validation errors:
+  {'type': 'missing', 'loc': ('response', 'user_id'), 'msg': 'Field required', 'input': {'message': 'Письмо успешно отправлено, проверьте почту savvin.nikita.work@yandex.ru'}}
+  {'type': 'missing', 'loc': ('response', 'access_token'), 'msg': 'Field required', 'input': {'message': 'Письмо успешно отправлено, проверьте почту savvin.nikita.work@yandex.ru'}}
+  {'type': 'missing', 'loc': ('response', 'refresh_token'), 'msg': 'Field required', 'input': {'message': 'Письмо успешно отправлено, проверьте почту savvin.nikita.work@yandex.ru'}}
+
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/api/v1/registration.py", line 54, in send_code_func
+    POST /authentication_service/api/v1/register/send_code
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 120, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 106, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 452, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 278, in serialize_response
+    raise ResponseValidationError(
+    ...<3 lines>...
+    )
+fastapi.exceptions.ResponseValidationError: 3 validation errors:
+  {'type': 'missing', 'loc': ('response', 'user_id'), 'msg': 'Field required', 'input': {'message': 'Письмо успешно отправлено, проверьте почту savvin.nikita.work@yandex.ru'}}
+  {'type': 'missing', 'loc': ('response', 'access_token'), 'msg': 'Field required', 'input': {'message': 'Письмо успешно отправлено, проверьте почту savvin.nikita.work@yandex.ru'}}
+  {'type': 'missing', 'loc': ('response', 'refresh_token'), 'msg': 'Field required', 'input': {'message': 'Письмо успешно отправлено, проверьте почту savvin.nikita.work@yandex.ru'}}
+
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/api/v1/registration.py", line 54, in send_code_func
+    POST /authentication_service/api/v1/register/send_code
+[2025-12-17 13:47:41] [ERROR] [authentication_service] SQLAlchemyError at http://0.0.0.0:7079/authentication_service/api/v1/register/send_code: Mapper 'Mapper[Role(roles)]' has no property 'permissions'.  If this property was indicated from other mappers or configure events, ensure registry.configure() has been called.
+[2025-12-17 13:50:40] [ERROR] [authentication_service] Unhandled exception at http://0.0.0.0:7079/authentication_service/api/v1/register/user: cannot unpack non-iterable coroutine object
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 120, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 106, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 430, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 316, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/api/v1/registration.py", line 45, in register_user
+    result = await create_user(payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/services/create_org_and_superuser.py", line 197, in create_user
+    is_verified, message = func_verify_code(code=verify_code, email=email)
+    ^^^^^^^^^^^^^^^^^^^^
+TypeError: cannot unpack non-iterable coroutine object
+[2025-12-17 13:59:14] [ERROR] [authentication_service] Ошибка подключения к базе данных: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "users_email_key"
+DETAIL:  Key (email)=(savvin.nikita.work@yandex.ru) already exists.
+[SQL: INSERT INTO users (name, email, nickname, password, created_at, updated_at, last_activity, is_active, is_blocked, is_deleted, role_id, verify_code, code_date_expired) VALUES ($1::VARCHAR, $2::VARCHAR, $3::VARCHAR, $4::VARCHAR, now(), now(), $5::TIMESTAMP WITH TIME ZONE, $6::BOOLEAN, $7::BOOLEAN, $8::BOOLEAN, $9::INTEGER, $10::VARCHAR, $11::TIMESTAMP WITH TIME ZONE) RETURNING users.id, users.created_at, users.updated_at]
+[parameters: ('Никита Саввин', 'savvin.nikita.work@yandex.ru', None, 'gAAAAABpQo0CHPfKKEbBwyMauvKqBqekA-QGVf7IOZoqrniiiT0X3smE8PREV-vQdTxxyerK4jVgGDH1WmNEC1jDGkDilyKglg==', None, False, False, False, 2, '7030', datetime.datetime(2025, 12, 17, 11, 14, 14, 823783, tzinfo=datetime.timezone.utc))]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2025-12-17 13:59:14] [ERROR] [authentication_service] DatabaseError at http://0.0.0.0:7079/authentication_service/api/v1/register/send_code: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "users_email_key"
+DETAIL:  Key (email)=(savvin.nikita.work@yandex.ru) already exists.
+[SQL: INSERT INTO users (name, email, nickname, password, created_at, updated_at, last_activity, is_active, is_blocked, is_deleted, role_id, verify_code, code_date_expired) VALUES ($1::VARCHAR, $2::VARCHAR, $3::VARCHAR, $4::VARCHAR, now(), now(), $5::TIMESTAMP WITH TIME ZONE, $6::BOOLEAN, $7::BOOLEAN, $8::BOOLEAN, $9::INTEGER, $10::VARCHAR, $11::TIMESTAMP WITH TIME ZONE) RETURNING users.id, users.created_at, users.updated_at]
+[parameters: ('Никита Саввин', 'savvin.nikita.work@yandex.ru', None, 'gAAAAABpQo0CHPfKKEbBwyMauvKqBqekA-QGVf7IOZoqrniiiT0X3smE8PREV-vQdTxxyerK4jVgGDH1WmNEC1jDGkDilyKglg==', None, False, False, False, 2, '7030', datetime.datetime(2025, 12, 17, 11, 14, 14, 823783, tzinfo=datetime.timezone.utc))]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2025-12-17 13:59:16] [ERROR] [authentication_service] Ошибка подключения к базе данных: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "users_email_key"
+DETAIL:  Key (email)=(savvin.nikita.work@yandex.ru) already exists.
+[SQL: INSERT INTO users (name, email, nickname, password, created_at, updated_at, last_activity, is_active, is_blocked, is_deleted, role_id, verify_code, code_date_expired) VALUES ($1::VARCHAR, $2::VARCHAR, $3::VARCHAR, $4::VARCHAR, now(), now(), $5::TIMESTAMP WITH TIME ZONE, $6::BOOLEAN, $7::BOOLEAN, $8::BOOLEAN, $9::INTEGER, $10::VARCHAR, $11::TIMESTAMP WITH TIME ZONE) RETURNING users.id, users.created_at, users.updated_at]
+[parameters: ('Никита Саввин', 'savvin.nikita.work@yandex.ru', None, 'gAAAAABpQo0EnVzsKGLHfupPPTM43jidP2qDDkMS-TnZly1tNW8WOb1f_NP25xQVoKREaGHpDdtUK9VfXudxO-a2XqJmtMafxw==', None, False, False, False, 2, '6732', datetime.datetime(2025, 12, 17, 11, 14, 16, 513574, tzinfo=datetime.timezone.utc))]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2025-12-17 13:59:16] [ERROR] [authentication_service] DatabaseError at http://0.0.0.0:7079/authentication_service/api/v1/register/send_code: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "users_email_key"
+DETAIL:  Key (email)=(savvin.nikita.work@yandex.ru) already exists.
+[SQL: INSERT INTO users (name, email, nickname, password, created_at, updated_at, last_activity, is_active, is_blocked, is_deleted, role_id, verify_code, code_date_expired) VALUES ($1::VARCHAR, $2::VARCHAR, $3::VARCHAR, $4::VARCHAR, now(), now(), $5::TIMESTAMP WITH TIME ZONE, $6::BOOLEAN, $7::BOOLEAN, $8::BOOLEAN, $9::INTEGER, $10::VARCHAR, $11::TIMESTAMP WITH TIME ZONE) RETURNING users.id, users.created_at, users.updated_at]
+[parameters: ('Никита Саввин', 'savvin.nikita.work@yandex.ru', None, 'gAAAAABpQo0EnVzsKGLHfupPPTM43jidP2qDDkMS-TnZly1tNW8WOb1f_NP25xQVoKREaGHpDdtUK9VfXudxO-a2XqJmtMafxw==', None, False, False, False, 2, '6732', datetime.datetime(2025, 12, 17, 11, 14, 16, 513574, tzinfo=datetime.timezone.utc))]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2025-12-17 14:12:59] [ERROR] [authentication_service] Unhandled exception at http://0.0.0.0:7079/authentication_service/api/v1/register/user: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 120, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 106, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 430, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 316, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/api/v1/registration.py", line 45, in register_user
+    result = await create_user(payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/services/create_org_and_superuser.py", line 248, in create_user
+    is_verified, message = await func_verify_code(code=verify_code, email=email)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/services/create_org_and_superuser.py", line 209, in func_verify_code
+    if code_date_expired is None or current_date > code_date_expired:
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+[2025-12-17 14:48:59] [ERROR] [authentication_service] Unhandled exception at http://0.0.0.0:7079/authentication_service/api/v1/register/user: name 'password' is not defined
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 120, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 106, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 430, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 316, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/api/v1/registration.py", line 45, in register_user
+    result = await create_user(payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/services/create_org_and_superuser.py", line 276, in create_user
+    res = await auth(email=email, password=password)
+                                           ^^^^^^^^
+NameError: name 'password' is not defined
+[2025-12-17 14:49:17] [ERROR] [authentication_service] Ошибка подключения к базе данных: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedTableError'>: relation "refresh_tokens" does not exist
+[SQL: UPDATE refresh_tokens SET revoked=$1::BOOLEAN WHERE refresh_tokens.user_id = $2::INTEGER AND refresh_tokens.revoked = false AND refresh_tokens.expires_at > $3::TIMESTAMP WITH TIME ZONE]
+[parameters: (True, 1, datetime.datetime(2025, 12, 17, 11, 49, 17, 210131))]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[2025-12-17 14:49:17] [ERROR] [authentication_service] DatabaseError at http://0.0.0.0:7079/authentication_service/api/v1/register/user: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedTableError'>: relation "refresh_tokens" does not exist
+[SQL: UPDATE refresh_tokens SET revoked=$1::BOOLEAN WHERE refresh_tokens.user_id = $2::INTEGER AND refresh_tokens.revoked = false AND refresh_tokens.expires_at > $3::TIMESTAMP WITH TIME ZONE]
+[parameters: (True, 1, datetime.datetime(2025, 12, 17, 11, 49, 17, 210131))]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[2025-12-17 14:51:57] [ERROR] [authentication_service] Unhandled exception at http://0.0.0.0:7079/authentication_service/api/v1/register/user: 'User' object has no attribute 'roles'
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 120, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 106, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 430, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 316, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/api/v1/registration.py", line 45, in register_user
+    result = await create_user(payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/services/create_org_and_superuser.py", line 278, in create_user
+    res = await auth(email=email, password=password)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/services/auth_service.py", line 61, in auth
+    roles = [role.name for role in user.roles]
+                                   ^^^^^^^^^^
+AttributeError: 'User' object has no attribute 'roles'. Did you mean: 'role'?
+[2025-12-17 14:52:16] [ERROR] [authentication_service] Unhandled exception at http://0.0.0.0:7079/authentication_service/api/v1/register/user: 'Role' object is not iterable
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 120, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 106, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 430, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 316, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/api/v1/registration.py", line 45, in register_user
+    result = await create_user(payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/services/create_org_and_superuser.py", line 278, in create_user
+    res = await auth(email=email, password=password)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/services/auth_service.py", line 61, in auth
+    roles = [role.name for role in user.role]
+                                   ^^^^^^^^^
+TypeError: 'Role' object is not iterable
+[2025-12-17 14:53:09] [ERROR] [authentication_service] Unhandled exception at http://0.0.0.0:7079/authentication_service/api/v1/register/user: 1 validation error for UserAuthResponse
+organization_id
+  Field required [type=missing, input_value={'id': 1, 'roles': ['user...'permissions': ['full']}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 120, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 106, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 430, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 316, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/api/v1/registration.py", line 45, in register_user
+    result = await create_user(payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/services/create_org_and_superuser.py", line 278, in create_user
+    res = await auth(email=email, password=password)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/services/auth_service.py", line 70, in auth
+    user=UserAuthResponse(
+         ~~~~~~~~~~~~~~~~^
+        id=user.id,
+        ^^^^^^^^^^^
+        roles=roles,
+        ^^^^^^^^^^^^
+        permissions=permissions,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ),
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/pydantic/main.py", line 250, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+pydantic_core._pydantic_core.ValidationError: 1 validation error for UserAuthResponse
+organization_id
+  Field required [type=missing, input_value={'id': 1, 'roles': ['user...'permissions': ['full']}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+[2025-12-17 14:54:45] [ERROR] [authentication_service] Unhandled exception at http://0.0.0.0:7079/authentication_service/api/v1/register/user: 1 validation error:
+  {'type': 'missing', 'loc': ('response', 'user_id'), 'msg': 'Field required', 'input': AuthResponse(access_token='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxIiwiZXhwIjoxNzY1OTczMzg1LCJ0eXBlIjoiYWNjZXNzIn0.SMtg3UUhkTKWP2XmpK8zs29XDJn1nRgiLsIJ71J9Oyo', refresh_token='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxIiwianRpIjoiZjU5NTk5NWMzNTNhNGIzOTlmMTE5OTRmZDc0MjVkZWMiLCJleHAiOjE3Njg1NjQ0ODUsInR5cGUiOiJyZWZyZXNoIn0.pj4SDcub_zQVcz6cAHaXfFL8XmIMDIwnHVKb_K0ZqZY', token_type='Bearer', expires_in=900, refresh_expires_in=2592000, user=UserAuthResponse(id=1, roles=['user'], permissions=['full']))}
+
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/api/v1/registration.py", line 11, in register_user
+    POST /authentication_service/api/v1/register/user
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 120, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 106, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 452, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 278, in serialize_response
+    raise ResponseValidationError(
+    ...<3 lines>...
+    )
+fastapi.exceptions.ResponseValidationError: 1 validation error:
+  {'type': 'missing', 'loc': ('response', 'user_id'), 'msg': 'Field required', 'input': AuthResponse(access_token='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxIiwiZXhwIjoxNzY1OTczMzg1LCJ0eXBlIjoiYWNjZXNzIn0.SMtg3UUhkTKWP2XmpK8zs29XDJn1nRgiLsIJ71J9Oyo', refresh_token='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxIiwianRpIjoiZjU5NTk5NWMzNTNhNGIzOTlmMTE5OTRmZDc0MjVkZWMiLCJleHAiOjE3Njg1NjQ0ODUsInR5cGUiOiJyZWZyZXNoIn0.pj4SDcub_zQVcz6cAHaXfFL8XmIMDIwnHVKb_K0ZqZY', token_type='Bearer', expires_in=900, refresh_expires_in=2592000, user=UserAuthResponse(id=1, roles=['user'], permissions=['full']))}
+
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/api/v1/registration.py", line 11, in register_user
+    POST /authentication_service/api/v1/register/user
+[2025-12-17 14:58:06] [ERROR] [authentication_service] Unhandled exception at http://0.0.0.0:7079/authentication_service/api/v1/auth/login: auth() got an unexpected keyword argument 'login'
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 120, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 106, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 430, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 316, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/api/v1/authorization.py", line 58, in auth_user
+    return await auth(login=auth_data.login, password=auth_data.password)
+                 ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: auth() got an unexpected keyword argument 'login'

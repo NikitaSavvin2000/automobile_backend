@@ -1,0 +1,968 @@
+[2025-12-18 01:26:29] [ERROR] [auth_mobile] Failed to start server: [Errno 5] Input/output error
+[2025-12-18 11:25:12] [ERROR] [auth_mobile] Unhandled exception at http://0.0.0.0:7079/auth_mobile/api/v1/register/send_reg_code: AESGCMSIV.encrypt() missing 1 required positional argument: 'associated_data'
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 120, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 106, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 430, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 316, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/api/v1/registration.py", line 87, in send_code_func
+    massage = await send_verify_code(payload)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/services/create_org_and_superuser.py", line 229, in send_verify_code
+    email_encrypt = encrypt_email(email=email)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/core/security/email.py", line 11, in encrypt_email
+    ct = aes.encrypt(email.encode(), [])
+TypeError: AESGCMSIV.encrypt() missing 1 required positional argument: 'associated_data'
+[2025-12-18 11:25:52] [ERROR] [auth_mobile] Unhandled exception at http://0.0.0.0:7079/auth_mobile/api/v1/register/send_reg_code: AESGCMSIV.encrypt() missing 1 required positional argument: 'associated_data'
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 120, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 106, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 430, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 316, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/api/v1/registration.py", line 87, in send_code_func
+    massage = await send_verify_code(payload)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/services/create_org_and_superuser.py", line 229, in send_verify_code
+    email_encrypt = encrypt_email(email=email)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/core/security/email.py", line 11, in encrypt_email
+    ct = aes.encrypt(b"", email.encode())  # associated_data = b"", plaintext = email
+TypeError: AESGCMSIV.encrypt() missing 1 required positional argument: 'associated_data'
+[2025-12-18 12:37:30] [ERROR] [auth_mobile] Unexpected error during JWT validation in JWTTokenValidator: 'roles'
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/core/token.py", line 47, in __call__
+    await session.refresh(user_obj, ["roles"])
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/ext/asyncio/session.py", line 329, in refresh
+    await greenlet_spawn(
+    ...<4 lines>...
+    )
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 190, in greenlet_spawn
+    result = context.switch(*args, **kwargs)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 3133, in refresh
+    self._expire_state(state, attribute_names)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 3261, in _expire_state
+    state._expire_attributes(state.dict, attribute_names)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/state.py", line 787, in _expire_attributes
+    impl = self.manager[key].impl
+           ~~~~~~~~~~~~^^^^^
+KeyError: 'roles'
+[2025-12-18 12:38:14] [ERROR] [auth_mobile] Unexpected error during JWT validation in JWTTokenValidator: 'roles'
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/core/token.py", line 47, in __call__
+    await session.refresh(user_obj, ["roles"])
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/ext/asyncio/session.py", line 329, in refresh
+    await greenlet_spawn(
+    ...<4 lines>...
+    )
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 190, in greenlet_spawn
+    result = context.switch(*args, **kwargs)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 3133, in refresh
+    self._expire_state(state, attribute_names)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 3261, in _expire_state
+    state._expire_attributes(state.dict, attribute_names)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/state.py", line 787, in _expire_attributes
+    impl = self.manager[key].impl
+           ~~~~~~~~~~~~^^^^^
+KeyError: 'roles'
+[2025-12-18 12:38:53] [ERROR] [auth_mobile] Unexpected error during JWT validation in JWTTokenValidator: 'User' object has no attribute 'organization_id'
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/core/token.py", line 49, in __call__
+    payload["organization_id"] = user_obj.organization_id
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'User' object has no attribute 'organization_id'
+[2025-12-18 12:39:23] [ERROR] [auth_mobile] Unexpected error during JWT validation in JWTTokenValidator: 'Role' object is not iterable
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/core/token.py", line 49, in __call__
+    payload["role"] = [role.name for role in user_obj.role]
+                                             ^^^^^^^^^^^^^
+TypeError: 'Role' object is not iterable
+[2025-12-18 12:41:14] [ERROR] [auth_mobile] Ошибка подключения к базе данных: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedTableError'>: relation "role_permissions" does not exist
+[SQL: SELECT permissions.code 
+FROM permissions JOIN role_permissions ON permissions.id = role_permissions.permission_id JOIN roles ON roles.id = role_permissions.role_id JOIN user_roles ON user_roles.role_id = roles.id 
+WHERE user_roles.user_id = $1::INTEGER]
+[parameters: (2,)]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[2025-12-18 12:41:14] [ERROR] [auth_mobile] Unexpected error during JWT validation in JWTTokenValidator: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedTableError'>: relation "role_permissions" does not exist
+[SQL: SELECT permissions.code 
+FROM permissions JOIN role_permissions ON permissions.id = role_permissions.permission_id JOIN roles ON roles.id = role_permissions.role_id JOIN user_roles ON user_roles.role_id = roles.id 
+WHERE user_roles.user_id = $1::INTEGER]
+[parameters: (2,)]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 526, in _prepare_and_execute
+    prepared_stmt, attributes = await adapt_connection._prepare(
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        operation, self._invalidate_schema_cache_asof
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 773, in _prepare
+    prepared_stmt = await self._connection.prepare(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        operation, name=self._prepared_statement_name_func()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/asyncpg/connection.py", line 638, in prepare
+    return await self._prepare(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/asyncpg/connection.py", line 657, in _prepare
+    stmt = await self._get_statement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/asyncpg/connection.py", line 443, in _get_statement
+    statement = await self._protocol.prepare(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "asyncpg/protocol/protocol.pyx", line 165, in prepare
+asyncpg.exceptions.UndefinedTableError: relation "role_permissions" does not exist
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/engine/default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 585, in execute
+    self._adapt_connection.await_(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._prepare_and_execute(operation, parameters)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+            ^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 563, in _prepare_and_execute
+    self._handle_exception(error)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 513, in _handle_exception
+    self._adapt_connection._handle_exception(error)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 797, in _handle_exception
+    raise translated_error from error
+sqlalchemy.dialects.postgresql.asyncpg.AsyncAdapt_asyncpg_dbapi.ProgrammingError: <class 'asyncpg.exceptions.UndefinedTableError'>: relation "role_permissions" does not exist
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/core/token.py", line 59, in __call__
+    permissions_result = await session.execute(permissions_query)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/ext/asyncio/session.py", line 449, in execute
+    result = await greenlet_spawn(
+             ^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 201, in greenlet_spawn
+    result = context.throw(*sys.exc_info())
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 2351, in execute
+    return self._execute_internal(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 2249, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<4 lines>...
+        conn,
+        ^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/context.py", line 306, in orm_execute_statement
+    result = conn.execute(
+        statement, params or {}, execution_options=execution_options
+    )
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1419, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/sql/elements.py", line 527, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+        dialect,
+    ...<8 lines>...
+        cache_hit=cache_hit,
+    )
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dialect, context, statement, parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e, str_statement, effective_parameters, cursor, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 2363, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/engine/default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 585, in execute
+    self._adapt_connection.await_(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._prepare_and_execute(operation, parameters)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+            ^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 563, in _prepare_and_execute
+    self._handle_exception(error)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 513, in _handle_exception
+    self._adapt_connection._handle_exception(error)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 797, in _handle_exception
+    raise translated_error from error
+sqlalchemy.exc.ProgrammingError: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedTableError'>: relation "role_permissions" does not exist
+[SQL: SELECT permissions.code 
+FROM permissions JOIN role_permissions ON permissions.id = role_permissions.permission_id JOIN roles ON roles.id = role_permissions.role_id JOIN user_roles ON user_roles.role_id = roles.id 
+WHERE user_roles.user_id = $1::INTEGER]
+[parameters: (2,)]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[2025-12-18 12:43:28] [ERROR] [auth_mobile] Ошибка подключения к базе данных: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedTableError'>: relation "user_roles" does not exist
+[SQL: SELECT permissions.code 
+FROM permissions JOIN role_permissions ON permissions.id = role_permissions.permission_id JOIN roles ON roles.id = role_permissions.role_id JOIN user_roles ON user_roles.role_id = roles.id 
+WHERE user_roles.user_id = $1::INTEGER]
+[parameters: (2,)]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[2025-12-18 12:43:28] [ERROR] [auth_mobile] Unexpected error during JWT validation in JWTTokenValidator: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedTableError'>: relation "user_roles" does not exist
+[SQL: SELECT permissions.code 
+FROM permissions JOIN role_permissions ON permissions.id = role_permissions.permission_id JOIN roles ON roles.id = role_permissions.role_id JOIN user_roles ON user_roles.role_id = roles.id 
+WHERE user_roles.user_id = $1::INTEGER]
+[parameters: (2,)]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 526, in _prepare_and_execute
+    prepared_stmt, attributes = await adapt_connection._prepare(
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        operation, self._invalidate_schema_cache_asof
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 773, in _prepare
+    prepared_stmt = await self._connection.prepare(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        operation, name=self._prepared_statement_name_func()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/asyncpg/connection.py", line 638, in prepare
+    return await self._prepare(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/asyncpg/connection.py", line 657, in _prepare
+    stmt = await self._get_statement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/asyncpg/connection.py", line 443, in _get_statement
+    statement = await self._protocol.prepare(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "asyncpg/protocol/protocol.pyx", line 165, in prepare
+asyncpg.exceptions.UndefinedTableError: relation "user_roles" does not exist
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/engine/default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 585, in execute
+    self._adapt_connection.await_(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._prepare_and_execute(operation, parameters)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+            ^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 563, in _prepare_and_execute
+    self._handle_exception(error)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 513, in _handle_exception
+    self._adapt_connection._handle_exception(error)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 797, in _handle_exception
+    raise translated_error from error
+sqlalchemy.dialects.postgresql.asyncpg.AsyncAdapt_asyncpg_dbapi.ProgrammingError: <class 'asyncpg.exceptions.UndefinedTableError'>: relation "user_roles" does not exist
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/core/token.py", line 59, in __call__
+    permissions_result = await session.execute(permissions_query)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/ext/asyncio/session.py", line 449, in execute
+    result = await greenlet_spawn(
+             ^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 201, in greenlet_spawn
+    result = context.throw(*sys.exc_info())
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 2351, in execute
+    return self._execute_internal(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 2249, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<4 lines>...
+        conn,
+        ^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/orm/context.py", line 306, in orm_execute_statement
+    result = conn.execute(
+        statement, params or {}, execution_options=execution_options
+    )
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1419, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/sql/elements.py", line 527, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+        dialect,
+    ...<8 lines>...
+        cache_hit=cache_hit,
+    )
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dialect, context, statement, parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e, str_statement, effective_parameters, cursor, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 2363, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/engine/default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 585, in execute
+    self._adapt_connection.await_(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._prepare_and_execute(operation, parameters)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+            ^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 563, in _prepare_and_execute
+    self._handle_exception(error)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 513, in _handle_exception
+    self._adapt_connection._handle_exception(error)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 797, in _handle_exception
+    raise translated_error from error
+sqlalchemy.exc.ProgrammingError: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedTableError'>: relation "user_roles" does not exist
+[SQL: SELECT permissions.code 
+FROM permissions JOIN role_permissions ON permissions.id = role_permissions.permission_id JOIN roles ON roles.id = role_permissions.role_id JOIN user_roles ON user_roles.role_id = roles.id 
+WHERE user_roles.user_id = $1::INTEGER]
+[parameters: (2,)]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[2025-12-18 12:46:01] [ERROR] [auth_mobile] Unhandled exception at http://0.0.0.0:7079/auth_mobile/api/v1/cars/cars: 'id'
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 120, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 106, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 430, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 316, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/api/v1/create_car.py", line 36, in create_user_car
+    user_id_owner = user["id"]
+                    ~~~~^^^^^^
+KeyError: 'id'
+[2025-12-18 12:47:08] [ERROR] [auth_mobile] Unhandled exception at http://0.0.0.0:7079/auth_mobile/api/v1/cars/cars: cannot access local variable 'user_id_owner' where it is not associated with a value
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 120, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 106, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 430, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 316, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/api/v1/create_car.py", line 36, in create_user_car
+    print(user_id_owner)
+          ^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'user_id_owner' where it is not associated with a value
+[2025-12-18 12:47:18] [ERROR] [auth_mobile] Unhandled exception at http://0.0.0.0:7079/auth_mobile/api/v1/cars/cars: 'id'
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 120, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 106, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 430, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 316, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/api/v1/create_car.py", line 37, in create_user_car
+    user_id_owner = user["id"]
+                    ~~~~^^^^^^
+KeyError: 'id'
+[2025-12-18 12:49:12] [ERROR] [auth_mobile] Ошибка при создании машины: (sqlalchemy.dialects.postgresql.asyncpg.Error) <class 'asyncpg.exceptions.DataError'>: invalid input for query argument $1: '2' ('str' object cannot be interpreted as an integer)
+[SQL: INSERT INTO cars (user_id_owner, brand, model, year, mileage, color, created_at, updated_at, is_active, is_deleted) VALUES ($1::INTEGER, $2::VARCHAR, $3::VARCHAR, $4::INTEGER, $5::INTEGER, $6::VARCHAR, $7::TIMESTAMP WITH TIME ZONE, now(), $8::BOOLEAN, $9::BOOLEAN) RETURNING cars.id]
+[parameters: ('2', 'string', 'string', 0, 0, 'string', datetime.datetime(2025, 12, 18, 9, 49, 12, 572882, tzinfo=datetime.timezone.utc), True, False)]
+(Background on this error at: https://sqlalche.me/e/20/dbapi)
+[2025-12-18 12:52:56] [ERROR] [auth_mobile] Ошибка при получении списка машин: name 'select' is not defined
+[2025-12-18 14:13:16] [ERROR] [auth_mobile] Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+[2025-12-18 14:14:55] [ERROR] [auth_mobile] Ошибка при создании записи для машины: (sqlalchemy.dialects.postgresql.asyncpg.Error) <class 'asyncpg.exceptions.DataError'>: invalid input for query argument $6: 'string' (expected a datetime.date or datetime.datetime instance, got 'str')
+[SQL: INSERT INTO car_records (user_id_owner, car_id, record_type, name, description, record_date, mileage, service_place, cost, created_at, updated_at, is_active, is_deleted) VALUES ($1::INTEGER, $2::INTEGER, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::TIMESTAMP WITH TIME ZONE, $7::INTEGER, $8::VARCHAR, $9::NUMERIC, $10::TIMESTAMP WITH TIME ZONE, now(), $11::BOOLEAN, $12::BOOLEAN) RETURNING car_records.id]
+[parameters: (2, 0, 'string', 'string', 'string', 'string', 0, 'string', 0.0, datetime.datetime(2025, 12, 18, 11, 14, 55, 855436, tzinfo=datetime.timezone.utc), True, False)]
+(Background on this error at: https://sqlalche.me/e/20/dbapi)
+[2025-12-18 14:21:39] [ERROR] [auth_mobile] Ошибка подключения к базе данных: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.ForeignKeyViolationError'>: insert or update on table "car_records" violates foreign key constraint "car_records_car_id_fkey"
+DETAIL:  Key (car_id)=(0) is not present in table "cars".
+[SQL: INSERT INTO car_records (user_id_owner, car_id, record_type, name, description, record_date, mileage, service_place, cost, created_at, updated_at, is_active, is_deleted) VALUES ($1::INTEGER, $2::INTEGER, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::TIMESTAMP WITH TIME ZONE, $7::INTEGER, $8::VARCHAR, $9::NUMERIC, $10::TIMESTAMP WITH TIME ZONE, now(), $11::BOOLEAN, $12::BOOLEAN) RETURNING car_records.id]
+[parameters: (2, 0, 'string', 'string', 'string', datetime.datetime(2025, 3, 10, 0, 0), 0, 'string', 0.0, datetime.datetime(2025, 12, 18, 11, 21, 39, 139736, tzinfo=datetime.timezone.utc), True, False)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2025-12-18 14:21:39] [ERROR] [auth_mobile] Ошибка при создании записи для машины: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.ForeignKeyViolationError'>: insert or update on table "car_records" violates foreign key constraint "car_records_car_id_fkey"
+DETAIL:  Key (car_id)=(0) is not present in table "cars".
+[SQL: INSERT INTO car_records (user_id_owner, car_id, record_type, name, description, record_date, mileage, service_place, cost, created_at, updated_at, is_active, is_deleted) VALUES ($1::INTEGER, $2::INTEGER, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::TIMESTAMP WITH TIME ZONE, $7::INTEGER, $8::VARCHAR, $9::NUMERIC, $10::TIMESTAMP WITH TIME ZONE, now(), $11::BOOLEAN, $12::BOOLEAN) RETURNING car_records.id]
+[parameters: (2, 0, 'string', 'string', 'string', datetime.datetime(2025, 3, 10, 0, 0), 0, 'string', 0.0, datetime.datetime(2025, 12, 18, 11, 21, 39, 139736, tzinfo=datetime.timezone.utc), True, False)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2025-12-18 14:22:49] [ERROR] [auth_mobile] Ошибка при загрузке изображения в S3: I/O operation on closed file.
+[2025-12-18 14:22:49] [ERROR] [auth_mobile] Task exception was never retrieved
+future: <Task finished name='Task-11' coro=<upload_car_record_images() done, defined at /Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/services/car_records.py:122> exception=HTTPException(status_code=500, detail='Ошибка при загрузке изображения в S3')>
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/utils/s3_loader.py", line 35, in upload_image_to_s3
+    content = await file.read()
+              ^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/datastructures.py", line 465, in read
+    return self.file.read(size)
+           ~~~~~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.11/Frameworks/Python.framework/Versions/3.13/lib/python3.13/tempfile.py", line 808, in read
+    return self._file.read(*args)
+           ~~~~~~~~~~~~~~~^^^^^^^
+ValueError: I/O operation on closed file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/services/car_records.py", line 138, in upload_car_record_images
+    s3_key = await upload_image_to_s3(file, folder)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/utils/s3_loader.py", line 44, in upload_image_to_s3
+    raise HTTPException(status_code=500, detail="Ошибка при загрузке изображения в S3")
+fastapi.exceptions.HTTPException: 500: Ошибка при загрузке изображения в S3
+[2025-12-18 14:27:45] [ERROR] [auth_mobile] Ошибка при создании записи для машины: name 'select' is not defined
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/services/car_records.py", line 77, in create_car_record
+    select(Car.id).where(
+    ^^^^^^
+NameError: name 'select' is not defined. Did you forget to import 'select'?
+[2025-12-18 14:28:16] [ERROR] [auth_mobile] Ошибка при загрузке изображений для car_record_id=3: name 'os' is not defined
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/services/car_records.py", line 152, in upload_car_record_images
+    ext = os.path.splitext(filename)[1].lower()
+          ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+[2025-12-18 14:28:16] [ERROR] [auth_mobile] Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<upload_car_record_images() done, defined at /Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/services/car_records.py:135> exception=HTTPException(status_code=500, detail='Не удалось загрузить изображения')>
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/services/car_records.py", line 152, in upload_car_record_images
+    ext = os.path.splitext(filename)[1].lower()
+          ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/services/car_records.py", line 177, in upload_car_record_images
+    raise HTTPException(status_code=500, detail="Не удалось загрузить изображения")
+fastapi.exceptions.HTTPException: 500: Не удалось загрузить изображения
+[2025-12-18 14:31:17] [ERROR] [auth_mobile] Ошибка при загрузке изображения в S3: 'str' object has no attribute 'filename'
+[2025-12-18 14:31:17] [ERROR] [auth_mobile] Ошибка при загрузке изображений для car_record_id=4: 500: Ошибка при загрузке изображения в S3
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/utils/s3_loader.py", line 27, in upload_image_to_s3
+    ext = os.path.splitext(file.filename)[1].lower()
+                           ^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'filename'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/services/car_records.py", line 152, in upload_car_record_images
+    s3_key = await upload_image_to_s3(file, folder)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/utils/s3_loader.py", line 44, in upload_image_to_s3
+    raise HTTPException(status_code=500, detail="Ошибка при загрузке изображения в S3")
+fastapi.exceptions.HTTPException: 500: Ошибка при загрузке изображения в S3
+[2025-12-18 14:31:17] [ERROR] [auth_mobile] Task exception was never retrieved
+future: <Task finished name='Task-12' coro=<upload_car_record_images() done, defined at /Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/services/car_records.py:135> exception=HTTPException(status_code=500, detail='Не удалось загрузить изображения')>
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/utils/s3_loader.py", line 27, in upload_image_to_s3
+    ext = os.path.splitext(file.filename)[1].lower()
+                           ^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'filename'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/services/car_records.py", line 152, in upload_car_record_images
+    s3_key = await upload_image_to_s3(file, folder)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/utils/s3_loader.py", line 44, in upload_image_to_s3
+    raise HTTPException(status_code=500, detail="Ошибка при загрузке изображения в S3")
+fastapi.exceptions.HTTPException: 500: Ошибка при загрузке изображения в S3
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/services/car_records.py", line 170, in upload_car_record_images
+    raise HTTPException(status_code=500, detail="Не удалось загрузить изображения")
+fastapi.exceptions.HTTPException: 500: Не удалось загрузить изображения
+[2025-12-18 14:45:12] [ERROR] [auth_mobile] Ошибка при удалении записи автомобиля: name 'update' is not defined
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/services/car_records.py", line 186, in delete_car_record
+    update(CarRecord)
+    ^^^^^^
+NameError: name 'update' is not defined
+[2025-12-18 15:31:30] [ERROR] [auth_mobile] Ошибка при получении записи автомобиля 6 пользователя 2: name 'get_car_record_detail' is not defined
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/api/v1/car_records.py", line 149, in get_user_car_record
+    record_detail = await get_car_record_detail(user_id_owner, car_id, car_record_id)
+                          ^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'get_car_record_detail' is not defined
+[2025-12-18 15:32:25] [ERROR] [auth_mobile] Ошибка при получении записи машины: type object 'CarRecordImage' has no attribute 'file_key'
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/services/car_records.py", line 297, in get_car_record_detail
+    select(CarRecordImage.file_key).where(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'CarRecordImage' has no attribute 'file_key'
+[2025-12-18 15:34:07] [ERROR] [auth_mobile] Unhandled exception at http://0.0.0.0:7079/auth_mobile/api/v1/cars_records/info/{car}/{record_id}?car_id=2&car_record_id=6: 'utf-8' codec can't decode byte 0xff in position 0: invalid utf-8
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 120, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 106, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 452, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 285, in serialize_response
+    return field.serialize(
+           ~~~~~~~~~~~~~~~^
+        value,
+        ^^^^^^
+    ...<5 lines>...
+        exclude_none=exclude_none,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/_compat/v2.py", line 200, in serialize
+    return self._type_adapter.dump_python(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        value,
+        ^^^^^^
+    ...<6 lines>...
+        exclude_none=exclude_none,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/pydantic/type_adapter.py", line 605, in dump_python
+    return self.serializer.to_python(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        instance,
+        ^^^^^^^^^
+    ...<12 lines>...
+        context=context,
+        ^^^^^^^^^^^^^^^^
+    )
+    ^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xff in position 0: invalid utf-8
+[2025-12-18 15:48:50] [ERROR] [auth_mobile] Unhandled exception at http://0.0.0.0:7079/auth_mobile/api/v1/cars_records/info/{car}/{record_id}?car_id=2&car_record_id=6: 3 validation errors:
+  {'type': 'string_type', 'loc': ('response', 'images', 0), 'msg': 'Input should be a valid string', 'input': {'id': 4, 'url': 'https://s3.twcstorage.ru/1b9ecebd-e6d1d058-e467-4a56-ad0b-f26ce04b1aeb/car_records/cad50d82c2294862823b33d9cedfa7b4.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=1I7N5GRGKJ7WK13ARE48%2F20251218%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251218T124850Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=f473192812227b5ec426e537dc341ec8bc04c97698d7624b8391a5dcb20cf4f5'}}
+  {'type': 'string_type', 'loc': ('response', 'images', 1), 'msg': 'Input should be a valid string', 'input': {'id': 5, 'url': 'https://s3.twcstorage.ru/1b9ecebd-e6d1d058-e467-4a56-ad0b-f26ce04b1aeb/car_records/9356334a869c47f991adc7588a1c513e.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=1I7N5GRGKJ7WK13ARE48%2F20251218%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251218T124850Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=fe49485c89ad295522f543f804d8da72558ec655ab244585948ebcbe2d936769'}}
+  {'type': 'string_type', 'loc': ('response', 'images', 2), 'msg': 'Input should be a valid string', 'input': {'id': 6, 'url': 'https://s3.twcstorage.ru/1b9ecebd-e6d1d058-e467-4a56-ad0b-f26ce04b1aeb/car_records/26fd178648754a70b95d4d79218e8bff.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=1I7N5GRGKJ7WK13ARE48%2F20251218%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251218T124850Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=5f050625f1edb8a48890b1538c4de6f898b781016420e9e6714de282bf9c6007'}}
+
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/api/v1/car_records.py", line 114, in get_user_car_record
+    GET /auth_mobile/api/v1/cars_records/info/{car}/{record_id}
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 120, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 106, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 452, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 278, in serialize_response
+    raise ResponseValidationError(
+    ...<3 lines>...
+    )
+fastapi.exceptions.ResponseValidationError: 3 validation errors:
+  {'type': 'string_type', 'loc': ('response', 'images', 0), 'msg': 'Input should be a valid string', 'input': {'id': 4, 'url': 'https://s3.twcstorage.ru/1b9ecebd-e6d1d058-e467-4a56-ad0b-f26ce04b1aeb/car_records/cad50d82c2294862823b33d9cedfa7b4.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=1I7N5GRGKJ7WK13ARE48%2F20251218%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251218T124850Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=f473192812227b5ec426e537dc341ec8bc04c97698d7624b8391a5dcb20cf4f5'}}
+  {'type': 'string_type', 'loc': ('response', 'images', 1), 'msg': 'Input should be a valid string', 'input': {'id': 5, 'url': 'https://s3.twcstorage.ru/1b9ecebd-e6d1d058-e467-4a56-ad0b-f26ce04b1aeb/car_records/9356334a869c47f991adc7588a1c513e.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=1I7N5GRGKJ7WK13ARE48%2F20251218%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251218T124850Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=fe49485c89ad295522f543f804d8da72558ec655ab244585948ebcbe2d936769'}}
+  {'type': 'string_type', 'loc': ('response', 'images', 2), 'msg': 'Input should be a valid string', 'input': {'id': 6, 'url': 'https://s3.twcstorage.ru/1b9ecebd-e6d1d058-e467-4a56-ad0b-f26ce04b1aeb/car_records/26fd178648754a70b95d4d79218e8bff.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=1I7N5GRGKJ7WK13ARE48%2F20251218%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251218T124850Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=5f050625f1edb8a48890b1538c4de6f898b781016420e9e6714de282bf9c6007'}}
+
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/api/v1/car_records.py", line 114, in get_user_car_record
+    GET /auth_mobile/api/v1/cars_records/info/{car}/{record_id}
+[2025-12-18 15:49:34] [ERROR] [auth_mobile] Unhandled exception at http://0.0.0.0:7079/auth_mobile/api/v1/cars_records/info/{car}/{record_id}?car_id=2&car_record_id=6: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'record_date'), 'msg': 'Input should be a valid string', 'input': datetime.date(2024, 3, 9)}
+
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/api/v1/car_records.py", line 114, in get_user_car_record
+    GET /auth_mobile/api/v1/cars_records/info/{car}/{record_id}
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 120, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 106, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 452, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 278, in serialize_response
+    raise ResponseValidationError(
+    ...<3 lines>...
+    )
+fastapi.exceptions.ResponseValidationError: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'record_date'), 'msg': 'Input should be a valid string', 'input': datetime.date(2024, 3, 9)}
+
+  File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/api/v1/car_records.py", line 114, in get_user_car_record
+    GET /auth_mobile/api/v1/cars_records/info/{car}/{record_id}

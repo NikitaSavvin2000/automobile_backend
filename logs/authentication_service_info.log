@@ -1,0 +1,1199 @@
+[2025-12-16 17:48:35] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-16 17:48:35] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-16 17:48:35] [INFO] [authentication_service] Starting server on http://0.0.0.0:7070
+[2025-12-16 17:48:36] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-16 17:48:36] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-16 17:48:36] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-16 17:48:36] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-16 17:48:36] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-16 17:48:36] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-16 17:48:36] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-16 17:48:36] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-16 17:48:36] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-16 17:48:36] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-16 17:48:36] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-16 17:48:36] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-16 17:48:36] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-16 17:48:36] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-16 17:48:36] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-16 17:48:36] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-16 17:50:23] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-16 17:50:23] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-16 17:50:23] [INFO] [authentication_service] Starting server on http://0.0.0.0:7070
+[2025-12-16 17:50:24] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-16 17:50:24] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-16 17:50:24] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-16 17:50:24] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-16 17:50:24] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-16 17:50:24] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-16 17:50:24] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-16 17:50:24] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-16 17:50:24] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-16 17:50:24] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-16 17:50:24] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-16 17:50:24] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-16 17:50:24] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-16 17:50:24] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-16 17:50:24] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-16 17:50:24] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-16 17:51:53] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-16 17:51:53] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-16 17:51:53] [INFO] [authentication_service] Starting server on http://0.0.0.0:7070
+[2025-12-16 17:51:54] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-16 17:51:54] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-16 17:51:54] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-16 17:51:54] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-16 17:51:54] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-16 17:51:54] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-16 17:51:54] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-16 17:51:54] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-16 17:51:54] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-16 17:51:54] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-16 17:51:54] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-16 17:51:54] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-16 17:51:54] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-16 17:51:54] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-16 17:51:54] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-16 17:51:54] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:04:43] [INFO] [authentication_service] Начинаем отправку письма на: ['savvin.nikita.work@yandex.ru']
+[2025-12-17 12:04:45] [INFO] [authentication_service] Письмо успешно отправлено!
+[2025-12-17 12:04:45] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:04:45] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:04:45] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 12:04:46] [INFO] [authentication_service] Начинаем отправку письма на: ['savvin.nikita.work@yandex.ru']
+[2025-12-17 12:04:46] [INFO] [authentication_service] Начинаем отправку письма на: ['savvin.nikita.work@yandex.ru']
+[2025-12-17 12:04:46] [INFO] [authentication_service] Начинаем отправку письма на: ['savvin.nikita.work@yandex.ru']
+[2025-12-17 12:04:46] [INFO] [authentication_service] Начинаем отправку письма на: ['savvin.nikita.work@yandex.ru']
+[2025-12-17 12:04:47] [INFO] [authentication_service] Письмо успешно отправлено!
+[2025-12-17 12:04:47] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:04:47] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:04:47] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:04:47] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:04:47] [INFO] [authentication_service] Письмо успешно отправлено!
+[2025-12-17 12:04:47] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:04:47] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:04:47] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:04:47] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:04:47] [INFO] [authentication_service] Письмо успешно отправлено!
+[2025-12-17 12:04:48] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:04:48] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:04:48] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:04:48] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:04:49] [INFO] [authentication_service] Письмо успешно отправлено!
+[2025-12-17 12:04:49] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:04:49] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:04:49] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:04:49] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:04:56] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:04:56] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:04:56] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 12:04:56] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:04:56] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:04:56] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:04:56] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:04:56] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:04:56] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:04:56] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:04:56] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:04:56] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:04:56] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:04:56] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:04:56] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:04:56] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:04:56] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:04:56] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:04:56] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:06:49] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:06:49] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:06:49] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 12:06:50] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:06:50] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:06:50] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:06:50] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:06:50] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:06:50] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:06:50] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:06:50] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:06:50] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:06:50] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:06:50] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:06:50] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:06:50] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:06:50] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:06:50] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:06:50] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:08:03] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:08:03] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:08:03] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 12:08:04] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:08:04] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:08:04] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:08:04] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:08:04] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:08:04] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:08:04] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:08:04] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:08:04] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:08:04] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:08:04] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:08:04] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:08:04] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:08:04] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:08:04] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:08:04] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:10:59] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:10:59] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:10:59] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 12:10:59] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:10:59] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:10:59] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:10:59] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:10:59] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:10:59] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:10:59] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:10:59] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:10:59] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:10:59] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:10:59] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:10:59] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:10:59] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:10:59] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:10:59] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:10:59] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:12:28] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:12:28] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:12:28] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 12:12:28] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:12:28] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:12:28] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:12:28] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:12:28] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:12:28] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:12:28] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:12:28] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:12:28] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:12:28] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:12:28] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:12:28] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:12:28] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:12:28] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:12:28] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:12:28] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:13:41] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:13:41] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:13:41] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 12:13:42] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:13:42] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:13:42] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:13:42] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:13:42] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:13:42] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:13:42] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:13:42] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:13:42] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:13:42] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:13:42] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:13:42] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:13:42] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:13:42] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:13:42] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:13:42] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:20:37] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:20:37] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:20:37] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 12:20:38] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:20:38] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:20:38] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:20:38] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:20:38] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:20:38] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:20:38] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:20:38] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:20:38] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:20:38] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:20:38] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:20:38] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:20:38] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:20:38] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:20:38] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:20:38] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:21:57] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:21:57] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:21:57] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 12:21:58] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:21:58] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:21:58] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:21:58] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:21:58] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:21:58] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:21:58] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:21:58] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:21:58] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:21:58] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:21:58] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:21:58] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:21:58] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:21:58] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:21:58] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:21:58] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:22:32] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:22:32] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:22:32] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 12:22:32] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:22:32] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:22:32] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:22:32] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:22:32] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:22:32] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:22:32] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:22:32] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:22:32] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:22:32] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:22:32] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:22:32] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:22:32] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:22:32] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:22:32] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:22:32] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:33:49] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:33:49] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:33:49] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 12:33:50] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:33:50] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:33:50] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:33:50] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:33:50] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:33:50] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:33:50] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:33:50] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:33:50] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:33:50] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:33:50] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:33:50] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:33:50] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:33:50] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:33:50] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:33:50] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:37:01] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:37:01] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:37:01] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 12:37:02] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:37:02] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:37:02] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:37:02] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:37:02] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:37:02] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:37:02] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:37:02] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:37:02] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:37:02] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:37:02] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:37:02] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:37:02] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:37:02] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:37:02] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:37:02] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:37:48] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:37:48] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:37:48] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 12:37:48] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:37:48] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:37:48] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:37:48] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:37:48] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:37:48] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:37:48] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:37:48] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:37:48] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:37:48] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:37:48] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:37:48] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:37:48] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:37:48] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:37:48] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:37:48] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:38:05] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:38:05] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:38:05] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 12:38:06] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:38:06] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:38:06] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:38:06] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:38:06] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:38:06] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:38:06] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:38:06] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:38:06] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:38:06] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:38:06] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:38:06] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:38:06] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:38:06] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:38:06] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:38:06] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:40:43] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:40:43] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:40:43] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 12:40:43] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:40:43] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:40:43] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:40:43] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:40:43] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:40:43] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:40:43] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:40:43] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:40:43] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:40:43] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:40:43] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:40:43] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:40:43] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:40:43] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:40:43] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:40:43] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:42:45] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:42:45] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:42:45] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 12:42:45] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:42:45] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:42:45] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:42:45] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:42:45] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:42:45] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:42:45] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:42:45] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:42:45] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:42:45] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:42:45] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:42:45] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:42:45] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:42:45] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:42:45] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:42:45] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:42:49] [INFO] [authentication_service] Начинаем отправку письма на: savvin.nikita.work@yandex.ru
+[2025-12-17 12:42:51] [INFO] [authentication_service] Письмо успешно отправлено!
+[2025-12-17 12:44:02] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:44:02] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:44:02] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 12:44:03] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:44:03] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:44:03] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:44:03] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:44:03] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:44:03] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:44:03] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:44:03] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:44:03] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:44:03] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:44:03] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:44:03] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:44:03] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:44:03] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:44:03] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:44:03] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:44:05] [INFO] [authentication_service] Начинаем отправку письма на: savvin.nikita.work@yandex.ru
+[2025-12-17 12:44:06] [INFO] [authentication_service] Письмо успешно отправлено!
+[2025-12-17 12:45:38] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:45:38] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:45:38] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 12:45:38] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:45:38] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:45:38] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:45:38] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:45:38] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:45:38] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:45:38] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:45:38] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:45:38] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:45:38] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:45:38] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:45:38] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:45:38] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:45:38] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:45:38] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:45:38] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:45:39] [INFO] [authentication_service] Начинаем отправку письма на: savvin.nikita.work@yandex.ru
+[2025-12-17 12:45:41] [INFO] [authentication_service] Письмо успешно отправлено!
+[2025-12-17 12:47:44] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:47:44] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:47:44] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 12:47:45] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:47:45] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:47:45] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:47:45] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:47:45] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:47:45] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:47:45] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:47:45] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:47:45] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:47:45] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:47:45] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:47:45] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:47:45] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 12:47:45] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:47:45] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:47:45] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 12:47:49] [INFO] [authentication_service] Начинаем отправку письма на: savvin.nikita.work@yandex.ru
+[2025-12-17 12:47:50] [INFO] [authentication_service] Письмо успешно отправлено!
+[2025-12-17 13:47:23] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:47:23] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:47:23] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 13:47:24] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:47:24] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:47:24] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:47:24] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:47:24] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:47:24] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:47:24] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:47:24] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:47:24] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:47:24] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:47:24] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:47:24] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:47:24] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:47:24] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:47:24] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:47:24] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:48:56] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:48:56] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:48:56] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 13:48:57] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:48:57] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:48:57] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:48:57] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:48:57] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:48:57] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:48:57] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:48:57] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:48:57] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:48:57] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:48:57] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:48:57] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:48:57] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:48:57] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:48:57] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:48:57] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:48:58] [INFO] [authentication_service] Начинаем отправку письма на: savvin.nikita.work@yandex.ru
+[2025-12-17 13:48:59] [INFO] [authentication_service] Письмо успешно отправлено!
+[2025-12-17 13:50:01] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:50:01] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:50:01] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 13:50:02] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:50:02] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:50:02] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:50:02] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:50:02] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:50:02] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:50:02] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:50:02] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:50:02] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:50:02] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:50:02] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:50:02] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:50:02] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:50:02] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:50:02] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:50:02] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:50:38] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:50:38] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:50:38] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 13:50:38] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:50:38] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:50:38] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:50:38] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:50:38] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:50:38] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:50:38] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:50:38] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:50:38] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:50:38] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:50:38] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:50:38] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:50:38] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:50:38] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:50:38] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:50:38] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:51:04] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:51:04] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:51:04] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 13:51:05] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:51:05] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:51:05] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:51:05] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:51:05] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:51:05] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:51:05] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:51:05] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:51:05] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:51:05] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:51:05] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:51:05] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:51:05] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:51:05] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:51:05] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:51:05] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:52:15] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:52:15] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:52:15] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 13:52:16] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:52:16] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:52:16] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:52:16] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:52:16] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:52:16] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:52:16] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:52:16] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:52:16] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:52:16] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:52:16] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:52:16] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:52:16] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:52:16] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:52:16] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:52:16] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:55:36] [INFO] [authentication_service] Начинаем отправку письма на: savvin.nikita.work@yandex.ru
+[2025-12-17 13:55:37] [INFO] [authentication_service] Письмо успешно отправлено!
+[2025-12-17 13:58:08] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:58:08] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:58:08] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 13:58:09] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:58:09] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:58:09] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:58:09] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:58:09] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:58:09] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:58:09] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:58:09] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:58:09] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:58:09] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:58:09] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:58:09] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:58:09] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:58:09] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:58:09] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 13:58:09] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 13:58:11] [INFO] [authentication_service] Начинаем отправку письма на: savvin.nikita.work@yandex.ru
+[2025-12-17 13:58:12] [INFO] [authentication_service] Письмо успешно отправлено!
+[2025-12-17 14:12:07] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:12:07] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:12:07] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 14:12:08] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:12:08] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:12:08] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:12:08] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:12:08] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:12:08] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:12:08] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:12:08] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:12:08] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:12:08] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:12:08] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:12:08] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:12:08] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:12:08] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:12:08] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:12:08] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:12:15] [INFO] [authentication_service] Начинаем отправку письма на: savvin.nikita.work@yandex.ru
+[2025-12-17 14:12:16] [INFO] [authentication_service] Письмо успешно отправлено!
+[2025-12-17 14:12:20] [INFO] [authentication_service] Начинаем отправку письма на: savvin.nikita.work@yandex.ru
+[2025-12-17 14:12:21] [INFO] [authentication_service] Письмо успешно отправлено!
+[2025-12-17 14:12:37] [INFO] [authentication_service] Начинаем отправку письма на: savvin.nikita.work@yandex.ru
+[2025-12-17 14:12:37] [INFO] [authentication_service] Письмо успешно отправлено!
+[2025-12-17 14:13:48] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:13:48] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:13:48] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 14:13:48] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:13:48] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:13:48] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:13:48] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:13:48] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:13:48] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:13:48] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:13:48] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:13:49] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:13:49] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:13:49] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:13:49] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:13:49] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:13:49] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:13:49] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:13:49] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:15:40] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:15:40] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:15:40] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 14:15:41] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:15:41] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:15:41] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:15:41] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:15:41] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:15:41] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:15:41] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:15:41] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:15:41] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:15:41] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:15:41] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:15:41] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:15:41] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:15:41] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:15:41] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:15:41] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:19:58] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:19:58] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:19:58] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 14:19:59] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:19:59] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:19:59] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:19:59] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:19:59] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:19:59] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:19:59] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:19:59] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:19:59] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:19:59] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:19:59] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:19:59] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:19:59] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:19:59] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:19:59] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:19:59] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:20:08] [INFO] [authentication_service] Начинаем отправку письма на: savvin.nikita.work@yandex.ru
+[2025-12-17 14:20:09] [INFO] [authentication_service] Письмо успешно отправлено!
+[2025-12-17 14:21:40] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:21:40] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:21:40] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 14:21:40] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:21:40] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:21:40] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:21:40] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:21:40] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:21:40] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:21:40] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:21:40] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:21:40] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:21:40] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:21:40] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:21:40] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:21:40] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:21:40] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:21:40] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:21:40] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:24:41] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:24:41] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:24:42] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 14:24:42] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:24:42] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:24:42] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:24:42] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:24:42] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:24:42] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:24:42] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:24:42] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:24:42] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:24:42] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:24:42] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:24:42] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:24:42] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:24:42] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:24:42] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:24:42] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:25:07] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:25:07] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:25:07] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 14:25:08] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:25:08] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:25:08] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:25:08] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:25:08] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:25:08] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:25:08] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:25:08] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:25:08] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:25:08] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:25:08] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:25:08] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:25:08] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:25:08] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:25:08] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:25:08] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:25:21] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:25:21] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:25:21] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 14:25:22] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:25:22] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:25:22] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:25:22] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:25:22] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:25:22] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:25:22] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:25:22] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:25:22] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:25:22] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:25:22] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:25:22] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:25:22] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:25:22] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:25:22] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:25:22] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:25:38] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:25:38] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:25:38] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 14:25:38] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:25:38] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:25:38] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:25:38] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:25:38] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:25:38] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:25:38] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:25:38] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:25:38] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:25:38] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:25:38] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:25:38] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:25:38] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:25:38] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:25:38] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:25:38] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:26:13] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:26:13] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:26:13] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 14:26:14] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:26:14] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:26:14] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:26:14] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:26:14] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:26:14] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:26:14] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:26:14] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:26:14] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:26:14] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:26:14] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:26:14] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:26:14] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:26:14] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:26:14] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:26:14] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:36:00] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:36:00] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:36:00] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 14:36:01] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:36:01] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:36:01] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:36:01] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:36:01] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:36:01] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:36:01] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:36:01] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:36:01] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:36:01] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:36:01] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:36:01] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:36:01] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:36:01] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:36:01] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:36:01] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:36:06] [INFO] [authentication_service] Начинаем отправку письма на: savvin.nikita.work@yandex.ru
+[2025-12-17 14:36:07] [INFO] [authentication_service] Письмо успешно отправлено!
+[2025-12-17 14:38:15] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:38:15] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:38:15] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 14:38:15] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:38:15] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:38:15] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:38:15] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:38:15] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:38:15] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:38:15] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:38:15] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:38:15] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:38:15] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:38:15] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:38:15] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:38:15] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:38:15] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:38:15] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:38:15] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:38:55] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:38:55] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:38:55] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 14:38:56] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:38:56] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:38:56] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:38:56] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:38:56] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:38:56] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:38:56] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:38:56] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:38:56] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:38:56] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:38:56] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:38:56] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:38:56] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:38:56] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:38:56] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:38:56] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:40:07] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:40:07] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:40:07] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 14:40:07] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:40:07] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:40:08] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:40:08] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:40:08] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:40:08] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:40:08] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:40:08] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:40:08] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:40:08] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:40:08] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:40:08] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:40:08] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:40:08] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:40:08] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:40:08] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:43:46] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:43:46] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:43:46] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 14:43:46] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:43:46] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:43:46] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:43:46] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:43:46] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:43:46] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:43:46] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:43:46] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:43:46] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:43:46] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:43:46] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:43:46] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:43:46] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:43:46] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:43:46] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:43:46] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:43:53] [INFO] [authentication_service] Начинаем отправку письма на: savvin.nikita.work@yandex.ru
+[2025-12-17 14:43:55] [INFO] [authentication_service] Письмо успешно отправлено!
+[2025-12-17 14:45:29] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:45:29] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:45:29] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 14:45:30] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:45:30] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:45:30] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:45:30] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:45:30] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:45:30] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:45:30] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:45:30] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:45:30] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:45:30] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:45:30] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:45:30] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:45:30] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:45:30] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:45:30] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:45:30] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:47:40] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:47:40] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:47:40] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 14:47:40] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:47:40] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:47:40] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:47:40] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:47:40] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:47:40] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:47:40] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:47:40] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:47:40] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:47:40] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:47:40] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:47:40] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:47:40] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:47:40] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:47:40] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:47:40] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:48:56] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:48:56] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:48:56] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 14:48:56] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:48:56] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:48:56] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:48:56] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:48:56] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:48:56] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:48:56] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:48:56] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:48:56] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:48:56] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:48:56] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:48:56] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:48:56] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:48:56] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:48:56] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:48:56] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:49:15] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:49:15] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:49:15] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 14:49:15] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:49:15] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:49:15] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:49:15] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:49:15] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:49:15] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:49:15] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:49:15] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:49:15] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:49:15] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:49:15] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:49:15] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:49:15] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:49:15] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:49:15] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:49:15] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:51:52] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:51:52] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:51:52] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 14:51:52] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:51:52] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:51:52] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:51:52] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:51:52] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:51:52] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:51:52] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:51:52] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:51:52] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:51:52] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:51:52] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:51:52] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:51:52] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:51:52] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:51:52] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:51:52] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:52:14] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:52:14] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:52:14] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 14:52:14] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:52:14] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:52:14] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:52:14] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:52:14] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:52:14] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:52:14] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:52:14] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:52:14] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:52:14] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:52:14] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:52:14] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:52:14] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:52:14] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:52:14] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:52:14] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:53:06] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:53:06] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:53:06] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 14:53:06] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:53:06] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:53:06] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:53:06] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:53:06] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:53:06] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:53:06] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:53:06] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:53:06] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:53:06] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:53:06] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:53:06] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:53:06] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:53:06] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:53:06] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:53:06] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:54:38] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:54:38] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:54:38] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 14:54:39] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:54:39] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:54:39] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:54:39] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:54:39] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:54:39] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:54:39] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:54:39] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:54:39] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:54:39] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:54:39] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:54:39] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:54:39] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:54:39] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:54:39] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:54:39] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:56:28] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:56:28] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:56:28] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 14:56:28] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:56:28] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:56:28] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:56:28] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:56:28] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:56:28] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:56:28] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:56:28] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:56:28] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:56:28] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:56:28] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:56:28] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:56:28] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:56:28] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:56:28] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:56:28] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:57:14] [INFO] [authentication_service] Начинаем отправку письма на: savvin.nikita.work@yandex.ru
+[2025-12-17 14:57:15] [INFO] [authentication_service] Письмо успешно отправлено!
+[2025-12-17 14:58:41] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:58:41] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:58:41] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 14:58:42] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:58:42] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:58:42] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:58:42] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:58:42] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:58:42] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:58:42] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:58:42] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:58:42] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:58:42] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:58:42] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:58:42] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:58:42] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:58:42] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 14:58:42] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 14:58:42] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 15:00:02] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 15:00:02] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 15:00:02] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 15:00:02] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 15:00:02] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 15:00:02] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 15:00:02] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 15:00:02] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 15:00:02] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 15:00:02] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 15:00:02] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 15:00:02] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 15:00:02] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 15:00:02] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 15:00:02] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 15:00:02] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 15:00:02] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 15:00:02] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 15:00:02] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 15:00:53] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 15:00:53] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 15:00:53] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 15:00:53] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 15:00:53] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 15:00:53] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 15:00:53] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 15:00:53] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 15:00:53] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 15:00:53] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 15:00:53] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 15:00:53] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 15:00:53] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 15:00:53] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 15:00:53] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 15:00:53] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 15:00:53] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 15:00:53] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 15:00:53] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 15:32:36] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 15:32:36] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 15:32:36] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 15:32:37] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 15:32:37] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 15:32:37] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 15:32:37] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 15:32:37] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 15:32:37] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 15:32:37] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 15:32:37] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 15:32:37] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 15:32:37] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 15:32:37] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 15:32:37] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 15:32:37] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 15:32:37] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 15:32:37] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 15:32:37] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 15:33:50] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 15:33:50] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 15:33:50] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 15:33:50] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 15:33:50] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 15:33:50] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 15:33:50] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 15:33:50] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 15:33:50] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 15:33:50] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 15:33:50] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 15:33:50] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 15:33:50] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 15:33:50] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 15:33:50] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 15:33:50] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 15:33:50] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 15:33:50] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 15:33:50] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 15:37:12] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 15:37:12] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 15:37:12] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 15:37:13] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 15:37:13] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 15:37:13] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 15:37:13] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 15:37:13] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 15:37:13] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 15:37:13] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 15:37:13] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 15:37:13] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 15:37:13] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 15:37:13] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 15:37:13] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 15:37:13] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 15:37:13] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 15:37:13] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 15:37:13] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 15:38:34] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 15:38:34] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 15:38:34] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 15:38:35] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 15:38:35] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 15:38:35] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 15:38:35] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 15:38:35] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 15:38:35] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 15:38:35] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 15:38:35] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 15:38:35] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 15:38:35] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 15:38:35] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 15:38:35] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 15:38:35] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 15:38:35] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 15:38:35] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 15:38:35] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 15:38:39] [INFO] [authentication_service] Начинаем отправку письма на: savvin.nikita.work@yandex.ru
+[2025-12-17 15:38:41] [INFO] [authentication_service] Письмо успешно отправлено!
+[2025-12-17 16:11:45] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 16:11:45] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 16:11:45] [INFO] [authentication_service] Starting server on http://0.0.0.0:7079
+[2025-12-17 16:11:45] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 16:11:45] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 16:11:45] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 16:11:45] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 16:11:45] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 16:11:45] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 16:11:45] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 16:11:45] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 16:11:45] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 16:11:45] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 16:11:45] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 16:11:45] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 16:11:45] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 16:11:45] [INFO] [authentication_service] Starting microservice main forecast
+[2025-12-17 16:11:45] [INFO] [authentication_service] [WORKERS] Count workers = 8
+[2025-12-17 16:11:45] [INFO] [authentication_service] [WORKERS] Count workers = 8

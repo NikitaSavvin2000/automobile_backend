@@ -1,0 +1,1511 @@
+[2025-12-16 17:48:22] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-16 17:48:22] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-16 17:48:22] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-16 17:48:22] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-16 17:48:36] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-16 17:48:36] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-16 17:48:36] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-16 17:48:36] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-16 17:48:36] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-16 17:48:36] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-16 17:48:36] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-16 17:48:36] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-16 17:48:36] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-16 17:48:36] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-16 17:48:36] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-16 17:48:36] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-16 17:48:36] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-16 17:48:36] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-16 17:48:36] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-16 17:48:36] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-16 17:48:36] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-16 17:48:36] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-16 17:48:36] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-16 17:48:36] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-16 17:50:23] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-16 17:50:23] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-16 17:50:23] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-16 17:50:23] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-16 17:50:23] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-16 17:50:23] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-16 17:50:23] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-16 17:50:23] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-16 17:50:23] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-16 17:50:23] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-16 17:50:23] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-16 17:50:23] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-16 17:50:23] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-16 17:50:23] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-16 17:50:23] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-16 17:50:23] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-16 17:50:23] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-16 17:50:23] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-16 17:50:23] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-16 17:50:23] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-16 17:50:24] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-16 17:50:24] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-16 17:50:24] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-16 17:50:24] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-16 17:51:53] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-16 17:51:53] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-16 17:51:53] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-16 17:51:53] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-16 17:51:53] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-16 17:51:53] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-16 17:51:53] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-16 17:51:53] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-16 17:51:53] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-16 17:51:53] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-16 17:51:53] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-16 17:51:53] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-16 17:51:53] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-16 17:51:53] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-16 17:51:53] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-16 17:51:53] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-16 17:51:53] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-16 17:51:53] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-16 17:51:53] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-16 17:51:53] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-16 17:51:54] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-16 17:51:54] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-16 17:51:54] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-16 17:51:54] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:02:52] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:02:52] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:02:52] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:02:52] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:04:14] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:04:14] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:04:14] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:04:14] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:04:43] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:04:43] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:04:43] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:04:43] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:04:43] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:04:45] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:04:45] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:04:45] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:04:45] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:04:45] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:04:45] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:04:45] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:04:45] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:04:45] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:04:45] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:04:45] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:04:45] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:04:45] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:04:45] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:04:45] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:04:45] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:04:46] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:04:46] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:04:46] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:04:46] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:04:47] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:04:47] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:04:48] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:04:49] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:04:56] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:04:56] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:04:56] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:04:56] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:04:56] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:04:56] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:04:56] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:04:56] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:04:56] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:04:56] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:04:56] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:04:56] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:04:56] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:04:56] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:04:56] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:04:56] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:04:56] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:04:56] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:04:56] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:04:56] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:04:56] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:04:56] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:04:56] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:04:56] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:06:49] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:06:49] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:06:49] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:06:49] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:06:49] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:06:49] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:06:49] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:06:49] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:06:49] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:06:49] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:06:49] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:06:49] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:06:49] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:06:49] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:06:49] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:06:49] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:06:49] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:06:49] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:06:49] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:06:49] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:06:50] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:06:50] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:06:50] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:06:50] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:08:03] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:08:03] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:08:03] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:08:03] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:08:03] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:08:03] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:08:03] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:08:03] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:08:03] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:08:03] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:08:03] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:08:03] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:08:03] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:08:03] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:08:03] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:08:03] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:08:03] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:08:03] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:08:03] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:08:03] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:08:04] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:08:04] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:08:04] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:08:04] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:10:24] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:10:24] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:10:24] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:10:24] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:10:58] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:10:58] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:10:58] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:10:58] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:10:59] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:10:59] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:10:59] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:10:59] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:10:59] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:10:59] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:10:59] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:10:59] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:10:59] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:10:59] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:10:59] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:10:59] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:10:59] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:10:59] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:10:59] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:10:59] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:10:59] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:10:59] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:10:59] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:10:59] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:12:27] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:12:27] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:12:27] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:12:27] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:12:28] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:12:28] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:12:28] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:12:28] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:12:28] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:12:28] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:12:28] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:12:28] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:12:28] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:12:28] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:12:28] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:12:28] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:12:28] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:12:28] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:12:28] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:12:28] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:12:28] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:12:28] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:12:28] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:12:28] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:13:41] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:13:41] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:13:41] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:13:41] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:13:41] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:13:41] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:13:41] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:13:41] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:13:41] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:13:41] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:13:41] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:13:41] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:13:41] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:13:41] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:13:41] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:13:41] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:13:41] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:13:41] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:13:41] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:13:41] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:13:42] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:13:42] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:13:42] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:13:42] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:20:37] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:20:37] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:20:37] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:20:37] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:20:38] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:20:38] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:20:38] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:20:38] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:20:38] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:20:38] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:20:38] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:20:38] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:20:38] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:20:38] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:20:38] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:20:38] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:20:38] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:20:38] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:20:38] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:20:38] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:20:38] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:20:38] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:20:38] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:20:38] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:21:57] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:21:57] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:21:57] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:21:57] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:21:58] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:21:58] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:21:58] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:21:58] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:21:58] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:21:58] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:21:58] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:21:58] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:21:58] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:21:58] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:21:58] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:21:58] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:21:58] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:21:58] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:21:58] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:21:58] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:21:58] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:21:58] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:21:58] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:21:58] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:22:31] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:22:31] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:22:31] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:22:31] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:22:32] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:22:32] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:22:32] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:22:32] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:22:32] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:22:32] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:22:32] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:22:32] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:22:32] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:22:32] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:22:32] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:22:32] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:22:32] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:22:32] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:22:32] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:22:32] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:22:32] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:22:32] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:22:32] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:22:32] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:22:35] [DEBUG] [authentication_service] detected 'bcrypt' backend, version '<unknown>'
+[2025-12-17 12:22:35] [DEBUG] [authentication_service] 'bcrypt' backend lacks $2$ support, enabling workaround
+[2025-12-17 12:24:57] [DEBUG] [authentication_service] detected 'bcrypt' backend, version '<unknown>'
+[2025-12-17 12:33:31] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:33:31] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:33:31] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:33:48] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:33:48] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:33:48] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:33:49] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:33:49] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:33:49] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:33:49] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:33:49] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:33:49] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:33:49] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:33:49] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:33:49] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:33:49] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:33:49] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:33:49] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:33:49] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:33:49] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:33:49] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:33:49] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:33:49] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:33:50] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:33:50] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:33:50] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:33:50] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:37:01] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:37:01] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:37:01] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:37:01] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:37:02] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:37:02] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:37:02] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:37:02] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:37:02] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:37:02] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:37:02] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:37:02] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:37:02] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:37:02] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:37:02] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:37:02] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:37:02] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:37:02] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:37:02] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:37:02] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:37:02] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:37:02] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:37:02] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:37:02] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:37:47] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:37:47] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:37:47] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:37:47] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:37:48] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:37:48] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:37:48] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:37:48] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:37:48] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:37:48] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:37:48] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:37:48] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:37:48] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:37:48] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:37:48] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:37:48] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:37:48] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:37:48] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:37:48] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:37:48] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:37:48] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:37:48] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:37:48] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:37:48] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:38:05] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:38:05] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:38:05] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:38:05] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:38:06] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:38:06] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:38:06] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:38:06] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:38:06] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:38:06] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:38:06] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:38:06] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:38:06] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:38:06] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:38:06] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:38:06] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:38:06] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:38:06] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:38:06] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:38:06] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:38:06] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:38:06] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:38:06] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:38:06] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:40:42] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:40:42] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:40:42] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:40:42] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:40:43] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:40:43] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:40:43] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:40:43] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:40:43] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:40:43] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:40:43] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:40:43] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:40:43] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:40:43] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:40:43] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:40:43] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:40:43] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:40:43] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:40:43] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:40:43] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:40:43] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:40:43] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:40:43] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:40:43] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:42:44] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:42:44] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:42:44] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:42:44] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:42:45] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:42:45] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:42:45] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:42:45] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:42:45] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:42:45] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:42:45] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:42:45] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:42:45] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:42:45] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:42:45] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:42:45] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:42:45] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:42:45] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:42:45] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:42:45] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:42:45] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:42:45] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:42:45] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:42:45] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:44:02] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:44:02] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:44:02] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:44:02] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:44:02] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:44:02] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:44:02] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:44:02] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:44:02] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:44:02] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:44:02] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:44:02] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:44:02] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:44:02] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:44:02] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:44:02] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:44:02] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:44:02] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:44:02] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:44:02] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:44:03] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:44:03] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:44:03] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:44:03] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:45:37] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:45:37] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:45:37] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:45:37] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:45:38] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:45:38] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:45:38] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:45:38] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:45:38] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:45:38] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:45:38] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:45:38] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:45:38] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:45:38] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:45:38] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:45:38] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:45:38] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:45:38] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:45:38] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:45:38] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:45:38] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:45:38] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:45:38] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:45:38] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:47:44] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:47:44] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:47:44] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:47:44] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:47:45] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:47:45] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:47:45] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:47:45] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:47:45] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:47:45] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:47:45] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:47:45] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:47:45] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:47:45] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 12:47:45] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 12:47:45] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 12:47:45] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:47:45] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:47:45] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:47:45] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 12:47:45] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:47:45] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:47:45] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 12:47:45] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 13:47:22] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 13:47:22] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 13:47:22] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 13:47:22] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 13:47:24] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 13:47:24] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 13:47:24] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 13:47:24] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 13:47:24] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 13:47:24] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 13:47:24] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 13:47:24] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 13:47:24] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 13:47:24] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 13:47:24] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 13:47:24] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 13:47:24] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 13:47:24] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 13:47:24] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 13:47:24] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 13:47:24] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 13:47:24] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 13:47:24] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 13:47:24] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 13:48:56] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 13:48:56] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 13:48:56] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 13:48:56] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 13:48:57] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 13:48:57] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 13:48:57] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 13:48:57] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 13:48:57] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 13:48:57] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 13:48:57] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 13:48:57] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 13:48:57] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 13:48:57] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 13:48:57] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 13:48:57] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 13:48:57] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 13:48:57] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 13:48:57] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 13:48:57] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 13:48:57] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 13:48:57] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 13:48:57] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 13:48:57] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 13:50:01] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 13:50:01] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 13:50:01] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 13:50:01] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 13:50:02] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 13:50:02] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 13:50:02] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 13:50:02] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 13:50:02] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 13:50:02] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 13:50:02] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 13:50:02] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 13:50:02] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 13:50:02] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 13:50:02] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 13:50:02] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 13:50:02] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 13:50:02] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 13:50:02] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 13:50:02] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 13:50:02] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 13:50:02] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 13:50:02] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 13:50:02] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 13:50:37] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 13:50:37] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 13:50:37] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 13:50:37] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 13:50:38] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 13:50:38] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 13:50:38] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 13:50:38] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 13:50:38] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 13:50:38] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 13:50:38] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 13:50:38] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 13:50:38] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 13:50:38] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 13:50:38] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 13:50:38] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 13:50:38] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 13:50:38] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 13:50:38] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 13:50:38] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 13:50:38] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 13:50:38] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 13:50:38] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 13:50:38] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 13:51:04] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 13:51:04] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 13:51:04] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 13:51:04] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 13:51:04] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 13:51:04] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 13:51:04] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 13:51:04] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 13:51:04] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 13:51:04] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 13:51:04] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 13:51:04] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 13:51:04] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 13:51:04] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 13:51:04] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 13:51:04] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 13:51:04] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 13:51:04] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 13:51:04] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 13:51:04] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 13:51:05] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 13:51:05] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 13:51:05] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 13:51:05] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 13:52:15] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 13:52:15] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 13:52:15] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 13:52:15] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 13:52:15] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 13:52:15] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 13:52:15] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 13:52:15] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 13:52:15] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 13:52:15] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 13:52:15] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 13:52:15] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 13:52:15] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 13:52:15] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 13:52:15] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 13:52:15] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 13:52:15] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 13:52:15] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 13:52:15] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 13:52:15] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 13:52:16] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 13:52:16] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 13:52:16] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 13:52:16] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 13:58:08] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 13:58:08] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 13:58:08] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 13:58:08] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 13:58:08] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 13:58:08] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 13:58:08] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 13:58:08] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 13:58:08] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 13:58:08] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 13:58:08] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 13:58:08] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 13:58:08] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 13:58:08] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 13:58:08] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 13:58:08] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 13:58:08] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 13:58:08] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 13:58:08] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 13:58:08] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 13:58:09] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 13:58:09] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 13:58:09] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 13:58:09] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:12:07] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:12:07] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:12:07] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:12:07] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:12:07] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:12:07] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:12:07] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:12:07] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:12:07] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:12:07] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:12:07] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:12:07] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:12:07] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:12:07] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:12:07] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:12:07] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:12:07] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:12:07] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:12:07] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:12:07] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:12:08] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:12:08] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:12:08] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:12:08] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:13:48] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:13:48] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:13:48] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:13:48] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:13:48] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:13:48] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:13:48] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:13:48] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:13:48] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:13:48] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:13:48] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:13:48] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:13:48] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:13:48] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:13:48] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:13:48] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:13:48] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:13:48] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:13:48] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:13:48] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:13:48] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:13:48] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:13:48] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:13:49] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:15:40] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:15:40] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:15:40] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:15:40] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:15:40] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:15:40] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:15:40] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:15:40] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:15:40] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:15:40] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:15:40] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:15:40] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:15:40] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:15:40] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:15:40] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:15:40] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:15:40] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:15:40] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:15:40] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:15:40] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:15:41] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:15:41] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:15:41] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:15:41] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:19:58] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:19:58] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:19:58] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:19:58] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:19:59] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:19:59] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:19:59] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:19:59] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:19:59] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:19:59] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:19:59] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:19:59] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:19:59] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:19:59] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:19:59] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:19:59] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:19:59] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:19:59] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:19:59] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:19:59] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:19:59] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:19:59] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:19:59] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:19:59] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:21:39] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:21:39] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:21:39] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:21:39] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:21:40] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:21:40] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:21:40] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:21:40] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:21:40] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:21:40] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:21:40] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:21:40] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:21:40] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:21:40] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:21:40] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:21:40] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:21:40] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:21:40] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:21:40] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:21:40] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:21:40] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:21:40] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:21:40] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:21:40] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:24:41] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:24:41] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:24:41] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:24:41] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:24:42] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:24:42] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:24:42] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:24:42] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:24:42] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:24:42] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:24:42] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:24:42] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:24:42] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:24:42] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:24:42] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:24:42] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:24:42] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:24:42] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:24:42] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:24:42] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:24:42] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:24:42] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:24:42] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:24:42] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:25:07] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:25:07] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:25:07] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:25:07] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:25:07] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:25:07] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:25:07] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:25:07] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:25:07] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:25:07] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:25:07] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:25:07] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:25:07] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:25:07] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:25:07] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:25:07] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:25:07] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:25:07] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:25:07] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:25:07] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:25:08] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:25:08] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:25:08] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:25:08] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:25:21] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:25:21] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:25:21] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:25:21] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:25:21] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:25:21] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:25:21] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:25:21] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:25:21] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:25:21] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:25:21] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:25:21] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:25:21] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:25:21] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:25:21] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:25:21] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:25:21] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:25:21] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:25:21] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:25:21] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:25:22] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:25:22] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:25:22] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:25:22] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:25:37] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:25:37] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:25:37] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:25:37] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:25:38] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:25:38] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:25:38] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:25:38] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:25:38] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:25:38] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:25:38] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:25:38] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:25:38] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:25:38] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:25:38] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:25:38] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:25:38] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:25:38] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:25:38] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:25:38] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:25:38] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:25:38] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:25:38] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:25:38] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:26:13] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:26:13] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:26:13] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:26:13] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:26:13] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:26:13] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:26:13] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:26:13] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:26:13] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:26:13] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:26:13] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:26:13] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:26:13] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:26:13] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:26:13] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:26:13] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:26:13] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:26:13] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:26:13] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:26:13] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:26:14] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:26:14] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:26:14] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:26:14] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:36:00] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:36:00] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:36:00] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:36:00] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:36:00] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:36:00] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:36:00] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:36:00] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:36:00] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:36:00] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:36:00] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:36:00] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:36:00] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:36:00] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:36:00] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:36:00] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:36:00] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:36:00] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:36:00] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:36:00] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:36:01] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:36:01] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:36:01] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:36:01] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:38:14] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:38:14] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:38:14] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:38:14] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:38:15] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:38:15] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:38:15] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:38:15] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:38:15] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:38:15] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:38:15] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:38:15] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:38:15] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:38:15] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:38:15] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:38:15] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:38:15] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:38:15] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:38:15] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:38:15] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:38:15] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:38:15] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:38:15] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:38:15] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:38:55] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:38:55] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:38:55] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:38:55] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:38:55] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:38:55] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:38:55] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:38:55] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:38:55] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:38:55] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:38:55] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:38:55] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:38:55] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:38:55] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:38:55] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:38:55] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:38:55] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:38:55] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:38:55] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:38:55] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:38:56] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:38:56] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:38:56] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:38:56] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:40:07] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:40:07] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:40:07] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:40:07] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:40:07] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:40:07] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:40:07] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:40:07] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:40:07] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:40:07] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:40:07] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:40:07] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:40:07] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:40:07] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:40:07] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:40:07] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:40:07] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:40:07] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:40:07] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:40:07] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:40:08] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:40:08] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:40:08] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:40:08] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:43:45] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:43:45] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:43:45] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:43:45] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:43:46] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:43:46] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:43:46] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:43:46] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:43:46] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:43:46] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:43:46] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:43:46] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:43:46] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:43:46] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:43:46] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:43:46] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:43:46] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:43:46] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:43:46] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:43:46] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:43:46] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:43:46] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:43:46] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:43:46] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:45:29] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:45:29] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:45:29] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:45:29] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:45:30] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:45:30] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:45:30] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:45:30] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:45:30] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:45:30] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:45:30] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:45:30] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:45:30] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:45:30] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:45:30] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:45:30] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:45:30] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:45:30] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:45:30] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:45:30] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:45:30] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:45:30] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:45:30] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:45:30] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:47:39] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:47:39] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:47:39] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:47:39] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:47:40] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:47:40] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:47:40] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:47:40] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:47:40] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:47:40] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:47:40] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:47:40] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:47:40] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:47:40] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:47:40] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:47:40] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:47:40] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:47:40] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:47:40] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:47:40] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:47:40] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:47:40] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:47:40] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:47:40] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:48:55] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:48:55] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:48:55] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:48:55] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:48:56] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:48:56] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:48:56] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:48:56] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:48:56] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:48:56] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:48:56] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:48:56] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:48:56] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:48:56] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:48:56] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:48:56] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:48:56] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:48:56] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:48:56] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:48:56] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:48:56] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:48:56] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:48:56] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:48:56] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:49:15] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:49:15] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:49:15] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:49:15] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:49:15] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:49:15] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:49:15] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:49:15] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:49:15] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:49:15] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:49:15] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:49:15] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:49:15] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:49:15] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:49:15] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:49:15] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:49:15] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:49:15] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:49:15] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:49:15] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:49:15] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:49:15] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:49:15] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:49:15] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:51:52] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:51:52] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:51:52] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:51:52] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:51:52] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:51:52] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:51:52] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:51:52] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:51:52] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:51:52] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:51:52] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:51:52] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:51:52] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:51:52] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:51:52] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:51:52] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:51:52] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:51:52] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:51:52] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:51:52] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:51:52] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:51:52] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:51:52] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:51:52] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:51:57] [DEBUG] [authentication_service] Revoked 0 existing refresh tokens for user_id=1
+[2025-12-17 14:51:57] [DEBUG] [authentication_service] Created access token for user_id=1
+[2025-12-17 14:51:57] [DEBUG] [authentication_service] Created refresh token for user_id=1, jti=84c8b1978e9f4a1cb26efe1bb0811015
+[2025-12-17 14:52:13] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:52:13] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:52:13] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:52:13] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:52:14] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:52:14] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:52:14] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:52:14] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:52:14] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:52:14] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:52:14] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:52:14] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:52:14] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:52:14] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:52:14] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:52:14] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:52:14] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:52:14] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:52:14] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:52:14] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:52:14] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:52:14] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:52:14] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:52:14] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:52:16] [DEBUG] [authentication_service] Revoked 1 existing refresh tokens for user_id=1
+[2025-12-17 14:52:16] [DEBUG] [authentication_service] Created access token for user_id=1
+[2025-12-17 14:52:16] [DEBUG] [authentication_service] Created refresh token for user_id=1, jti=feac0591fad54e0fad09c4118ace707f
+[2025-12-17 14:53:05] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:53:05] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:53:05] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:53:05] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:53:06] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:53:06] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:53:06] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:53:06] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:53:06] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:53:06] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:53:06] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:53:06] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:53:06] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:53:06] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:53:06] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:53:06] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:53:06] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:53:06] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:53:06] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:53:06] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:53:06] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:53:06] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:53:06] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:53:06] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:53:09] [DEBUG] [authentication_service] Revoked 1 existing refresh tokens for user_id=1
+[2025-12-17 14:53:09] [DEBUG] [authentication_service] Created access token for user_id=1
+[2025-12-17 14:53:09] [DEBUG] [authentication_service] Created refresh token for user_id=1, jti=5a7f2345da8d440c97d7399f5c21144e
+[2025-12-17 14:54:38] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:54:38] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:54:38] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:54:38] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:54:38] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:54:38] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:54:38] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:54:38] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:54:38] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:54:38] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:54:38] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:54:38] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:54:38] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:54:38] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:54:38] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:54:38] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:54:38] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:54:38] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:54:38] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:54:38] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:54:39] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:54:39] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:54:39] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:54:39] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:54:45] [DEBUG] [authentication_service] Revoked 1 existing refresh tokens for user_id=1
+[2025-12-17 14:54:45] [DEBUG] [authentication_service] Created access token for user_id=1
+[2025-12-17 14:54:45] [DEBUG] [authentication_service] Created refresh token for user_id=1, jti=f595995c353a4b399f11994fd7425dec
+[2025-12-17 14:56:27] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:56:27] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:56:27] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:56:27] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:56:28] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:56:28] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:56:28] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:56:28] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:56:28] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:56:28] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:56:28] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:56:28] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:56:28] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:56:28] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:56:28] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:56:28] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:56:28] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:56:28] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:56:28] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:56:28] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:56:28] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:56:28] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:56:28] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:56:28] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:56:31] [DEBUG] [authentication_service] Revoked 1 existing refresh tokens for user_id=1
+[2025-12-17 14:56:31] [DEBUG] [authentication_service] Created access token for user_id=1
+[2025-12-17 14:56:31] [DEBUG] [authentication_service] Created refresh token for user_id=1, jti=b30cb97b53044d2182478e7d03322c03
+[2025-12-17 14:57:27] [DEBUG] [authentication_service] Revoked 0 existing refresh tokens for user_id=1
+[2025-12-17 14:57:27] [DEBUG] [authentication_service] Created access token for user_id=1
+[2025-12-17 14:57:27] [DEBUG] [authentication_service] Created refresh token for user_id=1, jti=c7732ac3662c48b8bc28509d2412e1c2
+[2025-12-17 14:58:41] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:58:41] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:58:41] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:58:41] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:58:42] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:58:42] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:58:42] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:58:42] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:58:42] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:58:42] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:58:42] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:58:42] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:58:42] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:58:42] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 14:58:42] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 14:58:42] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 14:58:42] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:58:42] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:58:42] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:58:42] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 14:58:42] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:58:42] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:58:42] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 14:58:42] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 15:00:01] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 15:00:01] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 15:00:01] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 15:00:01] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 15:00:02] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 15:00:02] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 15:00:02] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 15:00:02] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 15:00:02] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 15:00:02] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 15:00:02] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 15:00:02] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 15:00:02] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 15:00:02] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 15:00:02] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 15:00:02] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 15:00:02] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 15:00:02] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 15:00:02] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 15:00:02] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 15:00:02] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 15:00:02] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 15:00:02] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 15:00:02] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 15:00:52] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 15:00:52] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 15:00:52] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 15:00:52] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 15:00:53] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 15:00:53] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 15:00:53] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 15:00:53] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 15:00:53] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 15:00:53] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 15:00:53] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 15:00:53] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 15:00:53] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 15:00:53] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 15:00:53] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 15:00:53] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 15:00:53] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 15:00:53] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 15:00:53] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 15:00:53] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 15:00:53] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 15:00:53] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 15:00:53] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 15:00:53] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 15:00:56] [DEBUG] [authentication_service] Revoked 1 existing refresh tokens for user_id=1
+[2025-12-17 15:00:56] [DEBUG] [authentication_service] Created access token for user_id=1
+[2025-12-17 15:00:56] [DEBUG] [authentication_service] Created refresh token for user_id=1, jti=1411451c8edd405face959aa82ad5a68
+[2025-12-17 15:32:36] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 15:32:36] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 15:32:36] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 15:32:36] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 15:32:36] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 15:32:36] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 15:32:36] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 15:32:36] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 15:32:36] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 15:32:36] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 15:32:36] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 15:32:36] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 15:32:36] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 15:32:36] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 15:32:36] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 15:32:36] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 15:32:36] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 15:32:36] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 15:32:36] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 15:32:36] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 15:32:37] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 15:32:37] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 15:32:37] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 15:32:37] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 15:33:49] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 15:33:49] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 15:33:49] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 15:33:49] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 15:33:50] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 15:33:50] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 15:33:50] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 15:33:50] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 15:33:50] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 15:33:50] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 15:33:50] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 15:33:50] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 15:33:50] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 15:33:50] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 15:33:50] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 15:33:50] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 15:33:50] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 15:33:50] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 15:33:50] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 15:33:50] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 15:33:50] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 15:33:50] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 15:33:50] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 15:33:50] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 15:37:12] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 15:37:12] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 15:37:12] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 15:37:12] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 15:37:13] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 15:37:13] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 15:37:13] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 15:37:13] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 15:37:13] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 15:37:13] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 15:37:13] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 15:37:13] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 15:37:13] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 15:37:13] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 15:37:13] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 15:37:13] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 15:37:13] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 15:37:13] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 15:37:13] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 15:37:13] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 15:37:13] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 15:37:13] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 15:37:13] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 15:37:13] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 15:38:34] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 15:38:34] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 15:38:34] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 15:38:34] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 15:38:34] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 15:38:34] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 15:38:34] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 15:38:34] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 15:38:34] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 15:38:34] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 15:38:34] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 15:38:34] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 15:38:34] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 15:38:34] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 15:38:34] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 15:38:34] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 15:38:34] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 15:38:34] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 15:38:34] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 15:38:34] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 15:38:35] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 15:38:35] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 15:38:35] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 15:38:35] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 15:39:36] [DEBUG] [authentication_service] Revoked 1 existing refresh tokens for user_id=1
+[2025-12-17 15:39:36] [DEBUG] [authentication_service] Created access token for user_id=1
+[2025-12-17 15:39:36] [DEBUG] [authentication_service] Created refresh token for user_id=1, jti=76a8d04d048a40129634e8f28c00c62d
+[2025-12-17 16:11:44] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 16:11:44] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 16:11:44] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 16:11:44] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 16:11:45] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 16:11:45] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 16:11:45] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 16:11:45] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 16:11:45] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 16:11:45] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 16:11:45] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 16:11:45] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 16:11:45] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 16:11:45] [DEBUG] [authentication_service] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-17 16:11:45] [DEBUG] [authentication_service] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-17 16:11:45] [DEBUG] [authentication_service] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-17 16:11:45] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 16:11:45] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 16:11:45] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 16:11:45] [DEBUG] [authentication_service] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-17 16:11:45] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 16:11:45] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 16:11:45] [DEBUG] [authentication_service] Using selector: KqueueSelector
+[2025-12-17 16:11:45] [DEBUG] [authentication_service] Using selector: KqueueSelector
