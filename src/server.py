@@ -20,11 +20,7 @@ load_dotenv()
 
 logger.info("Starting microservice main forecast")
 
-# origins = ["http://localhost", "http://77.37.136.11"] if settings.PUBLIC_OR_LOCAL == "LOCAL" else ["http://77.37.136.11"]
 
-origins = [
-    "http://localhost:5173",  # фронт на dev-сервере Vite
-]
 workers = multiprocessing.cpu_count()
 logger.info(f"[WORKERS] Count workers = {workers}")
 
@@ -49,9 +45,10 @@ async def validation_exception_handler(request: Request, exc: RequestValidationE
         },
     )
 
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=origins,
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
