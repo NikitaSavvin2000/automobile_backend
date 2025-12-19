@@ -966,3 +966,46 @@ fastapi.exceptions.ResponseValidationError: 1 validation error:
 
   File "/Users/nikitasavvin/Desktop/Business/automobile/auth_automobile/src/api/v1/car_records.py", line 114, in get_user_car_record
     GET /auth_mobile/api/v1/cars_records/info/{car}/{record_id}
+[2025-12-19 12:38:43] [ERROR] [auth_mobile] Error creating new access token during rotation: 'roles'
+[2025-12-19 12:38:43] [ERROR] [auth_mobile] Error in full token refresh service logic: 500: Error generating new tokens
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/src/utils/token_service.py", line 147, in rotate_refresh_token
+    await session.refresh(user_obj, ["roles"])
+  File "/Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/sqlalchemy/ext/asyncio/session.py", line 329, in refresh
+    await greenlet_spawn(
+    ...<4 lines>...
+    )
+  File "/Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/sqlalchemy/util/_concurrency_py3k.py", line 190, in greenlet_spawn
+    result = context.switch(*args, **kwargs)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 3133, in refresh
+    self._expire_state(state, attribute_names)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/sqlalchemy/orm/session.py", line 3261, in _expire_state
+    state._expire_attributes(state.dict, attribute_names)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/sqlalchemy/orm/state.py", line 787, in _expire_attributes
+    impl = self.manager[key].impl
+           ~~~~~~~~~~~~^^^^^
+KeyError: 'roles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/src/services/token_refresh_service.py", line 32, in refresh_tokens_logic
+    new_access_token, new_refresh_token = await token_service.rotate_refresh_token(refresh_token_str)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/src/utils/token_service.py", line 156, in rotate_refresh_token
+    raise HTTPException(
+    ...<2 lines>...
+    )
+fastapi.exceptions.HTTPException: 500: Error generating new tokens
+[2025-12-19 12:39:10] [ERROR] [auth_mobile] Error in full token refresh service logic: 401: Refresh token revoked
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/src/services/token_refresh_service.py", line 32, in refresh_tokens_logic
+    new_access_token, new_refresh_token = await token_service.rotate_refresh_token(refresh_token_str)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/src/utils/token_service.py", line 122, in rotate_refresh_token
+    raise HTTPException(
+        status_code=status.HTTP_401_UNAUTHORIZED, detail="Refresh token revoked"
+    )
+fastapi.exceptions.HTTPException: 401: Refresh token revoked

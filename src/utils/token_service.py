@@ -144,7 +144,7 @@ async def rotate_refresh_token(old_refresh_token: str) -> tuple[str, str]:
                     detail="User data error",
                 )
 
-            await session.refresh(user_obj, ["roles"])  
+            await session.refresh(user_obj, ["role"])
             new_access_token_str = await create_access_token(user_id=user_id)
 
             return new_access_token_str, new_refresh_token_str

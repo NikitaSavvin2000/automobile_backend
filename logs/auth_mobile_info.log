@@ -1323,3 +1323,96 @@
 [2025-12-18 16:56:08] [INFO] [auth_mobile] [WORKERS] Count workers = 8
 [2025-12-18 16:56:08] [INFO] [auth_mobile] Starting microservice main forecast
 [2025-12-18 16:56:08] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-19 12:32:29] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-19 12:32:29] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-19 12:32:29] [INFO] [auth_mobile] Starting server on http://0.0.0.0:7079
+[2025-12-19 12:32:30] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-19 12:32:30] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-19 12:32:30] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-19 12:32:30] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-19 12:32:30] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-19 12:32:30] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-19 12:32:30] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-19 12:32:30] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-19 12:32:30] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-19 12:32:30] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-19 12:32:30] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-19 12:32:30] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-19 12:32:30] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-19 12:32:30] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-19 12:32:30] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-19 12:32:30] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-19 12:39:09] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-19 12:39:09] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-19 12:39:09] [INFO] [auth_mobile] Starting server on http://0.0.0.0:7079
+[2025-12-19 12:39:10] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-19 12:39:10] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-19 12:39:10] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-19 12:39:10] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-19 12:39:10] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-19 12:39:10] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-19 12:39:10] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-19 12:39:10] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-19 12:39:10] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-19 12:39:10] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-19 12:39:10] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-19 12:39:10] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-19 12:39:10] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-19 12:39:10] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-19 12:39:10] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-19 12:39:10] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-19 12:39:32] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-19 12:39:32] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-19 14:04:19] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-19 14:04:19] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-19 14:04:40] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-19 14:04:40] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-19 14:05:00] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-19 14:05:00] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-19 14:05:21] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-19 14:05:21] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-19 14:05:41] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-19 14:05:41] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-19 14:06:01] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-19 14:06:01] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-19 14:06:22] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-19 14:06:22] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-19 14:06:42] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-19 14:06:42] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-19 14:07:02] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-19 14:07:02] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-19 14:07:23] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-19 14:07:23] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-19 14:07:43] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-19 14:07:43] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-19 14:08:04] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-19 14:08:04] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-19 14:08:24] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-19 14:08:24] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-19 14:08:44] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-19 14:08:44] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-19 14:09:21] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-19 14:09:21] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-19 14:13:31] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-19 14:13:31] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-19 14:14:30] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-19 14:14:30] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-19 14:16:42] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-19 14:16:42] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-19 14:16:42] [INFO] [auth_mobile] Starting server on http://0.0.0.0:7079
+[2025-12-19 14:16:43] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-19 14:16:43] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-19 14:16:43] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-19 14:16:43] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-19 14:16:43] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-19 14:16:43] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-19 14:16:43] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-19 14:16:43] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-19 14:16:43] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-19 14:16:43] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-19 14:16:43] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-19 14:16:43] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-19 14:16:43] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-19 14:16:43] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-19 14:16:43] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-19 14:16:43] [INFO] [auth_mobile] [WORKERS] Count workers = 8
