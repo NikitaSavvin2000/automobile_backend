@@ -1802,3 +1802,94 @@ Traceback (most recent call last):
         status_code=status.HTTP_401_UNAUTHORIZED, detail="Refresh token revoked"
     )
 fastapi.exceptions.HTTPException: 401: Refresh token revoked
+[2025-12-26 16:50:27] [ERROR] [auth_mobile] Unhandled exception at http://0.0.0.0:7079/auth_mobile/api/v1/version/current: [Errno 2] No such file or directory: '/Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/utils/version.json'
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 120, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 106, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 430, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 316, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/src/api/v1/check_version.py", line 19, in get_current_version
+    return get_version()
+  File "/Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/src/utils/сheck_version.py", line 10, in get_version
+    with open(version_path, "r", encoding="utf-8") as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/utils/version.json'
+[2025-12-26 16:51:09] [ERROR] [auth_mobile] Unhandled exception at http://0.0.0.0:7079/auth_mobile/api/v1/version/update: [Errno 2] No such file or directory: '/Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/utils/version.json'
+Traceback (most recent call last):
+  File "/Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 120, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 106, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 430, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 316, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/src/api/v1/check_version.py", line 27, in update_current_version
+    update_version(payload.version)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/src/utils/сheck_version.py", line 18, in update_version
+    with open(version_path, "r", encoding="utf-8") as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/utils/version.json'

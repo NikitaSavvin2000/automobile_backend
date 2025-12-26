@@ -14829,3 +14829,535 @@
 [2025-12-26 12:08:44] [INFO] [auth_mobile] Successfully refreshed tokens via service
 [2025-12-26 12:08:50] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
 [2025-12-26 12:08:50] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 16:35:10] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:35:10] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:35:10] [INFO] [auth_mobile] Starting server on http://0.0.0.0:7079
+[2025-12-26 16:35:11] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:35:11] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:35:11] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:35:11] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:35:11] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:35:11] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:35:11] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:35:11] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:35:11] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:35:11] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:35:11] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:35:11] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:35:11] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:35:11] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:35:11] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:35:11] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:47:29] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:47:29] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:47:29] [INFO] [auth_mobile] Starting server on http://0.0.0.0:7079
+[2025-12-26 16:47:30] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:47:30] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:47:30] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:47:30] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:47:30] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:47:30] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:47:30] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:47:30] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:47:30] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:47:30] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:47:30] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:47:30] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:47:30] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:47:30] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:47:30] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:47:30] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:49:53] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:49:53] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:49:53] [INFO] [auth_mobile] Starting server on http://0.0.0.0:7079
+[2025-12-26 16:49:54] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:49:54] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:49:54] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:49:54] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:49:54] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:49:54] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:49:54] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:49:54] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:49:54] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:49:54] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:49:54] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:49:54] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:49:54] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:49:54] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:49:54] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:49:54] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:50:20] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:50:20] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:50:20] [INFO] [auth_mobile] Starting server on http://0.0.0.0:7079
+[2025-12-26 16:50:21] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:50:21] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:50:21] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:50:21] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:50:21] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:50:21] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:50:21] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:50:21] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:50:21] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:50:21] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:50:21] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:50:21] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:50:21] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:50:21] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:50:21] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:50:21] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:50:50] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:50:50] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:50:50] [INFO] [auth_mobile] Starting server on http://0.0.0.0:7079
+[2025-12-26 16:50:51] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:50:51] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:50:51] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:50:51] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:50:51] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:50:51] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:50:51] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:50:51] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:50:51] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:50:51] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:50:51] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:50:51] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:50:51] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:50:51] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:50:51] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:50:51] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:51:22] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:51:22] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:51:22] [INFO] [auth_mobile] Starting server on http://0.0.0.0:7079
+[2025-12-26 16:51:23] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:51:23] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:51:23] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:51:23] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:51:23] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:51:23] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:51:23] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:51:23] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:51:23] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:51:23] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:51:23] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:51:23] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:51:23] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:51:23] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:51:23] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:51:23] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:55:00] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:55:00] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:55:00] [INFO] [auth_mobile] Starting server on http://0.0.0.0:7079
+[2025-12-26 16:55:01] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:55:01] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:55:01] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:55:01] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:55:01] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:55:01] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:55:01] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:55:01] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:55:01] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:55:01] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:55:01] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:55:01] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:55:01] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:55:01] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 16:55:01] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 16:55:01] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 17:16:40] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:16:40] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:16:40] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:16:42] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:16:45] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:16:45] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:16:48] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:16:50] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:16:50] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:16:56] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:16:56] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:17:01] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:17:01] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:17:06] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:17:06] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:17:12] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:17:12] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:17:17] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:17:17] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:17:22] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:17:22] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:17:28] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:17:28] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:17:33] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:17:33] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:17:38] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:17:38] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:17:44] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:17:44] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:17:49] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:17:49] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:17:54] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:17:54] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:18:00] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:18:00] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:18:05] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:18:05] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:18:10] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:18:10] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:18:15] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:18:15] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:18:21] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:18:21] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:18:26] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:18:26] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:18:32] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:18:32] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:18:37] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:18:37] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:18:42] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:18:42] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:18:43] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:18:43] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:18:43] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:18:43] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:18:48] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:18:48] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:18:49] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:18:49] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:18:53] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:18:53] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:18:54] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:18:54] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:18:58] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:18:58] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:19:00] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:19:00] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:19:04] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:19:04] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:19:04] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:19:04] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:19:04] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:19:04] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:19:04] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:19:04] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:19:04] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:19:05] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:19:08] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:19:08] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:19:08] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:19:09] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:19:10] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:19:10] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:19:12] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:19:12] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:19:12] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:19:13] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:19:17] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:19:17] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:19:18] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:19:18] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:19:23] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:19:23] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:19:23] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:19:23] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:19:28] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:19:28] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:19:28] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:19:28] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:19:30] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:19:30] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:19:30] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:19:30] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:19:34] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:19:34] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:19:35] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:19:35] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:19:40] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:19:40] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:19:40] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:19:40] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:19:45] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:19:45] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:19:46] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:19:46] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:19:51] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:19:51] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:19:52] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:19:52] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:19:56] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:19:56] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:19:58] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:19:58] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:19:59] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:19:59] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:19:59] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:19:59] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:20:04] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:20:04] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:20:04] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:20:04] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:20:09] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:20:09] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:20:10] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:20:10] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:20:15] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:20:15] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:20:17] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:20:17] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:20:20] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:20:20] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:20:22] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:20:22] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:20:25] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:20:25] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:20:28] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:20:28] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:20:30] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:20:30] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:20:34] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:20:34] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:20:36] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:20:36] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:20:40] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:20:40] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:20:41] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:20:41] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:20:45] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:20:45] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:20:46] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:20:46] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:20:47] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:20:47] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:20:48] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:20:48] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:20:48] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:20:48] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:20:52] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:20:52] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:20:53] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:20:53] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:20:54] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:20:54] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:20:54] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:20:54] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:20:55] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:20:55] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:20:55] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:20:55] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:20:59] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:20:59] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:21:00] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:21:00] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:21:04] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:21:04] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:21:05] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:21:05] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:23:47] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 17:23:47] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 17:23:47] [INFO] [auth_mobile] Starting server on http://0.0.0.0:7079
+[2025-12-26 17:23:48] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 17:23:48] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 17:23:48] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 17:23:48] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 17:23:48] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 17:23:48] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 17:23:48] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 17:23:48] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 17:23:48] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 17:23:48] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 17:23:48] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 17:23:48] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 17:23:48] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 17:23:48] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 17:23:48] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 17:23:48] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 17:27:08] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:27:08] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:27:08] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:27:13] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:27:13] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:27:19] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:27:19] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:27:28] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:27:28] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:27:28] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:27:28] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:27:33] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:27:33] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:27:38] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:27:38] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:27:43] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:27:43] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:27:49] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:27:49] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:27:54] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:27:54] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:27:59] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:27:59] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:28:05] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:28:05] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:28:10] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:28:10] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:28:15] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:28:15] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:28:21] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:28:21] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:28:38] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:28:39] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:28:39] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:28:39] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:28:43] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:28:43] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:28:49] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:28:49] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:28:54] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:28:54] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:28:55] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:28:56] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:28:56] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:28:56] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:29:00] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:29:00] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:29:06] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:29:06] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:29:11] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:29:11] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:29:16] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:29:16] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:29:22] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:29:22] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:29:27] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:29:27] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:29:32] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:29:32] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:29:38] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:29:38] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:29:43] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:29:43] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:29:48] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:29:48] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:29:54] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:29:54] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:30:03] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:30:03] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:30:03] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:30:03] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:30:05] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:30:05] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:30:05] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:30:05] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:30:10] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:30:10] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:30:12] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:30:13] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:30:13] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:30:13] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:30:14] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:30:14] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:30:14] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:30:14] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:31:58] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 17:31:58] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 17:31:58] [INFO] [auth_mobile] Starting server on http://0.0.0.0:7079
+[2025-12-26 17:31:59] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 17:31:59] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 17:31:59] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 17:31:59] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 17:31:59] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 17:31:59] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 17:31:59] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 17:31:59] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 17:31:59] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 17:31:59] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 17:31:59] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 17:31:59] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 17:31:59] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 17:31:59] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 17:31:59] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 17:31:59] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 17:33:25] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 17:33:25] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 17:33:25] [INFO] [auth_mobile] Starting server on http://0.0.0.0:7079
+[2025-12-26 17:33:26] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 17:33:26] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 17:33:26] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 17:33:26] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 17:33:26] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 17:33:26] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 17:33:26] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 17:33:26] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 17:33:26] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 17:33:26] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 17:33:26] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 17:33:26] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 17:33:26] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 17:33:26] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 17:33:26] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 17:33:26] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 17:34:02] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 17:34:02] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 17:34:02] [INFO] [auth_mobile] Starting server on http://0.0.0.0:7079
+[2025-12-26 17:34:03] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 17:34:03] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 17:34:03] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 17:34:03] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 17:34:03] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 17:34:03] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 17:34:03] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 17:34:03] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 17:34:03] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 17:34:03] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 17:34:03] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 17:34:03] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 17:34:03] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 17:34:03] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 17:34:03] [INFO] [auth_mobile] Starting microservice main forecast
+[2025-12-26 17:34:03] [INFO] [auth_mobile] [WORKERS] Count workers = 8
+[2025-12-26 17:50:37] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:50:37] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:50:38] [INFO] [auth_mobile] JWT access token validated and data fetched for user_id=2
+[2025-12-26 17:50:42] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:50:42] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:50:47] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:50:47] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:50:53] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:50:53] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:50:58] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:50:58] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:51:03] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:51:03] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:51:05] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:51:05] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:51:09] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:51:09] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:51:11] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:51:11] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:51:14] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:51:14] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:51:17] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:51:17] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:51:19] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:51:19] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:51:23] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:51:23] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:51:25] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:51:25] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:51:30] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:51:30] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:51:30] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:51:30] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:51:35] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:51:35] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:51:35] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:51:35] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:51:41] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:51:41] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:51:41] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:51:41] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:51:46] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:51:46] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:51:47] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:51:47] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:51:51] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:51:51] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:51:53] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:51:53] [INFO] [auth_mobile] Successfully refreshed tokens via service
+[2025-12-26 17:51:56] [INFO] [auth_mobile] Tokens successfully refreshed (full rotation) in service layer
+[2025-12-26 17:51:56] [INFO] [auth_mobile] Successfully refreshed tokens via service

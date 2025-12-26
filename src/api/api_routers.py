@@ -24,3 +24,7 @@ api_router.include_router(create_car, prefix="/cars", tags=["Car"])
 from src.api.v1.car_records import router as car_records
 api_router.include_router(car_records, prefix="/cars_records", tags=["Car records"])
 
+
+from src.api.v1.check_version import router as check_version
+api_router.include_router(check_version, prefix="/version", tags=["Version"])
+
