@@ -9,7 +9,7 @@ router = APIRouter()
 
 
 @router.post(
-    "/cars",
+    "/create",
     response_model=CarCreateResponse,
     summary="Создать автомобиль",
     description="Создает запись о машине для текущего пользователя."
@@ -77,7 +77,7 @@ async def list_user_cars(user: dict = Depends(jwt_token_validator)):
 
 
 @router.put(
-    "/cars/{car_id}",
+    "/update/{car_id}",
     response_model=CarCreateResponse,
     summary="Обновить автомобиль",
     description="Обновляет запись о машине текущего пользователя."
@@ -116,7 +116,7 @@ async def update_user_car(
 
 
 @router.delete(
-    "/cars/{car_id}",
+    "/delete/{car_id}",
     response_model=CarCreateResponse,
     summary="Удалить автомобиль",
     description="Логическое удаление автомобиля текущего пользователя."
