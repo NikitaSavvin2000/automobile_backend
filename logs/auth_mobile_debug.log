@@ -2665,3 +2665,619 @@ a83054f1e12f09080ad9e25a94c91be73844054129a326a448d8e74bad689d66
 [2025-12-30 10:07:22] [DEBUG] [auth_mobile] Using selector: KqueueSelector
 [2025-12-30 10:07:22] [DEBUG] [auth_mobile] Using selector: KqueueSelector
 [2025-12-30 10:07:22] [DEBUG] [auth_mobile] Using selector: KqueueSelector
+[2025-12-30 13:55:59] [DEBUG] [auth_mobile] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-30 13:55:59] [DEBUG] [auth_mobile] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-30 13:55:59] [DEBUG] [auth_mobile] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-30 13:55:59] [DEBUG] [auth_mobile] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-30 13:56:00] [DEBUG] [auth_mobile] Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+[2025-12-30 13:56:00] [DEBUG] [auth_mobile] Changing event name from before-call.apigateway to before-call.api-gateway
+[2025-12-30 13:56:00] [DEBUG] [auth_mobile] Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+[2025-12-30 13:56:00] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+[2025-12-30 13:56:00] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+[2025-12-30 13:56:00] [DEBUG] [auth_mobile] Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+[2025-12-30 13:56:00] [DEBUG] [auth_mobile] Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+[2025-12-30 13:56:00] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+[2025-12-30 13:56:00] [DEBUG] [auth_mobile] Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+[2025-12-30 13:56:00] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+[2025-12-30 13:56:00] [DEBUG] [auth_mobile] Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+[2025-12-30 13:56:00] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/endpoints.json
+[2025-12-30 13:56:00] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/sdk-default-configuration.json
+[2025-12-30 13:56:00] [DEBUG] [auth_mobile] Event choose-service-name: calling handler <function handle_service_name_alias at 0x10ca17d80>
+[2025-12-30 13:56:00] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.json.gz
+[2025-12-30 13:56:00] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.sdk-extras.json
+[2025-12-30 13:56:00] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/endpoint-rule-set-1.json.gz
+[2025-12-30 13:56:00] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/partitions.json
+[2025-12-30 13:56:00] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x10c9a0400>
+[2025-12-30 13:56:00] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x10caa7d80>
+[2025-12-30 13:56:00] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x10c9a0180>
+[2025-12-30 13:56:00] [DEBUG] [auth_mobile] Setting s3 timeout as (60, 60)
+[2025-12-30 13:56:00] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/_retry.json
+[2025-12-30 13:56:00] [DEBUG] [auth_mobile] Registering retry handlers for service: s3
+[2025-12-30 13:56:00] [DEBUG] [auth_mobile] Registering S3 region redirector handler
+[2025-12-30 13:56:00] [DEBUG] [auth_mobile] Registering S3Express Identity Resolver
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Changing event name from before-call.apigateway to before-call.api-gateway
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Changing event name from before-call.apigateway to before-call.api-gateway
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Changing event name from before-call.apigateway to before-call.api-gateway
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Changing event name from before-call.apigateway to before-call.api-gateway
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/endpoints.json
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/endpoints.json
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/endpoints.json
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/endpoints.json
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/sdk-default-configuration.json
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Event choose-service-name: calling handler <function handle_service_name_alias at 0x10e6b3f60>
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/sdk-default-configuration.json
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Event choose-service-name: calling handler <function handle_service_name_alias at 0x10c193f60>
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/sdk-default-configuration.json
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Event choose-service-name: calling handler <function handle_service_name_alias at 0x10e1bbf60>
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/sdk-default-configuration.json
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Event choose-service-name: calling handler <function handle_service_name_alias at 0x10bf1bf60>
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.json.gz
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.json.gz
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.json.gz
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.json.gz
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.sdk-extras.json
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.sdk-extras.json
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.sdk-extras.json
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.sdk-extras.json
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/endpoint-rule-set-1.json.gz
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/endpoint-rule-set-1.json.gz
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/endpoint-rule-set-1.json.gz
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/endpoint-rule-set-1.json.gz
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/partitions.json
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/partitions.json
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x10c1205e0>
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x10c227f60>
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/partitions.json
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x10e6405e0>
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x10e747f60>
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x10bea85e0>
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x10bfaff60>
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x10c120360>
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x10e640360>
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/partitions.json
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x10bea8360>
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x10e1445e0>
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x10e24bf60>
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x10e144360>
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Setting s3 timeout as (60, 60)
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Setting s3 timeout as (60, 60)
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Setting s3 timeout as (60, 60)
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Setting s3 timeout as (60, 60)
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/_retry.json
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/_retry.json
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/_retry.json
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/_retry.json
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Registering retry handlers for service: s3
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Registering retry handlers for service: s3
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Registering retry handlers for service: s3
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Registering S3 region redirector handler
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Registering S3 region redirector handler
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Registering retry handlers for service: s3
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Registering S3 region redirector handler
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Registering S3Express Identity Resolver
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Registering S3Express Identity Resolver
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Registering S3 region redirector handler
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Registering S3Express Identity Resolver
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Registering S3Express Identity Resolver
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Using selector: KqueueSelector
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Using selector: KqueueSelector
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Using selector: KqueueSelector
+[2025-12-30 13:56:01] [DEBUG] [auth_mobile] Using selector: KqueueSelector
+[2025-12-30 13:57:44] [DEBUG] [auth_mobile] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-30 13:57:44] [DEBUG] [auth_mobile] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-30 13:57:44] [DEBUG] [auth_mobile] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-30 13:57:44] [DEBUG] [auth_mobile] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-30 13:57:44] [DEBUG] [auth_mobile] Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+[2025-12-30 13:57:44] [DEBUG] [auth_mobile] Changing event name from before-call.apigateway to before-call.api-gateway
+[2025-12-30 13:57:44] [DEBUG] [auth_mobile] Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+[2025-12-30 13:57:44] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+[2025-12-30 13:57:44] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+[2025-12-30 13:57:44] [DEBUG] [auth_mobile] Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+[2025-12-30 13:57:44] [DEBUG] [auth_mobile] Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+[2025-12-30 13:57:44] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+[2025-12-30 13:57:44] [DEBUG] [auth_mobile] Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+[2025-12-30 13:57:44] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+[2025-12-30 13:57:44] [DEBUG] [auth_mobile] Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+[2025-12-30 13:57:44] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/endpoints.json
+[2025-12-30 13:57:44] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/sdk-default-configuration.json
+[2025-12-30 13:57:44] [DEBUG] [auth_mobile] Event choose-service-name: calling handler <function handle_service_name_alias at 0x110787d80>
+[2025-12-30 13:57:44] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.json.gz
+[2025-12-30 13:57:44] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.sdk-extras.json
+[2025-12-30 13:57:44] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/endpoint-rule-set-1.json.gz
+[2025-12-30 13:57:44] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/partitions.json
+[2025-12-30 13:57:44] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x110710400>
+[2025-12-30 13:57:44] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x110817d80>
+[2025-12-30 13:57:44] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x110710180>
+[2025-12-30 13:57:44] [DEBUG] [auth_mobile] Setting s3 timeout as (60, 60)
+[2025-12-30 13:57:44] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/_retry.json
+[2025-12-30 13:57:44] [DEBUG] [auth_mobile] Registering retry handlers for service: s3
+[2025-12-30 13:57:44] [DEBUG] [auth_mobile] Registering S3 region redirector handler
+[2025-12-30 13:57:44] [DEBUG] [auth_mobile] Registering S3Express Identity Resolver
+[2025-12-30 13:57:44] [DEBUG] [auth_mobile] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-30 13:57:44] [DEBUG] [auth_mobile] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-30 13:57:44] [DEBUG] [auth_mobile] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-30 13:57:44] [DEBUG] [auth_mobile] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-30 13:57:44] [DEBUG] [auth_mobile] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-30 13:57:44] [DEBUG] [auth_mobile] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-30 13:57:44] [DEBUG] [auth_mobile] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-30 13:57:44] [DEBUG] [auth_mobile] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-30 13:57:44] [DEBUG] [auth_mobile] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-30 13:57:44] [DEBUG] [auth_mobile] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-30 13:57:44] [DEBUG] [auth_mobile] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-30 13:57:44] [DEBUG] [auth_mobile] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-30 13:57:44] [DEBUG] [auth_mobile] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-30 13:57:44] [DEBUG] [auth_mobile] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-30 13:57:44] [DEBUG] [auth_mobile] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-30 13:57:44] [DEBUG] [auth_mobile] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Changing event name from before-call.apigateway to before-call.api-gateway
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Changing event name from before-call.apigateway to before-call.api-gateway
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Changing event name from before-call.apigateway to before-call.api-gateway
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Changing event name from before-call.apigateway to before-call.api-gateway
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/endpoints.json
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/endpoints.json
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/endpoints.json
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/endpoints.json
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/sdk-default-configuration.json
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Event choose-service-name: calling handler <function handle_service_name_alias at 0x10cb0bf60>
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/sdk-default-configuration.json
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Event choose-service-name: calling handler <function handle_service_name_alias at 0x11045bf60>
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/sdk-default-configuration.json
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Event choose-service-name: calling handler <function handle_service_name_alias at 0x11069bf60>
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/sdk-default-configuration.json
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Event choose-service-name: calling handler <function handle_service_name_alias at 0x10eb0bf60>
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.json.gz
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.json.gz
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.json.gz
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.json.gz
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.sdk-extras.json
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.sdk-extras.json
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.sdk-extras.json
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.sdk-extras.json
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/endpoint-rule-set-1.json.gz
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/partitions.json
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x10ca985e0>
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x10cb9ff60>
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x10ca98360>
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/endpoint-rule-set-1.json.gz
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/endpoint-rule-set-1.json.gz
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/endpoint-rule-set-1.json.gz
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/partitions.json
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/partitions.json
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x1103e85e0>
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x1104eff60>
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/partitions.json
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x1106285e0>
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x11072ff60>
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x10eaa85e0>
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x10ebaff60>
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x1103e8360>
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x110628360>
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x10eaa8360>
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Setting s3 timeout as (60, 60)
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/_retry.json
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Registering retry handlers for service: s3
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Registering S3 region redirector handler
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Registering S3Express Identity Resolver
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Setting s3 timeout as (60, 60)
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Setting s3 timeout as (60, 60)
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Setting s3 timeout as (60, 60)
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/_retry.json
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/_retry.json
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/_retry.json
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Registering retry handlers for service: s3
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Registering retry handlers for service: s3
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Registering retry handlers for service: s3
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Registering S3 region redirector handler
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Registering S3 region redirector handler
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Registering S3 region redirector handler
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Registering S3Express Identity Resolver
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Registering S3Express Identity Resolver
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Registering S3Express Identity Resolver
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Using selector: KqueueSelector
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Using selector: KqueueSelector
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Using selector: KqueueSelector
+[2025-12-30 13:57:45] [DEBUG] [auth_mobile] Using selector: KqueueSelector
+[2025-12-30 14:11:46] [DEBUG] [auth_mobile] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-30 14:11:46] [DEBUG] [auth_mobile] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-30 14:11:46] [DEBUG] [auth_mobile] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-30 14:11:46] [DEBUG] [auth_mobile] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-30 14:11:47] [DEBUG] [auth_mobile] Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+[2025-12-30 14:11:47] [DEBUG] [auth_mobile] Changing event name from before-call.apigateway to before-call.api-gateway
+[2025-12-30 14:11:47] [DEBUG] [auth_mobile] Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+[2025-12-30 14:11:47] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+[2025-12-30 14:11:47] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+[2025-12-30 14:11:47] [DEBUG] [auth_mobile] Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+[2025-12-30 14:11:47] [DEBUG] [auth_mobile] Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+[2025-12-30 14:11:47] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+[2025-12-30 14:11:47] [DEBUG] [auth_mobile] Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+[2025-12-30 14:11:47] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+[2025-12-30 14:11:47] [DEBUG] [auth_mobile] Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+[2025-12-30 14:11:47] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/endpoints.json
+[2025-12-30 14:11:47] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/sdk-default-configuration.json
+[2025-12-30 14:11:47] [DEBUG] [auth_mobile] Event choose-service-name: calling handler <function handle_service_name_alias at 0x10ecdfd80>
+[2025-12-30 14:11:47] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.json.gz
+[2025-12-30 14:11:47] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.sdk-extras.json
+[2025-12-30 14:11:47] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/endpoint-rule-set-1.json.gz
+[2025-12-30 14:11:47] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/partitions.json
+[2025-12-30 14:11:47] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x10ec68400>
+[2025-12-30 14:11:47] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x10ed6fd80>
+[2025-12-30 14:11:47] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x10ec68180>
+[2025-12-30 14:11:47] [DEBUG] [auth_mobile] Setting s3 timeout as (60, 60)
+[2025-12-30 14:11:47] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/_retry.json
+[2025-12-30 14:11:47] [DEBUG] [auth_mobile] Registering retry handlers for service: s3
+[2025-12-30 14:11:47] [DEBUG] [auth_mobile] Registering S3 region redirector handler
+[2025-12-30 14:11:47] [DEBUG] [auth_mobile] Registering S3Express Identity Resolver
+[2025-12-30 14:11:47] [DEBUG] [auth_mobile] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-30 14:11:47] [DEBUG] [auth_mobile] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-30 14:11:47] [DEBUG] [auth_mobile] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-30 14:11:47] [DEBUG] [auth_mobile] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-30 14:11:47] [DEBUG] [auth_mobile] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-30 14:11:47] [DEBUG] [auth_mobile] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-30 14:11:47] [DEBUG] [auth_mobile] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-30 14:11:47] [DEBUG] [auth_mobile] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-30 14:11:47] [DEBUG] [auth_mobile] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-30 14:11:47] [DEBUG] [auth_mobile] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-30 14:11:47] [DEBUG] [auth_mobile] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-30 14:11:47] [DEBUG] [auth_mobile] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-30 14:11:47] [DEBUG] [auth_mobile] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-30 14:11:47] [DEBUG] [auth_mobile] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-30 14:11:47] [DEBUG] [auth_mobile] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-30 14:11:47] [DEBUG] [auth_mobile] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Changing event name from before-call.apigateway to before-call.api-gateway
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Changing event name from before-call.apigateway to before-call.api-gateway
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Changing event name from before-call.apigateway to before-call.api-gateway
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Changing event name from before-call.apigateway to before-call.api-gateway
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/endpoints.json
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/endpoints.json
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/endpoints.json
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/endpoints.json
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/sdk-default-configuration.json
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Event choose-service-name: calling handler <function handle_service_name_alias at 0x10df93f60>
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/sdk-default-configuration.json
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/sdk-default-configuration.json
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Event choose-service-name: calling handler <function handle_service_name_alias at 0x1100d7f60>
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Event choose-service-name: calling handler <function handle_service_name_alias at 0x11094ff60>
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/sdk-default-configuration.json
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Event choose-service-name: calling handler <function handle_service_name_alias at 0x10ec8bf60>
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.json.gz
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.json.gz
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.json.gz
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.json.gz
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.sdk-extras.json
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.sdk-extras.json
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.sdk-extras.json
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.sdk-extras.json
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/endpoint-rule-set-1.json.gz
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/endpoint-rule-set-1.json.gz
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/endpoint-rule-set-1.json.gz
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/endpoint-rule-set-1.json.gz
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/partitions.json
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/partitions.json
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/partitions.json
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/partitions.json
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x1100645e0>
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x10df205e0>
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x110167f60>
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x10e027f60>
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x1108dc5e0>
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x1109e3f60>
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x10ec145e0>
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x10ed1ff60>
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x10df20360>
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x110064360>
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x1108dc360>
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x10ec14360>
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Setting s3 timeout as (60, 60)
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Setting s3 timeout as (60, 60)
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Setting s3 timeout as (60, 60)
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Setting s3 timeout as (60, 60)
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/_retry.json
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/_retry.json
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Registering retry handlers for service: s3
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/_retry.json
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/_retry.json
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Registering S3 region redirector handler
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Registering retry handlers for service: s3
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Registering S3Express Identity Resolver
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Registering retry handlers for service: s3
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Registering retry handlers for service: s3
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Registering S3 region redirector handler
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Registering S3 region redirector handler
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Registering S3 region redirector handler
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Registering S3Express Identity Resolver
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Registering S3Express Identity Resolver
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Registering S3Express Identity Resolver
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Using selector: KqueueSelector
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Using selector: KqueueSelector
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Using selector: KqueueSelector
+[2025-12-30 14:11:48] [DEBUG] [auth_mobile] Using selector: KqueueSelector
+[2025-12-30 14:12:44] [DEBUG] [auth_mobile] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-30 14:12:44] [DEBUG] [auth_mobile] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-30 14:12:44] [DEBUG] [auth_mobile] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-30 14:12:44] [DEBUG] [auth_mobile] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-30 14:12:45] [DEBUG] [auth_mobile] Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+[2025-12-30 14:12:45] [DEBUG] [auth_mobile] Changing event name from before-call.apigateway to before-call.api-gateway
+[2025-12-30 14:12:45] [DEBUG] [auth_mobile] Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+[2025-12-30 14:12:45] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+[2025-12-30 14:12:45] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+[2025-12-30 14:12:45] [DEBUG] [auth_mobile] Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+[2025-12-30 14:12:45] [DEBUG] [auth_mobile] Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+[2025-12-30 14:12:45] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+[2025-12-30 14:12:45] [DEBUG] [auth_mobile] Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+[2025-12-30 14:12:45] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+[2025-12-30 14:12:45] [DEBUG] [auth_mobile] Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+[2025-12-30 14:12:45] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/endpoints.json
+[2025-12-30 14:12:45] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/sdk-default-configuration.json
+[2025-12-30 14:12:45] [DEBUG] [auth_mobile] Event choose-service-name: calling handler <function handle_service_name_alias at 0x10c687d80>
+[2025-12-30 14:12:45] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.json.gz
+[2025-12-30 14:12:45] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.sdk-extras.json
+[2025-12-30 14:12:45] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/endpoint-rule-set-1.json.gz
+[2025-12-30 14:12:45] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/partitions.json
+[2025-12-30 14:12:45] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x10c608400>
+[2025-12-30 14:12:45] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x10c717d80>
+[2025-12-30 14:12:45] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x10c608180>
+[2025-12-30 14:12:45] [DEBUG] [auth_mobile] Setting s3 timeout as (60, 60)
+[2025-12-30 14:12:45] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/_retry.json
+[2025-12-30 14:12:45] [DEBUG] [auth_mobile] Registering retry handlers for service: s3
+[2025-12-30 14:12:45] [DEBUG] [auth_mobile] Registering S3 region redirector handler
+[2025-12-30 14:12:45] [DEBUG] [auth_mobile] Registering S3Express Identity Resolver
+[2025-12-30 14:12:45] [DEBUG] [auth_mobile] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-30 14:12:45] [DEBUG] [auth_mobile] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-30 14:12:45] [DEBUG] [auth_mobile] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-30 14:12:45] [DEBUG] [auth_mobile] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-30 14:12:45] [DEBUG] [auth_mobile] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-30 14:12:45] [DEBUG] [auth_mobile] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-30 14:12:45] [DEBUG] [auth_mobile] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-30 14:12:45] [DEBUG] [auth_mobile] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-30 14:12:45] [DEBUG] [auth_mobile] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-30 14:12:45] [DEBUG] [auth_mobile] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-30 14:12:45] [DEBUG] [auth_mobile] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-30 14:12:45] [DEBUG] [auth_mobile] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-30 14:12:45] [DEBUG] [auth_mobile] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-30 14:12:45] [DEBUG] [auth_mobile] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-30 14:12:45] [DEBUG] [auth_mobile] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-30 14:12:45] [DEBUG] [auth_mobile] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Changing event name from before-call.apigateway to before-call.api-gateway
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/endpoints.json
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Changing event name from before-call.apigateway to before-call.api-gateway
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Changing event name from before-call.apigateway to before-call.api-gateway
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Changing event name from before-call.apigateway to before-call.api-gateway
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/endpoints.json
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/endpoints.json
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/endpoints.json
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/sdk-default-configuration.json
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Event choose-service-name: calling handler <function handle_service_name_alias at 0x110017f60>
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.json.gz
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/sdk-default-configuration.json
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Event choose-service-name: calling handler <function handle_service_name_alias at 0x1108eff60>
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.sdk-extras.json
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/sdk-default-configuration.json
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Event choose-service-name: calling handler <function handle_service_name_alias at 0x10bd37f60>
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/sdk-default-configuration.json
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Event choose-service-name: calling handler <function handle_service_name_alias at 0x10c507f60>
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/endpoint-rule-set-1.json.gz
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/partitions.json
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x10ffa45e0>
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x1100abf60>
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x10ffa4360>
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.json.gz
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.json.gz
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.json.gz
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.sdk-extras.json
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Setting s3 timeout as (60, 60)
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.sdk-extras.json
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/_retry.json
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Registering retry handlers for service: s3
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Registering S3 region redirector handler
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Registering S3Express Identity Resolver
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.sdk-extras.json
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/endpoint-rule-set-1.json.gz
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/endpoint-rule-set-1.json.gz
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/endpoint-rule-set-1.json.gz
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/partitions.json
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/partitions.json
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/partitions.json
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x11087c5e0>
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x10bcc45e0>
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x110983f60>
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x10bdcbf60>
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x10c4905e0>
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x10c59bf60>
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x11087c360>
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x10c490360>
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x10bcc4360>
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Setting s3 timeout as (60, 60)
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Setting s3 timeout as (60, 60)
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Setting s3 timeout as (60, 60)
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/_retry.json
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/_retry.json
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Registering retry handlers for service: s3
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Registering S3 region redirector handler
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Registering retry handlers for service: s3
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Registering S3Express Identity Resolver
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Registering S3 region redirector handler
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Registering S3Express Identity Resolver
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/_retry.json
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Registering retry handlers for service: s3
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Registering S3 region redirector handler
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Registering S3Express Identity Resolver
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Using selector: KqueueSelector
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Using selector: KqueueSelector
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Using selector: KqueueSelector
+[2025-12-30 14:12:46] [DEBUG] [auth_mobile] Using selector: KqueueSelector

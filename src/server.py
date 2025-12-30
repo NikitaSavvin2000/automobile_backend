@@ -41,7 +41,7 @@ async def validation_exception_handler(request: Request, exc: RequestValidationE
         content={
             "detail": exc.errors(),
             "body": exc.body,
-            "message": "Ошибка валидации входных данных. Проверьте формат запроса."
+            "message": "Проверьте формат почты"
         },
     )
 
