@@ -1501,3 +1501,1167 @@
 [2025-12-26 17:51:56] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=e0bc549163d8470c85bc5d12aa8e532d
 [2025-12-26 17:51:56] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=e0bc549163d8470c85bc5d12aa8e532d
 [2025-12-26 17:51:56] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:30:28] [DEBUG] [auth_mobile] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-29 09:30:28] [DEBUG] [auth_mobile] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-29 09:30:28] [DEBUG] [auth_mobile] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-29 09:30:28] [DEBUG] [auth_mobile] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-29 09:30:30] [DEBUG] [auth_mobile] Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+[2025-12-29 09:30:30] [DEBUG] [auth_mobile] Changing event name from before-call.apigateway to before-call.api-gateway
+[2025-12-29 09:30:30] [DEBUG] [auth_mobile] Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+[2025-12-29 09:30:30] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+[2025-12-29 09:30:30] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+[2025-12-29 09:30:30] [DEBUG] [auth_mobile] Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+[2025-12-29 09:30:30] [DEBUG] [auth_mobile] Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+[2025-12-29 09:30:30] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+[2025-12-29 09:30:30] [DEBUG] [auth_mobile] Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+[2025-12-29 09:30:30] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+[2025-12-29 09:30:30] [DEBUG] [auth_mobile] Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+[2025-12-29 09:30:30] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/endpoints.json
+[2025-12-29 09:30:30] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/sdk-default-configuration.json
+[2025-12-29 09:30:30] [DEBUG] [auth_mobile] Event choose-service-name: calling handler <function handle_service_name_alias at 0x10bee3d80>
+[2025-12-29 09:30:30] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.json.gz
+[2025-12-29 09:30:30] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.sdk-extras.json
+[2025-12-29 09:30:30] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/endpoint-rule-set-1.json.gz
+[2025-12-29 09:30:30] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/partitions.json
+[2025-12-29 09:30:30] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x10be6c400>
+[2025-12-29 09:30:30] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x10bf73d80>
+[2025-12-29 09:30:30] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x10be6c180>
+[2025-12-29 09:30:30] [DEBUG] [auth_mobile] Setting s3 timeout as (60, 60)
+[2025-12-29 09:30:30] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/_retry.json
+[2025-12-29 09:30:30] [DEBUG] [auth_mobile] Registering retry handlers for service: s3
+[2025-12-29 09:30:30] [DEBUG] [auth_mobile] Registering S3 region redirector handler
+[2025-12-29 09:30:30] [DEBUG] [auth_mobile] Registering S3Express Identity Resolver
+[2025-12-29 09:30:30] [DEBUG] [auth_mobile] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-29 09:30:30] [DEBUG] [auth_mobile] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-29 09:30:30] [DEBUG] [auth_mobile] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-29 09:30:30] [DEBUG] [auth_mobile] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-29 09:30:30] [DEBUG] [auth_mobile] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-29 09:30:30] [DEBUG] [auth_mobile] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-29 09:30:30] [DEBUG] [auth_mobile] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-29 09:30:30] [DEBUG] [auth_mobile] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-29 09:30:30] [DEBUG] [auth_mobile] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-29 09:30:30] [DEBUG] [auth_mobile] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-29 09:30:30] [DEBUG] [auth_mobile] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-29 09:30:30] [DEBUG] [auth_mobile] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-29 09:30:30] [DEBUG] [auth_mobile] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-29 09:30:30] [DEBUG] [auth_mobile] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-29 09:30:30] [DEBUG] [auth_mobile] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-29 09:30:30] [DEBUG] [auth_mobile] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Changing event name from before-call.apigateway to before-call.api-gateway
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Changing event name from before-call.apigateway to before-call.api-gateway
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Changing event name from before-call.apigateway to before-call.api-gateway
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/endpoints.json
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Changing event name from before-call.apigateway to before-call.api-gateway
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/endpoints.json
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/endpoints.json
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/endpoints.json
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/sdk-default-configuration.json
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Event choose-service-name: calling handler <function handle_service_name_alias at 0x1100c7f60>
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/sdk-default-configuration.json
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Event choose-service-name: calling handler <function handle_service_name_alias at 0x10e19ff60>
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/sdk-default-configuration.json
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Event choose-service-name: calling handler <function handle_service_name_alias at 0x10e057f60>
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/sdk-default-configuration.json
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Event choose-service-name: calling handler <function handle_service_name_alias at 0x10c7f3f60>
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.json.gz
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.json.gz
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.json.gz
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.json.gz
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.sdk-extras.json
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.sdk-extras.json
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.sdk-extras.json
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.sdk-extras.json
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/endpoint-rule-set-1.json.gz
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/endpoint-rule-set-1.json.gz
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/endpoint-rule-set-1.json.gz
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/endpoint-rule-set-1.json.gz
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/partitions.json
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/partitions.json
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/partitions.json
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/partitions.json
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x10c7905e0>
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x1100645e0>
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x10c893f60>
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x11016bf60>
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x10e1285e0>
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x10e233f60>
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x10dfe05e0>
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x10e0ebf60>
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x10c790360>
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x110064360>
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x10e128360>
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x10dfe0360>
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Setting s3 timeout as (60, 60)
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Setting s3 timeout as (60, 60)
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Setting s3 timeout as (60, 60)
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Setting s3 timeout as (60, 60)
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/_retry.json
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Registering retry handlers for service: s3
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Registering S3 region redirector handler
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Registering S3Express Identity Resolver
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/_retry.json
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/_retry.json
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Registering retry handlers for service: s3
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Registering retry handlers for service: s3
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Registering S3 region redirector handler
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Registering S3Express Identity Resolver
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Registering S3 region redirector handler
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Registering S3Express Identity Resolver
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/_retry.json
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Registering retry handlers for service: s3
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Registering S3 region redirector handler
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Registering S3Express Identity Resolver
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Using selector: KqueueSelector
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Using selector: KqueueSelector
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Using selector: KqueueSelector
+[2025-12-29 09:30:31] [DEBUG] [auth_mobile] Using selector: KqueueSelector
+[2025-12-29 09:30:41] [DEBUG] [auth_mobile] Revoked 1 existing refresh tokens for user_id=2
+[2025-12-29 09:30:41] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:30:41] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=472adeb984064833843f28f718ef9012
+[2025-12-29 09:30:41] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=access
+[2025-12-29 09:30:42] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=access
+[2025-12-29 09:30:42] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=access
+[2025-12-29 09:30:46] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:30:47] [DEBUG] [auth_mobile] Revoked refresh token jti=472adeb984064833843f28f718ef9012
+[2025-12-29 09:30:47] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=9a4cfad289ed40709583c1950c7d35e3
+[2025-12-29 09:30:47] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=9a4cfad289ed40709583c1950c7d35e3
+[2025-12-29 09:30:47] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:30:47] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=access
+[2025-12-29 09:30:47] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x1100ed4e0>
+[2025-12-29 09:30:47] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x1100ed440>
+[2025-12-29 09:30:47] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x1100ef740>
+[2025-12-29 09:30:47] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x110bfa3c0>>
+[2025-12-29 09:30:47] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <bound method ClientCreator._inject_s3_input_parameters of <botocore.client.ClientCreator object at 0x110195550>>
+[2025-12-29 09:30:47] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x1100ed260>
+[2025-12-29 09:30:47] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <function _handle_request_validation_mode_member at 0x1100efe20>
+[2025-12-29 09:30:47] [DEBUG] [auth_mobile] Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x1100ef920>
+[2025-12-29 09:30:47] [DEBUG] [auth_mobile] Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x110bfa3c0>>
+[2025-12-29 09:30:47] [DEBUG] [auth_mobile] Calling endpoint provider with parameters: {'Bucket': '1b9ecebd-e6d1d058-e467-4a56-ad0b-f26ce04b1aeb', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'Endpoint': 'https://s3.twcstorage.ru', 'ForcePathStyle': True, 'Accelerate': False, 'UseGlobalEndpoint': True, 'Key': 'car_records/08159b793b1144ce8a5cf1c0950055a6.jpg', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+[2025-12-29 09:30:47] [DEBUG] [auth_mobile] Endpoint provider result: https://s3.twcstorage.ru/1b9ecebd-e6d1d058-e467-4a56-ad0b-f26ce04b1aeb
+[2025-12-29 09:30:47] [DEBUG] [auth_mobile] Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "s3v4"
+[2025-12-29 09:30:47] [DEBUG] [auth_mobile] Selected auth type "v4" as "s3v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+[2025-12-29 09:30:47] [DEBUG] [auth_mobile] Event choose-signer.s3.GetObject: calling handler <function set_operation_specific_signer at 0x1100ecfe0>
+[2025-12-29 09:30:47] [DEBUG] [auth_mobile] Event choose-signer.s3.GetObject: calling handler <function _set_auth_scheme_preference_signer at 0x1100eff60>
+[2025-12-29 09:30:47] [DEBUG] [auth_mobile] Event before-sign.s3.GetObject: calling handler <function remove_arn_from_signing_path at 0x1100ef880>
+[2025-12-29 09:30:47] [DEBUG] [auth_mobile] Event before-sign.s3.GetObject: calling handler <function _set_extra_headers_for_unsigned_request at 0x1100efec0>
+[2025-12-29 09:30:47] [DEBUG] [auth_mobile] Event before-sign.s3.GetObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x110bfa510>>
+[2025-12-29 09:30:47] [DEBUG] [auth_mobile] Calculating signature using v4 auth.
+[2025-12-29 09:30:47] [DEBUG] [auth_mobile] CanonicalRequest:
+GET
+/1b9ecebd-e6d1d058-e467-4a56-ad0b-f26ce04b1aeb/car_records/08159b793b1144ce8a5cf1c0950055a6.jpg
+X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=1I7N5GRGKJ7WK13ARE48%2F20251229%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251229T063047Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host
+host:s3.twcstorage.ru
+
+host
+UNSIGNED-PAYLOAD
+[2025-12-29 09:30:47] [DEBUG] [auth_mobile] StringToSign:
+AWS4-HMAC-SHA256
+20251229T063047Z
+20251229/us-east-1/s3/aws4_request
+a179537b9c792d3aca88fc9647675141a3eacd4f0f92f34d5e8609e3120f6be0
+[2025-12-29 09:30:47] [DEBUG] [auth_mobile] Signature:
+acd621949f95cf95743d9fb58a0bc920db89859719b043490445b75b06c13f98
+[2025-12-29 09:30:52] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:30:52] [DEBUG] [auth_mobile] Revoked refresh token jti=9a4cfad289ed40709583c1950c7d35e3
+[2025-12-29 09:30:52] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=5f4b18d532a142d1b589fa6495ae1979
+[2025-12-29 09:30:52] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=5f4b18d532a142d1b589fa6495ae1979
+[2025-12-29 09:30:52] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:30:56] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=access
+[2025-12-29 09:30:56] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=access
+[2025-12-29 09:30:56] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=access
+[2025-12-29 09:30:56] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=access
+[2025-12-29 09:31:01] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:31:01] [DEBUG] [auth_mobile] Revoked refresh token jti=5f4b18d532a142d1b589fa6495ae1979
+[2025-12-29 09:31:01] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=5a8754d2ac75437da4306b8499023120
+[2025-12-29 09:31:01] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=5a8754d2ac75437da4306b8499023120
+[2025-12-29 09:31:01] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:31:06] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:31:06] [DEBUG] [auth_mobile] Revoked refresh token jti=5a8754d2ac75437da4306b8499023120
+[2025-12-29 09:31:06] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=680ce52f905140c986b68c143f4e04fe
+[2025-12-29 09:31:07] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=680ce52f905140c986b68c143f4e04fe
+[2025-12-29 09:31:07] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:31:12] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:31:12] [DEBUG] [auth_mobile] Revoked refresh token jti=680ce52f905140c986b68c143f4e04fe
+[2025-12-29 09:31:12] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=d84258ea1e96424092dcd60f97a65e8e
+[2025-12-29 09:31:12] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=d84258ea1e96424092dcd60f97a65e8e
+[2025-12-29 09:31:12] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:31:17] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:31:17] [DEBUG] [auth_mobile] Revoked refresh token jti=d84258ea1e96424092dcd60f97a65e8e
+[2025-12-29 09:31:17] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=104960a999b24b50884cf6eb7ec80b6b
+[2025-12-29 09:31:17] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=104960a999b24b50884cf6eb7ec80b6b
+[2025-12-29 09:31:17] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:31:22] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:31:22] [DEBUG] [auth_mobile] Revoked refresh token jti=104960a999b24b50884cf6eb7ec80b6b
+[2025-12-29 09:31:22] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=767bd4b24db0498d8816e602568dbb7a
+[2025-12-29 09:31:23] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=767bd4b24db0498d8816e602568dbb7a
+[2025-12-29 09:31:23] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:31:28] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:31:28] [DEBUG] [auth_mobile] Revoked refresh token jti=767bd4b24db0498d8816e602568dbb7a
+[2025-12-29 09:31:28] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=00408d5fa7104091af0fe41a2df172f2
+[2025-12-29 09:31:28] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=00408d5fa7104091af0fe41a2df172f2
+[2025-12-29 09:31:28] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:31:33] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:31:33] [DEBUG] [auth_mobile] Revoked refresh token jti=00408d5fa7104091af0fe41a2df172f2
+[2025-12-29 09:31:33] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=08ec127d892a46909bbe3eeb9cfc003e
+[2025-12-29 09:31:33] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=08ec127d892a46909bbe3eeb9cfc003e
+[2025-12-29 09:31:33] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:31:38] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:31:38] [DEBUG] [auth_mobile] Revoked refresh token jti=08ec127d892a46909bbe3eeb9cfc003e
+[2025-12-29 09:31:38] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=cd7517a42df04e57ac513fb91e93bd4f
+[2025-12-29 09:31:38] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=cd7517a42df04e57ac513fb91e93bd4f
+[2025-12-29 09:31:38] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:31:44] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:31:44] [DEBUG] [auth_mobile] Revoked refresh token jti=cd7517a42df04e57ac513fb91e93bd4f
+[2025-12-29 09:31:44] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=d0f6138603044206abfbad1356fc76b0
+[2025-12-29 09:31:44] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=d0f6138603044206abfbad1356fc76b0
+[2025-12-29 09:31:44] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:31:49] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:31:49] [DEBUG] [auth_mobile] Revoked refresh token jti=d0f6138603044206abfbad1356fc76b0
+[2025-12-29 09:31:49] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=6445d1023d34462ea1addcfbc4ea6c54
+[2025-12-29 09:31:49] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=6445d1023d34462ea1addcfbc4ea6c54
+[2025-12-29 09:31:49] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:31:54] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:31:54] [DEBUG] [auth_mobile] Revoked refresh token jti=6445d1023d34462ea1addcfbc4ea6c54
+[2025-12-29 09:31:54] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=71c47d8b2c6646f59d39c01011ecc70b
+[2025-12-29 09:31:54] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=71c47d8b2c6646f59d39c01011ecc70b
+[2025-12-29 09:31:54] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:31:59] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:31:59] [DEBUG] [auth_mobile] Revoked refresh token jti=71c47d8b2c6646f59d39c01011ecc70b
+[2025-12-29 09:31:59] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=8816b2f1c8ad49f09c9e8d968cc23318
+[2025-12-29 09:32:00] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=8816b2f1c8ad49f09c9e8d968cc23318
+[2025-12-29 09:32:00] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:32:05] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:32:05] [DEBUG] [auth_mobile] Revoked refresh token jti=8816b2f1c8ad49f09c9e8d968cc23318
+[2025-12-29 09:32:05] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=fb660063225146fd94fc4ea1e52810f9
+[2025-12-29 09:32:05] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=fb660063225146fd94fc4ea1e52810f9
+[2025-12-29 09:32:05] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:32:10] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:32:10] [DEBUG] [auth_mobile] Revoked refresh token jti=fb660063225146fd94fc4ea1e52810f9
+[2025-12-29 09:32:10] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=45e1953d65974a2088249a3360d33c14
+[2025-12-29 09:32:10] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=45e1953d65974a2088249a3360d33c14
+[2025-12-29 09:32:10] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:32:15] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:32:15] [DEBUG] [auth_mobile] Revoked refresh token jti=45e1953d65974a2088249a3360d33c14
+[2025-12-29 09:32:15] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=4d45b27ebe74440da97509b57c1a7663
+[2025-12-29 09:32:16] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=4d45b27ebe74440da97509b57c1a7663
+[2025-12-29 09:32:16] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:32:21] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:32:21] [DEBUG] [auth_mobile] Revoked refresh token jti=4d45b27ebe74440da97509b57c1a7663
+[2025-12-29 09:32:21] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=825ae787816747c1924c54a2c1b831e5
+[2025-12-29 09:32:21] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=825ae787816747c1924c54a2c1b831e5
+[2025-12-29 09:32:21] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:32:26] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:32:26] [DEBUG] [auth_mobile] Revoked refresh token jti=825ae787816747c1924c54a2c1b831e5
+[2025-12-29 09:32:26] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=54678525b6ed4efdb66bc720af2b4fc5
+[2025-12-29 09:32:26] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=54678525b6ed4efdb66bc720af2b4fc5
+[2025-12-29 09:32:26] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:32:31] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:32:31] [DEBUG] [auth_mobile] Revoked refresh token jti=54678525b6ed4efdb66bc720af2b4fc5
+[2025-12-29 09:32:31] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=81389bac55fa4b5380e654fcf473ed96
+[2025-12-29 09:32:31] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=81389bac55fa4b5380e654fcf473ed96
+[2025-12-29 09:32:31] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:32:36] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:32:37] [DEBUG] [auth_mobile] Revoked refresh token jti=81389bac55fa4b5380e654fcf473ed96
+[2025-12-29 09:32:37] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=56f41f4f7c9d4c6f97d72313572d59d7
+[2025-12-29 09:32:37] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=56f41f4f7c9d4c6f97d72313572d59d7
+[2025-12-29 09:32:37] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:32:42] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:32:42] [DEBUG] [auth_mobile] Revoked refresh token jti=56f41f4f7c9d4c6f97d72313572d59d7
+[2025-12-29 09:32:42] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=255d5d149691461c9cf56f44caf38855
+[2025-12-29 09:32:42] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=255d5d149691461c9cf56f44caf38855
+[2025-12-29 09:32:42] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:32:47] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:32:47] [DEBUG] [auth_mobile] Revoked refresh token jti=255d5d149691461c9cf56f44caf38855
+[2025-12-29 09:32:47] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=42a0e386689c40158f22a31c92ef4ccb
+[2025-12-29 09:32:47] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=42a0e386689c40158f22a31c92ef4ccb
+[2025-12-29 09:32:47] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:32:52] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:32:52] [DEBUG] [auth_mobile] Revoked refresh token jti=42a0e386689c40158f22a31c92ef4ccb
+[2025-12-29 09:32:52] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=4b7fac36ef7e4877b23ed77bff7d0aa2
+[2025-12-29 09:32:53] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=4b7fac36ef7e4877b23ed77bff7d0aa2
+[2025-12-29 09:32:53] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:32:58] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:32:58] [DEBUG] [auth_mobile] Revoked refresh token jti=4b7fac36ef7e4877b23ed77bff7d0aa2
+[2025-12-29 09:32:58] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=c6bcd31eac7b4732a79636edf5b95edf
+[2025-12-29 09:32:58] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=c6bcd31eac7b4732a79636edf5b95edf
+[2025-12-29 09:32:58] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:33:03] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:33:03] [DEBUG] [auth_mobile] Revoked refresh token jti=c6bcd31eac7b4732a79636edf5b95edf
+[2025-12-29 09:33:03] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=dbf0e1d1a1574d0c8f6d31d42f229b88
+[2025-12-29 09:33:03] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=dbf0e1d1a1574d0c8f6d31d42f229b88
+[2025-12-29 09:33:03] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:33:08] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:33:08] [DEBUG] [auth_mobile] Revoked refresh token jti=dbf0e1d1a1574d0c8f6d31d42f229b88
+[2025-12-29 09:33:08] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=e70c1109e55744f9b0302c1d363a1779
+[2025-12-29 09:33:08] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=e70c1109e55744f9b0302c1d363a1779
+[2025-12-29 09:33:08] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:33:14] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:33:14] [DEBUG] [auth_mobile] Revoked refresh token jti=e70c1109e55744f9b0302c1d363a1779
+[2025-12-29 09:33:14] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=6edd1c6562e94dda91f0a32d7b19b028
+[2025-12-29 09:33:14] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=6edd1c6562e94dda91f0a32d7b19b028
+[2025-12-29 09:33:14] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:33:19] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:33:19] [DEBUG] [auth_mobile] Revoked refresh token jti=6edd1c6562e94dda91f0a32d7b19b028
+[2025-12-29 09:33:19] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=09ca1ee764e8477ba62e63ed9dc9a1ea
+[2025-12-29 09:33:19] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=09ca1ee764e8477ba62e63ed9dc9a1ea
+[2025-12-29 09:33:19] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:33:24] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:33:24] [DEBUG] [auth_mobile] Revoked refresh token jti=09ca1ee764e8477ba62e63ed9dc9a1ea
+[2025-12-29 09:33:24] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=f6695d6b8f844f92a00ff86f3d027138
+[2025-12-29 09:33:24] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=f6695d6b8f844f92a00ff86f3d027138
+[2025-12-29 09:33:24] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:33:29] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:33:29] [DEBUG] [auth_mobile] Revoked refresh token jti=f6695d6b8f844f92a00ff86f3d027138
+[2025-12-29 09:33:29] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=d60ea948395942a1a35ab2e95d5da91f
+[2025-12-29 09:33:30] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=d60ea948395942a1a35ab2e95d5da91f
+[2025-12-29 09:33:30] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:33:35] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:33:35] [DEBUG] [auth_mobile] Revoked refresh token jti=d60ea948395942a1a35ab2e95d5da91f
+[2025-12-29 09:33:35] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=d2e6d27c76bf41a0a9b87d982a3c5928
+[2025-12-29 09:33:35] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=d2e6d27c76bf41a0a9b87d982a3c5928
+[2025-12-29 09:33:35] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:33:40] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:33:40] [DEBUG] [auth_mobile] Revoked refresh token jti=d2e6d27c76bf41a0a9b87d982a3c5928
+[2025-12-29 09:33:40] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=6fa7ddee49984d0db6b75f8beefaae0e
+[2025-12-29 09:33:40] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=6fa7ddee49984d0db6b75f8beefaae0e
+[2025-12-29 09:33:40] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:33:45] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:33:45] [DEBUG] [auth_mobile] Revoked refresh token jti=6fa7ddee49984d0db6b75f8beefaae0e
+[2025-12-29 09:33:45] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=eccc72bc417947e08836502c3dea01e2
+[2025-12-29 09:33:45] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=eccc72bc417947e08836502c3dea01e2
+[2025-12-29 09:33:45] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:33:50] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:33:51] [DEBUG] [auth_mobile] Revoked refresh token jti=eccc72bc417947e08836502c3dea01e2
+[2025-12-29 09:33:51] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=34060213c53f4f1fa2693e3378e7acd1
+[2025-12-29 09:33:51] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=34060213c53f4f1fa2693e3378e7acd1
+[2025-12-29 09:33:51] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:33:56] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:33:56] [DEBUG] [auth_mobile] Revoked refresh token jti=34060213c53f4f1fa2693e3378e7acd1
+[2025-12-29 09:33:56] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=6329ca680d2d4709bbc512133e4aa262
+[2025-12-29 09:33:56] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=6329ca680d2d4709bbc512133e4aa262
+[2025-12-29 09:33:56] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:34:01] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:34:01] [DEBUG] [auth_mobile] Revoked refresh token jti=6329ca680d2d4709bbc512133e4aa262
+[2025-12-29 09:34:01] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=9bacb716f0a04f218fb557ceddd2a639
+[2025-12-29 09:34:01] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=9bacb716f0a04f218fb557ceddd2a639
+[2025-12-29 09:34:01] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:34:07] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:34:07] [DEBUG] [auth_mobile] Revoked refresh token jti=9bacb716f0a04f218fb557ceddd2a639
+[2025-12-29 09:34:07] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=022ab61676a74ef1bc35a4a5ee11bb18
+[2025-12-29 09:34:07] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=022ab61676a74ef1bc35a4a5ee11bb18
+[2025-12-29 09:34:07] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:34:12] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:34:12] [DEBUG] [auth_mobile] Revoked refresh token jti=022ab61676a74ef1bc35a4a5ee11bb18
+[2025-12-29 09:34:12] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=6ddf20f9309d4e1ead18073e4c4cba63
+[2025-12-29 09:34:12] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=6ddf20f9309d4e1ead18073e4c4cba63
+[2025-12-29 09:34:12] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:34:17] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:34:17] [DEBUG] [auth_mobile] Revoked refresh token jti=6ddf20f9309d4e1ead18073e4c4cba63
+[2025-12-29 09:34:17] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=fdb31ad6911d4909ab10c8e498b8c973
+[2025-12-29 09:34:17] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=fdb31ad6911d4909ab10c8e498b8c973
+[2025-12-29 09:34:17] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:34:22] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:34:23] [DEBUG] [auth_mobile] Revoked refresh token jti=fdb31ad6911d4909ab10c8e498b8c973
+[2025-12-29 09:34:23] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=b475a84d62ec47729577473425fad88f
+[2025-12-29 09:34:23] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=b475a84d62ec47729577473425fad88f
+[2025-12-29 09:34:23] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:34:28] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:34:28] [DEBUG] [auth_mobile] Revoked refresh token jti=b475a84d62ec47729577473425fad88f
+[2025-12-29 09:34:28] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=9f0168a7e95f4df391f70b94b876fead
+[2025-12-29 09:34:28] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=9f0168a7e95f4df391f70b94b876fead
+[2025-12-29 09:34:28] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:34:33] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:34:33] [DEBUG] [auth_mobile] Revoked refresh token jti=9f0168a7e95f4df391f70b94b876fead
+[2025-12-29 09:34:33] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=f447c1ea21ce4846b62a344de4c47461
+[2025-12-29 09:34:33] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=f447c1ea21ce4846b62a344de4c47461
+[2025-12-29 09:34:33] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:34:38] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:34:38] [DEBUG] [auth_mobile] Revoked refresh token jti=f447c1ea21ce4846b62a344de4c47461
+[2025-12-29 09:34:38] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=32ee5f6429ad4b5f9e2b768a9546ffcd
+[2025-12-29 09:34:38] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=32ee5f6429ad4b5f9e2b768a9546ffcd
+[2025-12-29 09:34:38] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:34:43] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:34:44] [DEBUG] [auth_mobile] Revoked refresh token jti=32ee5f6429ad4b5f9e2b768a9546ffcd
+[2025-12-29 09:34:44] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=52c07a641f044147a33fde28d09e1bd6
+[2025-12-29 09:34:44] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=52c07a641f044147a33fde28d09e1bd6
+[2025-12-29 09:34:44] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:34:49] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:34:49] [DEBUG] [auth_mobile] Revoked refresh token jti=52c07a641f044147a33fde28d09e1bd6
+[2025-12-29 09:34:49] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=cf79f1314e3a4195bb7167f50d7fd9f3
+[2025-12-29 09:34:49] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=cf79f1314e3a4195bb7167f50d7fd9f3
+[2025-12-29 09:34:49] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:34:54] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:34:54] [DEBUG] [auth_mobile] Revoked refresh token jti=cf79f1314e3a4195bb7167f50d7fd9f3
+[2025-12-29 09:34:54] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=d8812807b4534fa5a584a402266bd0a2
+[2025-12-29 09:34:55] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=d8812807b4534fa5a584a402266bd0a2
+[2025-12-29 09:34:55] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:35:00] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:35:00] [DEBUG] [auth_mobile] Revoked refresh token jti=d8812807b4534fa5a584a402266bd0a2
+[2025-12-29 09:35:00] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=0d5ee1c834c64417bb41810a6091216f
+[2025-12-29 09:35:00] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=0d5ee1c834c64417bb41810a6091216f
+[2025-12-29 09:35:00] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:35:05] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:35:05] [DEBUG] [auth_mobile] Revoked refresh token jti=0d5ee1c834c64417bb41810a6091216f
+[2025-12-29 09:35:05] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=233a2586277b4e97b05f8302974349e5
+[2025-12-29 09:35:05] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=233a2586277b4e97b05f8302974349e5
+[2025-12-29 09:35:05] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:35:10] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:35:10] [DEBUG] [auth_mobile] Revoked refresh token jti=233a2586277b4e97b05f8302974349e5
+[2025-12-29 09:35:10] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=43683e114dc843c09fca93a791308311
+[2025-12-29 09:35:10] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=43683e114dc843c09fca93a791308311
+[2025-12-29 09:35:10] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:35:16] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:35:16] [DEBUG] [auth_mobile] Revoked refresh token jti=43683e114dc843c09fca93a791308311
+[2025-12-29 09:35:16] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=9d59731aaf2044b787fd120692a0e79a
+[2025-12-29 09:35:16] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=9d59731aaf2044b787fd120692a0e79a
+[2025-12-29 09:35:16] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:35:21] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:35:21] [DEBUG] [auth_mobile] Revoked refresh token jti=9d59731aaf2044b787fd120692a0e79a
+[2025-12-29 09:35:21] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=1ad0554200ef4de3a72636e02bb8e2f3
+[2025-12-29 09:35:21] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=1ad0554200ef4de3a72636e02bb8e2f3
+[2025-12-29 09:35:21] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:35:26] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:35:26] [DEBUG] [auth_mobile] Revoked refresh token jti=1ad0554200ef4de3a72636e02bb8e2f3
+[2025-12-29 09:35:26] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=0816986f86114651a59deb98f43ded3f
+[2025-12-29 09:35:26] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=0816986f86114651a59deb98f43ded3f
+[2025-12-29 09:35:26] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:35:31] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:35:32] [DEBUG] [auth_mobile] Revoked refresh token jti=0816986f86114651a59deb98f43ded3f
+[2025-12-29 09:35:32] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=524095b1e03440c5bdf3345f9c89c277
+[2025-12-29 09:35:32] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=524095b1e03440c5bdf3345f9c89c277
+[2025-12-29 09:35:32] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:35:37] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:35:37] [DEBUG] [auth_mobile] Revoked refresh token jti=524095b1e03440c5bdf3345f9c89c277
+[2025-12-29 09:35:37] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=f4d364aeb09d4470806de969b07bc1b5
+[2025-12-29 09:35:37] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=f4d364aeb09d4470806de969b07bc1b5
+[2025-12-29 09:35:37] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:35:42] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:35:42] [DEBUG] [auth_mobile] Revoked refresh token jti=f4d364aeb09d4470806de969b07bc1b5
+[2025-12-29 09:35:42] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=e470b91aa30349dd8d5fb1ad9774a0c3
+[2025-12-29 09:35:42] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=e470b91aa30349dd8d5fb1ad9774a0c3
+[2025-12-29 09:35:42] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:35:47] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:35:48] [DEBUG] [auth_mobile] Revoked refresh token jti=e470b91aa30349dd8d5fb1ad9774a0c3
+[2025-12-29 09:35:48] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=591c32422871486a8a7b3422c2ec22b5
+[2025-12-29 09:35:48] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=591c32422871486a8a7b3422c2ec22b5
+[2025-12-29 09:35:48] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:35:53] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:35:53] [DEBUG] [auth_mobile] Revoked refresh token jti=591c32422871486a8a7b3422c2ec22b5
+[2025-12-29 09:35:53] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=4edb9995a2a94d4fbad45e327815de06
+[2025-12-29 09:35:53] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=4edb9995a2a94d4fbad45e327815de06
+[2025-12-29 09:35:53] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:35:53] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=access
+[2025-12-29 09:35:53] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x1100ed4e0>
+[2025-12-29 09:35:53] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x1100ed440>
+[2025-12-29 09:35:53] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x1100ef740>
+[2025-12-29 09:35:53] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x110bfa3c0>>
+[2025-12-29 09:35:53] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <bound method ClientCreator._inject_s3_input_parameters of <botocore.client.ClientCreator object at 0x110195550>>
+[2025-12-29 09:35:53] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x1100ed260>
+[2025-12-29 09:35:53] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <function _handle_request_validation_mode_member at 0x1100efe20>
+[2025-12-29 09:35:53] [DEBUG] [auth_mobile] Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x1100ef920>
+[2025-12-29 09:35:53] [DEBUG] [auth_mobile] Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x110bfa3c0>>
+[2025-12-29 09:35:53] [DEBUG] [auth_mobile] Calling endpoint provider with parameters: {'Bucket': '1b9ecebd-e6d1d058-e467-4a56-ad0b-f26ce04b1aeb', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'Endpoint': 'https://s3.twcstorage.ru', 'ForcePathStyle': True, 'Accelerate': False, 'UseGlobalEndpoint': True, 'Key': 'car_records/08159b793b1144ce8a5cf1c0950055a6.jpg', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+[2025-12-29 09:35:53] [DEBUG] [auth_mobile] Endpoint provider result: https://s3.twcstorage.ru/1b9ecebd-e6d1d058-e467-4a56-ad0b-f26ce04b1aeb
+[2025-12-29 09:35:53] [DEBUG] [auth_mobile] Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "s3v4"
+[2025-12-29 09:35:53] [DEBUG] [auth_mobile] Selected auth type "v4" as "s3v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+[2025-12-29 09:35:53] [DEBUG] [auth_mobile] Event choose-signer.s3.GetObject: calling handler <function set_operation_specific_signer at 0x1100ecfe0>
+[2025-12-29 09:35:53] [DEBUG] [auth_mobile] Event choose-signer.s3.GetObject: calling handler <function _set_auth_scheme_preference_signer at 0x1100eff60>
+[2025-12-29 09:35:53] [DEBUG] [auth_mobile] Event before-sign.s3.GetObject: calling handler <function remove_arn_from_signing_path at 0x1100ef880>
+[2025-12-29 09:35:53] [DEBUG] [auth_mobile] Event before-sign.s3.GetObject: calling handler <function _set_extra_headers_for_unsigned_request at 0x1100efec0>
+[2025-12-29 09:35:53] [DEBUG] [auth_mobile] Event before-sign.s3.GetObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x110bfa510>>
+[2025-12-29 09:35:53] [DEBUG] [auth_mobile] Calculating signature using v4 auth.
+[2025-12-29 09:35:53] [DEBUG] [auth_mobile] CanonicalRequest:
+GET
+/1b9ecebd-e6d1d058-e467-4a56-ad0b-f26ce04b1aeb/car_records/08159b793b1144ce8a5cf1c0950055a6.jpg
+X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=1I7N5GRGKJ7WK13ARE48%2F20251229%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251229T063553Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host
+host:s3.twcstorage.ru
+
+host
+UNSIGNED-PAYLOAD
+[2025-12-29 09:35:53] [DEBUG] [auth_mobile] StringToSign:
+AWS4-HMAC-SHA256
+20251229T063553Z
+20251229/us-east-1/s3/aws4_request
+9bd7c869212b37a640236a545d5ede112893b92e771cf36ea3fd1058a90b850e
+[2025-12-29 09:35:53] [DEBUG] [auth_mobile] Signature:
+d4b967c2854bc560807e4530097046ecf0c2a91fbf14b523390b2bc865ee3ba2
+[2025-12-29 09:35:58] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:35:58] [DEBUG] [auth_mobile] Revoked refresh token jti=4edb9995a2a94d4fbad45e327815de06
+[2025-12-29 09:35:58] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=1c63eab099464ccb8bb448351867734d
+[2025-12-29 09:35:58] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=1c63eab099464ccb8bb448351867734d
+[2025-12-29 09:35:58] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:36:03] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:36:04] [DEBUG] [auth_mobile] Revoked refresh token jti=1c63eab099464ccb8bb448351867734d
+[2025-12-29 09:36:04] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=10180cf5c1a44034b6654a3655c5f2f4
+[2025-12-29 09:36:04] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=10180cf5c1a44034b6654a3655c5f2f4
+[2025-12-29 09:36:04] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:36:07] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=access
+[2025-12-29 09:36:07] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x10e1b54e0>
+[2025-12-29 09:36:07] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x10e1b5440>
+[2025-12-29 09:36:07] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x10e1b7740>
+[2025-12-29 09:36:07] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x10ecc23c0>>
+[2025-12-29 09:36:07] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <bound method ClientCreator._inject_s3_input_parameters of <botocore.client.ClientCreator object at 0x10e259550>>
+[2025-12-29 09:36:07] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x10e1b5260>
+[2025-12-29 09:36:07] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <function _handle_request_validation_mode_member at 0x10e1b7e20>
+[2025-12-29 09:36:07] [DEBUG] [auth_mobile] Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x10e1b7920>
+[2025-12-29 09:36:07] [DEBUG] [auth_mobile] Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x10ecc23c0>>
+[2025-12-29 09:36:07] [DEBUG] [auth_mobile] Calling endpoint provider with parameters: {'Bucket': '1b9ecebd-e6d1d058-e467-4a56-ad0b-f26ce04b1aeb', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'Endpoint': 'https://s3.twcstorage.ru', 'ForcePathStyle': True, 'Accelerate': False, 'UseGlobalEndpoint': True, 'Key': 'car_records/3ddcc78659de460b9199414015bc12cc.jpg', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+[2025-12-29 09:36:07] [DEBUG] [auth_mobile] Endpoint provider result: https://s3.twcstorage.ru/1b9ecebd-e6d1d058-e467-4a56-ad0b-f26ce04b1aeb
+[2025-12-29 09:36:07] [DEBUG] [auth_mobile] Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "s3v4"
+[2025-12-29 09:36:07] [DEBUG] [auth_mobile] Selected auth type "v4" as "s3v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+[2025-12-29 09:36:07] [DEBUG] [auth_mobile] Event choose-signer.s3.GetObject: calling handler <function set_operation_specific_signer at 0x10e1b4fe0>
+[2025-12-29 09:36:07] [DEBUG] [auth_mobile] Event choose-signer.s3.GetObject: calling handler <function _set_auth_scheme_preference_signer at 0x10e1b7f60>
+[2025-12-29 09:36:07] [DEBUG] [auth_mobile] Event before-sign.s3.GetObject: calling handler <function remove_arn_from_signing_path at 0x10e1b7880>
+[2025-12-29 09:36:07] [DEBUG] [auth_mobile] Event before-sign.s3.GetObject: calling handler <function _set_extra_headers_for_unsigned_request at 0x10e1b7ec0>
+[2025-12-29 09:36:07] [DEBUG] [auth_mobile] Event before-sign.s3.GetObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x10ecc2510>>
+[2025-12-29 09:36:07] [DEBUG] [auth_mobile] Calculating signature using v4 auth.
+[2025-12-29 09:36:07] [DEBUG] [auth_mobile] CanonicalRequest:
+GET
+/1b9ecebd-e6d1d058-e467-4a56-ad0b-f26ce04b1aeb/car_records/3ddcc78659de460b9199414015bc12cc.jpg
+X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=1I7N5GRGKJ7WK13ARE48%2F20251229%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251229T063607Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host
+host:s3.twcstorage.ru
+
+host
+UNSIGNED-PAYLOAD
+[2025-12-29 09:36:07] [DEBUG] [auth_mobile] StringToSign:
+AWS4-HMAC-SHA256
+20251229T063607Z
+20251229/us-east-1/s3/aws4_request
+b5eddc2c0998ec4b86bf702503808391e3833658cc51a0967d13927f3c25a1ef
+[2025-12-29 09:36:07] [DEBUG] [auth_mobile] Signature:
+39a2e1e0cf9fa2e9b36836c1e8533d580205f147d4f431376fa96d12ce6483e8
+[2025-12-29 09:36:09] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:36:09] [DEBUG] [auth_mobile] Revoked refresh token jti=10180cf5c1a44034b6654a3655c5f2f4
+[2025-12-29 09:36:09] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=32422effced94d958efa51c8a080832b
+[2025-12-29 09:36:09] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=32422effced94d958efa51c8a080832b
+[2025-12-29 09:36:09] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:36:14] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:36:14] [DEBUG] [auth_mobile] Revoked refresh token jti=32422effced94d958efa51c8a080832b
+[2025-12-29 09:36:14] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=e004f4d7f3a64f2da49962beeb1b73d6
+[2025-12-29 09:36:14] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=e004f4d7f3a64f2da49962beeb1b73d6
+[2025-12-29 09:36:14] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:36:19] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:36:19] [DEBUG] [auth_mobile] Revoked refresh token jti=e004f4d7f3a64f2da49962beeb1b73d6
+[2025-12-29 09:36:19] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=a5c56be88b3043aa85467f370d169ed0
+[2025-12-29 09:36:19] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=a5c56be88b3043aa85467f370d169ed0
+[2025-12-29 09:36:20] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:36:25] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:36:25] [DEBUG] [auth_mobile] Revoked refresh token jti=a5c56be88b3043aa85467f370d169ed0
+[2025-12-29 09:36:25] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=5a7d0d468cc340d299f2a444a90cbbb3
+[2025-12-29 09:36:25] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=5a7d0d468cc340d299f2a444a90cbbb3
+[2025-12-29 09:36:25] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:36:30] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:36:30] [DEBUG] [auth_mobile] Revoked refresh token jti=5a7d0d468cc340d299f2a444a90cbbb3
+[2025-12-29 09:36:30] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=f57637c5e2db48b6b06cdb9eb5b237c9
+[2025-12-29 09:36:30] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=f57637c5e2db48b6b06cdb9eb5b237c9
+[2025-12-29 09:36:30] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:36:35] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:36:35] [DEBUG] [auth_mobile] Revoked refresh token jti=f57637c5e2db48b6b06cdb9eb5b237c9
+[2025-12-29 09:36:35] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=aef52b0a64454b7b84567980d90523da
+[2025-12-29 09:36:36] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=aef52b0a64454b7b84567980d90523da
+[2025-12-29 09:36:36] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:36:41] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:36:41] [DEBUG] [auth_mobile] Revoked refresh token jti=aef52b0a64454b7b84567980d90523da
+[2025-12-29 09:36:41] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=c5e55dd21d56444ba367f7d01941a7cc
+[2025-12-29 09:36:41] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=c5e55dd21d56444ba367f7d01941a7cc
+[2025-12-29 09:36:41] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:36:46] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:36:46] [DEBUG] [auth_mobile] Revoked refresh token jti=c5e55dd21d56444ba367f7d01941a7cc
+[2025-12-29 09:36:46] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=c1aa5770248d4b0db2b2f63b00f2d75d
+[2025-12-29 09:36:46] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=c1aa5770248d4b0db2b2f63b00f2d75d
+[2025-12-29 09:36:46] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:36:51] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:36:51] [DEBUG] [auth_mobile] Revoked refresh token jti=c1aa5770248d4b0db2b2f63b00f2d75d
+[2025-12-29 09:36:51] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=92fb3535d6ff4f88b925f9bb01bf99bb
+[2025-12-29 09:36:51] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=92fb3535d6ff4f88b925f9bb01bf99bb
+[2025-12-29 09:36:52] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:36:57] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:36:57] [DEBUG] [auth_mobile] Revoked refresh token jti=92fb3535d6ff4f88b925f9bb01bf99bb
+[2025-12-29 09:36:57] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=9c0038c80e5e45c4980337b3b4bfe00f
+[2025-12-29 09:36:57] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=9c0038c80e5e45c4980337b3b4bfe00f
+[2025-12-29 09:36:57] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:37:02] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:37:02] [DEBUG] [auth_mobile] Revoked refresh token jti=9c0038c80e5e45c4980337b3b4bfe00f
+[2025-12-29 09:37:02] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=5ea71a826a7a4421b77120fb47c9a282
+[2025-12-29 09:37:02] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=5ea71a826a7a4421b77120fb47c9a282
+[2025-12-29 09:37:02] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:37:07] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:37:07] [DEBUG] [auth_mobile] Revoked refresh token jti=5ea71a826a7a4421b77120fb47c9a282
+[2025-12-29 09:37:07] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=533acb67a7104bbc9db1e8d096ffc191
+[2025-12-29 09:37:07] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=533acb67a7104bbc9db1e8d096ffc191
+[2025-12-29 09:37:07] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:37:12] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:37:13] [DEBUG] [auth_mobile] Revoked refresh token jti=533acb67a7104bbc9db1e8d096ffc191
+[2025-12-29 09:37:13] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=c091071433404602b7a69b343d08f250
+[2025-12-29 09:37:13] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=c091071433404602b7a69b343d08f250
+[2025-12-29 09:37:13] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:37:18] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:37:18] [DEBUG] [auth_mobile] Revoked refresh token jti=c091071433404602b7a69b343d08f250
+[2025-12-29 09:37:18] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=e4a1cd2a1422482faf967c8f9ef67da0
+[2025-12-29 09:37:18] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=e4a1cd2a1422482faf967c8f9ef67da0
+[2025-12-29 09:37:18] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:37:23] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:37:23] [DEBUG] [auth_mobile] Revoked refresh token jti=e4a1cd2a1422482faf967c8f9ef67da0
+[2025-12-29 09:37:23] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=8a43037e9ac94393a456678020a1ad98
+[2025-12-29 09:37:23] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=8a43037e9ac94393a456678020a1ad98
+[2025-12-29 09:37:23] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:37:28] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:37:28] [DEBUG] [auth_mobile] Revoked refresh token jti=8a43037e9ac94393a456678020a1ad98
+[2025-12-29 09:37:28] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=984cc56b523a467fa4c3df0e53088f1d
+[2025-12-29 09:37:28] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=984cc56b523a467fa4c3df0e53088f1d
+[2025-12-29 09:37:29] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:37:34] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:37:34] [DEBUG] [auth_mobile] Revoked refresh token jti=984cc56b523a467fa4c3df0e53088f1d
+[2025-12-29 09:37:34] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=6cee483683154b59aebaf52852cbec52
+[2025-12-29 09:37:34] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=6cee483683154b59aebaf52852cbec52
+[2025-12-29 09:37:34] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:37:39] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:37:39] [DEBUG] [auth_mobile] Revoked refresh token jti=6cee483683154b59aebaf52852cbec52
+[2025-12-29 09:37:39] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=659c3024233c4d64a939eae1a7f4bbc4
+[2025-12-29 09:37:39] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=659c3024233c4d64a939eae1a7f4bbc4
+[2025-12-29 09:37:39] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:37:44] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:37:44] [DEBUG] [auth_mobile] Revoked refresh token jti=659c3024233c4d64a939eae1a7f4bbc4
+[2025-12-29 09:37:44] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=50931661769f45a7b9e3b37005ec6a10
+[2025-12-29 09:37:45] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=50931661769f45a7b9e3b37005ec6a10
+[2025-12-29 09:37:45] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:37:50] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:37:50] [DEBUG] [auth_mobile] Revoked refresh token jti=50931661769f45a7b9e3b37005ec6a10
+[2025-12-29 09:37:50] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=55bc92ad48894f34870a3eedac539922
+[2025-12-29 09:37:50] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=55bc92ad48894f34870a3eedac539922
+[2025-12-29 09:37:50] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:37:55] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:37:55] [DEBUG] [auth_mobile] Revoked refresh token jti=55bc92ad48894f34870a3eedac539922
+[2025-12-29 09:37:55] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=0211a22673e74ab79a5dbc7b686c3203
+[2025-12-29 09:37:55] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=0211a22673e74ab79a5dbc7b686c3203
+[2025-12-29 09:37:55] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:38:00] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:38:00] [DEBUG] [auth_mobile] Revoked refresh token jti=0211a22673e74ab79a5dbc7b686c3203
+[2025-12-29 09:38:00] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=93d77dd878c440bb9c3bd522302dd1ab
+[2025-12-29 09:38:01] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=93d77dd878c440bb9c3bd522302dd1ab
+[2025-12-29 09:38:01] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:38:06] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:38:06] [DEBUG] [auth_mobile] Revoked refresh token jti=93d77dd878c440bb9c3bd522302dd1ab
+[2025-12-29 09:38:06] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=b917ff1f7a8b4c90bedebb47e47e3347
+[2025-12-29 09:38:06] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=b917ff1f7a8b4c90bedebb47e47e3347
+[2025-12-29 09:38:06] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:38:11] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:38:11] [DEBUG] [auth_mobile] Revoked refresh token jti=b917ff1f7a8b4c90bedebb47e47e3347
+[2025-12-29 09:38:11] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=955e8dc7d3714e0a80bab09825f836a1
+[2025-12-29 09:38:11] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=955e8dc7d3714e0a80bab09825f836a1
+[2025-12-29 09:38:11] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:38:16] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:38:16] [DEBUG] [auth_mobile] Revoked refresh token jti=955e8dc7d3714e0a80bab09825f836a1
+[2025-12-29 09:38:16] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=4a2c05e0ac87497caade36249a491ae3
+[2025-12-29 09:38:16] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=4a2c05e0ac87497caade36249a491ae3
+[2025-12-29 09:38:16] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:38:19] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=access
+[2025-12-29 09:38:19] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=access
+[2025-12-29 09:38:20] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=access
+[2025-12-29 09:38:21] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:38:22] [DEBUG] [auth_mobile] Revoked refresh token jti=4a2c05e0ac87497caade36249a491ae3
+[2025-12-29 09:38:22] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=e7b61a24e55e47d1bb5f71536825266e
+[2025-12-29 09:38:22] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=e7b61a24e55e47d1bb5f71536825266e
+[2025-12-29 09:38:22] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:38:27] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:38:27] [DEBUG] [auth_mobile] Revoked refresh token jti=e7b61a24e55e47d1bb5f71536825266e
+[2025-12-29 09:38:27] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=e739f2e7ad82490eb2a833f817e422ec
+[2025-12-29 09:38:27] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=e739f2e7ad82490eb2a833f817e422ec
+[2025-12-29 09:38:27] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:38:32] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:38:32] [DEBUG] [auth_mobile] Revoked refresh token jti=e739f2e7ad82490eb2a833f817e422ec
+[2025-12-29 09:38:32] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=e0caffb3aef948149b86a0ba2b7f6b1c
+[2025-12-29 09:38:32] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=e0caffb3aef948149b86a0ba2b7f6b1c
+[2025-12-29 09:38:32] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:38:37] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:38:38] [DEBUG] [auth_mobile] Revoked refresh token jti=e0caffb3aef948149b86a0ba2b7f6b1c
+[2025-12-29 09:38:38] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=36140ff8c98942849ccf038177a33816
+[2025-12-29 09:38:38] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=36140ff8c98942849ccf038177a33816
+[2025-12-29 09:38:38] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:38:40] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=access
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x1100ed4e0>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x1100ed440>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x1100ef740>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x110bfa3c0>>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <bound method ClientCreator._inject_s3_input_parameters of <botocore.client.ClientCreator object at 0x110195550>>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x1100ed260>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <function _handle_request_validation_mode_member at 0x1100efe20>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x1100ef920>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x110bfa3c0>>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Calling endpoint provider with parameters: {'Bucket': '1b9ecebd-e6d1d058-e467-4a56-ad0b-f26ce04b1aeb', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'Endpoint': 'https://s3.twcstorage.ru', 'ForcePathStyle': True, 'Accelerate': False, 'UseGlobalEndpoint': True, 'Key': 'car_records/55870f2fb9d147e1a6f74b014cc136a4.jpeg', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Endpoint provider result: https://s3.twcstorage.ru/1b9ecebd-e6d1d058-e467-4a56-ad0b-f26ce04b1aeb
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "s3v4"
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Selected auth type "v4" as "s3v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event choose-signer.s3.GetObject: calling handler <function set_operation_specific_signer at 0x1100ecfe0>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event choose-signer.s3.GetObject: calling handler <function _set_auth_scheme_preference_signer at 0x1100eff60>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-sign.s3.GetObject: calling handler <function remove_arn_from_signing_path at 0x1100ef880>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-sign.s3.GetObject: calling handler <function _set_extra_headers_for_unsigned_request at 0x1100efec0>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-sign.s3.GetObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x110bfa510>>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Calculating signature using v4 auth.
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] CanonicalRequest:
+GET
+/1b9ecebd-e6d1d058-e467-4a56-ad0b-f26ce04b1aeb/car_records/55870f2fb9d147e1a6f74b014cc136a4.jpeg
+X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=1I7N5GRGKJ7WK13ARE48%2F20251229%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251229T063841Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host
+host:s3.twcstorage.ru
+
+host
+UNSIGNED-PAYLOAD
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] StringToSign:
+AWS4-HMAC-SHA256
+20251229T063841Z
+20251229/us-east-1/s3/aws4_request
+10f76548403673d3700997c8aabdc5787dd3f59ff571a34ee1c07a9d66c08339
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Signature:
+59e288f71d9259732e66c98d8f1e1a8be5ee5f2034e8ca66f8a0754d3ca5c53e
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x1100ed4e0>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x1100ed440>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x1100ef740>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x110bfa3c0>>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <bound method ClientCreator._inject_s3_input_parameters of <botocore.client.ClientCreator object at 0x110195550>>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x1100ed260>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <function _handle_request_validation_mode_member at 0x1100efe20>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x1100ef920>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x110bfa3c0>>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Calling endpoint provider with parameters: {'Bucket': '1b9ecebd-e6d1d058-e467-4a56-ad0b-f26ce04b1aeb', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'Endpoint': 'https://s3.twcstorage.ru', 'ForcePathStyle': True, 'Accelerate': False, 'UseGlobalEndpoint': True, 'Key': 'car_records/b159a3a65717419a9fb6b85c0997136e.jpeg', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Endpoint provider result: https://s3.twcstorage.ru/1b9ecebd-e6d1d058-e467-4a56-ad0b-f26ce04b1aeb
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "s3v4"
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Selected auth type "v4" as "s3v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event choose-signer.s3.GetObject: calling handler <function set_operation_specific_signer at 0x1100ecfe0>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event choose-signer.s3.GetObject: calling handler <function _set_auth_scheme_preference_signer at 0x1100eff60>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-sign.s3.GetObject: calling handler <function remove_arn_from_signing_path at 0x1100ef880>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-sign.s3.GetObject: calling handler <function _set_extra_headers_for_unsigned_request at 0x1100efec0>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-sign.s3.GetObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x110bfa510>>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Calculating signature using v4 auth.
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] CanonicalRequest:
+GET
+/1b9ecebd-e6d1d058-e467-4a56-ad0b-f26ce04b1aeb/car_records/b159a3a65717419a9fb6b85c0997136e.jpeg
+X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=1I7N5GRGKJ7WK13ARE48%2F20251229%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251229T063841Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host
+host:s3.twcstorage.ru
+
+host
+UNSIGNED-PAYLOAD
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] StringToSign:
+AWS4-HMAC-SHA256
+20251229T063841Z
+20251229/us-east-1/s3/aws4_request
+ccf5017056231be3a2799a2c0415fb6f7636721498f0f79a142566ab45ea412f
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Signature:
+95c890cbdae5899f93b8586b2dfd09ee397380bbc4bffff64f84fbfcc1a63420
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x1100ed4e0>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x1100ed440>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x1100ef740>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x110bfa3c0>>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <bound method ClientCreator._inject_s3_input_parameters of <botocore.client.ClientCreator object at 0x110195550>>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x1100ed260>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <function _handle_request_validation_mode_member at 0x1100efe20>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x1100ef920>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x110bfa3c0>>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Calling endpoint provider with parameters: {'Bucket': '1b9ecebd-e6d1d058-e467-4a56-ad0b-f26ce04b1aeb', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'Endpoint': 'https://s3.twcstorage.ru', 'ForcePathStyle': True, 'Accelerate': False, 'UseGlobalEndpoint': True, 'Key': 'car_records/fa383dbed4904dd381a90845a36ed2eb.jpeg', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Endpoint provider result: https://s3.twcstorage.ru/1b9ecebd-e6d1d058-e467-4a56-ad0b-f26ce04b1aeb
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "s3v4"
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Selected auth type "v4" as "s3v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event choose-signer.s3.GetObject: calling handler <function set_operation_specific_signer at 0x1100ecfe0>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event choose-signer.s3.GetObject: calling handler <function _set_auth_scheme_preference_signer at 0x1100eff60>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-sign.s3.GetObject: calling handler <function remove_arn_from_signing_path at 0x1100ef880>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-sign.s3.GetObject: calling handler <function _set_extra_headers_for_unsigned_request at 0x1100efec0>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-sign.s3.GetObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x110bfa510>>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Calculating signature using v4 auth.
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] CanonicalRequest:
+GET
+/1b9ecebd-e6d1d058-e467-4a56-ad0b-f26ce04b1aeb/car_records/fa383dbed4904dd381a90845a36ed2eb.jpeg
+X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=1I7N5GRGKJ7WK13ARE48%2F20251229%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251229T063841Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host
+host:s3.twcstorage.ru
+
+host
+UNSIGNED-PAYLOAD
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] StringToSign:
+AWS4-HMAC-SHA256
+20251229T063841Z
+20251229/us-east-1/s3/aws4_request
+3f95178fff18bfdec848072fb54549aa52197647d63b9c0c73a732b098b526b4
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Signature:
+006ec86b9d2f7beecd58ac6742c3727d9a1de30e257b8a5d5e64485e5ab93a15
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x1100ed4e0>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x1100ed440>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x1100ef740>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x110bfa3c0>>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <bound method ClientCreator._inject_s3_input_parameters of <botocore.client.ClientCreator object at 0x110195550>>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x1100ed260>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <function _handle_request_validation_mode_member at 0x1100efe20>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x1100ef920>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x110bfa3c0>>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Calling endpoint provider with parameters: {'Bucket': '1b9ecebd-e6d1d058-e467-4a56-ad0b-f26ce04b1aeb', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'Endpoint': 'https://s3.twcstorage.ru', 'ForcePathStyle': True, 'Accelerate': False, 'UseGlobalEndpoint': True, 'Key': 'car_records/123e045c385a426bbe8cc2618ae36403.jpeg', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Endpoint provider result: https://s3.twcstorage.ru/1b9ecebd-e6d1d058-e467-4a56-ad0b-f26ce04b1aeb
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "s3v4"
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Selected auth type "v4" as "s3v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event choose-signer.s3.GetObject: calling handler <function set_operation_specific_signer at 0x1100ecfe0>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event choose-signer.s3.GetObject: calling handler <function _set_auth_scheme_preference_signer at 0x1100eff60>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-sign.s3.GetObject: calling handler <function remove_arn_from_signing_path at 0x1100ef880>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-sign.s3.GetObject: calling handler <function _set_extra_headers_for_unsigned_request at 0x1100efec0>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-sign.s3.GetObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x110bfa510>>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Calculating signature using v4 auth.
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] CanonicalRequest:
+GET
+/1b9ecebd-e6d1d058-e467-4a56-ad0b-f26ce04b1aeb/car_records/123e045c385a426bbe8cc2618ae36403.jpeg
+X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=1I7N5GRGKJ7WK13ARE48%2F20251229%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251229T063841Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host
+host:s3.twcstorage.ru
+
+host
+UNSIGNED-PAYLOAD
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] StringToSign:
+AWS4-HMAC-SHA256
+20251229T063841Z
+20251229/us-east-1/s3/aws4_request
+79a80ecf1a3e5b578059e0db3ddfa778319e098df33a2e31595fa4f762db2390
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Signature:
+818db3f34902110aa923a2e0ea0de278167f762c571094897f4614f3b796b8c5
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x1100ed4e0>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x1100ed440>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x1100ef740>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x110bfa3c0>>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <bound method ClientCreator._inject_s3_input_parameters of <botocore.client.ClientCreator object at 0x110195550>>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x1100ed260>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <function _handle_request_validation_mode_member at 0x1100efe20>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x1100ef920>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x110bfa3c0>>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Calling endpoint provider with parameters: {'Bucket': '1b9ecebd-e6d1d058-e467-4a56-ad0b-f26ce04b1aeb', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'Endpoint': 'https://s3.twcstorage.ru', 'ForcePathStyle': True, 'Accelerate': False, 'UseGlobalEndpoint': True, 'Key': 'car_records/ed62a3ab5de946d3bd465fe5485be541.jpeg', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Endpoint provider result: https://s3.twcstorage.ru/1b9ecebd-e6d1d058-e467-4a56-ad0b-f26ce04b1aeb
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "s3v4"
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Selected auth type "v4" as "s3v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event choose-signer.s3.GetObject: calling handler <function set_operation_specific_signer at 0x1100ecfe0>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event choose-signer.s3.GetObject: calling handler <function _set_auth_scheme_preference_signer at 0x1100eff60>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-sign.s3.GetObject: calling handler <function remove_arn_from_signing_path at 0x1100ef880>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-sign.s3.GetObject: calling handler <function _set_extra_headers_for_unsigned_request at 0x1100efec0>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-sign.s3.GetObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x110bfa510>>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Calculating signature using v4 auth.
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] CanonicalRequest:
+GET
+/1b9ecebd-e6d1d058-e467-4a56-ad0b-f26ce04b1aeb/car_records/ed62a3ab5de946d3bd465fe5485be541.jpeg
+X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=1I7N5GRGKJ7WK13ARE48%2F20251229%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251229T063841Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host
+host:s3.twcstorage.ru
+
+host
+UNSIGNED-PAYLOAD
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] StringToSign:
+AWS4-HMAC-SHA256
+20251229T063841Z
+20251229/us-east-1/s3/aws4_request
+037bc110ac0f9028158a89b827f9b45097db17612743c051d8f476395c268d71
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Signature:
+20b0830dd739964427cc07d4c1180e45cc2837383f7fce5958df7ffd1e0d8090
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x1100ed4e0>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x1100ed440>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x1100ef740>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x110bfa3c0>>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <bound method ClientCreator._inject_s3_input_parameters of <botocore.client.ClientCreator object at 0x110195550>>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x1100ed260>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <function _handle_request_validation_mode_member at 0x1100efe20>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x1100ef920>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x110bfa3c0>>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Calling endpoint provider with parameters: {'Bucket': '1b9ecebd-e6d1d058-e467-4a56-ad0b-f26ce04b1aeb', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'Endpoint': 'https://s3.twcstorage.ru', 'ForcePathStyle': True, 'Accelerate': False, 'UseGlobalEndpoint': True, 'Key': 'car_records/896d271eab864471b78b99e07ba97d1f.jpeg', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Endpoint provider result: https://s3.twcstorage.ru/1b9ecebd-e6d1d058-e467-4a56-ad0b-f26ce04b1aeb
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "s3v4"
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Selected auth type "v4" as "s3v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event choose-signer.s3.GetObject: calling handler <function set_operation_specific_signer at 0x1100ecfe0>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event choose-signer.s3.GetObject: calling handler <function _set_auth_scheme_preference_signer at 0x1100eff60>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-sign.s3.GetObject: calling handler <function remove_arn_from_signing_path at 0x1100ef880>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-sign.s3.GetObject: calling handler <function _set_extra_headers_for_unsigned_request at 0x1100efec0>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Event before-sign.s3.GetObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x110bfa510>>
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Calculating signature using v4 auth.
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] CanonicalRequest:
+GET
+/1b9ecebd-e6d1d058-e467-4a56-ad0b-f26ce04b1aeb/car_records/896d271eab864471b78b99e07ba97d1f.jpeg
+X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=1I7N5GRGKJ7WK13ARE48%2F20251229%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251229T063841Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host
+host:s3.twcstorage.ru
+
+host
+UNSIGNED-PAYLOAD
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] StringToSign:
+AWS4-HMAC-SHA256
+20251229T063841Z
+20251229/us-east-1/s3/aws4_request
+ee5843ac0f892b2c1f3eecfc8b215206c5fc8d8cf46823be055ced760ece0cc0
+[2025-12-29 09:38:41] [DEBUG] [auth_mobile] Signature:
+fba9374548843535c95814c363c33762690f2b8a9fdf6278e905ab06c8d28ffa
+[2025-12-29 09:38:43] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:38:43] [DEBUG] [auth_mobile] Revoked refresh token jti=36140ff8c98942849ccf038177a33816
+[2025-12-29 09:38:43] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=ab0825446abb40b18f5144f039b14539
+[2025-12-29 09:38:43] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=ab0825446abb40b18f5144f039b14539
+[2025-12-29 09:38:43] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:38:48] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:38:48] [DEBUG] [auth_mobile] Revoked refresh token jti=ab0825446abb40b18f5144f039b14539
+[2025-12-29 09:38:48] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=e4787a93971c4f4883193fab997f053b
+[2025-12-29 09:38:48] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=e4787a93971c4f4883193fab997f053b
+[2025-12-29 09:38:48] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:38:53] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:38:54] [DEBUG] [auth_mobile] Revoked refresh token jti=e4787a93971c4f4883193fab997f053b
+[2025-12-29 09:38:54] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=1cce2849919048d99732a43afcb6dff4
+[2025-12-29 09:38:54] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=1cce2849919048d99732a43afcb6dff4
+[2025-12-29 09:38:54] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:38:59] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:38:59] [DEBUG] [auth_mobile] Revoked refresh token jti=1cce2849919048d99732a43afcb6dff4
+[2025-12-29 09:38:59] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=594f6a8fe2ba4ee78d259f8b99ff8747
+[2025-12-29 09:38:59] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=594f6a8fe2ba4ee78d259f8b99ff8747
+[2025-12-29 09:38:59] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:39:04] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:39:05] [DEBUG] [auth_mobile] Revoked refresh token jti=594f6a8fe2ba4ee78d259f8b99ff8747
+[2025-12-29 09:39:05] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=9aa21a386eaf4fe79ac238282dfd5970
+[2025-12-29 09:39:05] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=9aa21a386eaf4fe79ac238282dfd5970
+[2025-12-29 09:39:05] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:39:06] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=access
+[2025-12-29 09:39:10] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:39:11] [DEBUG] [auth_mobile] Revoked refresh token jti=9aa21a386eaf4fe79ac238282dfd5970
+[2025-12-29 09:39:11] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=c5437a7f91fe402f994ec3f7c11e49eb
+[2025-12-29 09:39:11] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=c5437a7f91fe402f994ec3f7c11e49eb
+[2025-12-29 09:39:11] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:39:16] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:39:16] [DEBUG] [auth_mobile] Revoked refresh token jti=c5437a7f91fe402f994ec3f7c11e49eb
+[2025-12-29 09:39:16] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=d7298189e1da4fdf9dbfe5cd0cf76242
+[2025-12-29 09:39:16] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=d7298189e1da4fdf9dbfe5cd0cf76242
+[2025-12-29 09:39:16] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:39:19] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=access
+[2025-12-29 09:39:20] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x10e1b54e0>
+[2025-12-29 09:39:20] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x10e1b5440>
+[2025-12-29 09:39:20] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x10e1b7740>
+[2025-12-29 09:39:20] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x10ecc23c0>>
+[2025-12-29 09:39:20] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <bound method ClientCreator._inject_s3_input_parameters of <botocore.client.ClientCreator object at 0x10e259550>>
+[2025-12-29 09:39:20] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x10e1b5260>
+[2025-12-29 09:39:20] [DEBUG] [auth_mobile] Event before-parameter-build.s3.GetObject: calling handler <function _handle_request_validation_mode_member at 0x10e1b7e20>
+[2025-12-29 09:39:20] [DEBUG] [auth_mobile] Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x10e1b7920>
+[2025-12-29 09:39:20] [DEBUG] [auth_mobile] Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x10ecc23c0>>
+[2025-12-29 09:39:20] [DEBUG] [auth_mobile] Calling endpoint provider with parameters: {'Bucket': '1b9ecebd-e6d1d058-e467-4a56-ad0b-f26ce04b1aeb', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'Endpoint': 'https://s3.twcstorage.ru', 'ForcePathStyle': True, 'Accelerate': False, 'UseGlobalEndpoint': True, 'Key': 'car_records/03ccad7ced914987b4d4d08cf323bd4d.jpeg', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+[2025-12-29 09:39:20] [DEBUG] [auth_mobile] Endpoint provider result: https://s3.twcstorage.ru/1b9ecebd-e6d1d058-e467-4a56-ad0b-f26ce04b1aeb
+[2025-12-29 09:39:20] [DEBUG] [auth_mobile] Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "s3v4"
+[2025-12-29 09:39:20] [DEBUG] [auth_mobile] Selected auth type "v4" as "s3v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+[2025-12-29 09:39:20] [DEBUG] [auth_mobile] Event choose-signer.s3.GetObject: calling handler <function set_operation_specific_signer at 0x10e1b4fe0>
+[2025-12-29 09:39:20] [DEBUG] [auth_mobile] Event choose-signer.s3.GetObject: calling handler <function _set_auth_scheme_preference_signer at 0x10e1b7f60>
+[2025-12-29 09:39:20] [DEBUG] [auth_mobile] Event before-sign.s3.GetObject: calling handler <function remove_arn_from_signing_path at 0x10e1b7880>
+[2025-12-29 09:39:20] [DEBUG] [auth_mobile] Event before-sign.s3.GetObject: calling handler <function _set_extra_headers_for_unsigned_request at 0x10e1b7ec0>
+[2025-12-29 09:39:20] [DEBUG] [auth_mobile] Event before-sign.s3.GetObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x10ecc2510>>
+[2025-12-29 09:39:20] [DEBUG] [auth_mobile] Calculating signature using v4 auth.
+[2025-12-29 09:39:20] [DEBUG] [auth_mobile] CanonicalRequest:
+GET
+/1b9ecebd-e6d1d058-e467-4a56-ad0b-f26ce04b1aeb/car_records/03ccad7ced914987b4d4d08cf323bd4d.jpeg
+X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=1I7N5GRGKJ7WK13ARE48%2F20251229%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251229T063920Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host
+host:s3.twcstorage.ru
+
+host
+UNSIGNED-PAYLOAD
+[2025-12-29 09:39:20] [DEBUG] [auth_mobile] StringToSign:
+AWS4-HMAC-SHA256
+20251229T063920Z
+20251229/us-east-1/s3/aws4_request
+a83054f1e12f09080ad9e25a94c91be73844054129a326a448d8e74bad689d66
+[2025-12-29 09:39:20] [DEBUG] [auth_mobile] Signature:
+1c1d20058d68ca541e05cc893c50d76f61cff6ecce2c20afbc60cab08975110e
+[2025-12-29 09:39:21] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:39:21] [DEBUG] [auth_mobile] Revoked refresh token jti=d7298189e1da4fdf9dbfe5cd0cf76242
+[2025-12-29 09:39:21] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=d272fc42641542d4abc3bc9ef2f82032
+[2025-12-29 09:39:21] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=d272fc42641542d4abc3bc9ef2f82032
+[2025-12-29 09:39:21] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:39:25] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=access
+[2025-12-29 09:39:25] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=access
+[2025-12-29 09:39:26] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:39:26] [DEBUG] [auth_mobile] Revoked refresh token jti=d272fc42641542d4abc3bc9ef2f82032
+[2025-12-29 09:39:26] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=41af1943d91c4f0ab3347b0dcdf55f00
+[2025-12-29 09:39:27] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=41af1943d91c4f0ab3347b0dcdf55f00
+[2025-12-29 09:39:27] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-29 09:39:32] [DEBUG] [auth_mobile] Decoded JWT token for sub=2, type=refresh
+[2025-12-29 09:39:32] [DEBUG] [auth_mobile] Revoked refresh token jti=41af1943d91c4f0ab3347b0dcdf55f00
+[2025-12-29 09:39:32] [DEBUG] [auth_mobile] Created refresh token for user_id=2, jti=1de3e4ea66c049ccba3c2370adebe241
+[2025-12-29 09:39:32] [DEBUG] [auth_mobile] Saved new refresh token for user_id=2, jti=1de3e4ea66c049ccba3c2370adebe241
+[2025-12-29 09:39:32] [DEBUG] [auth_mobile] Created access token for user_id=2
+[2025-12-30 10:07:20] [DEBUG] [auth_mobile] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-30 10:07:20] [DEBUG] [auth_mobile] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-30 10:07:20] [DEBUG] [auth_mobile] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-30 10:07:20] [DEBUG] [auth_mobile] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-30 10:07:21] [DEBUG] [auth_mobile] Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+[2025-12-30 10:07:21] [DEBUG] [auth_mobile] Changing event name from before-call.apigateway to before-call.api-gateway
+[2025-12-30 10:07:21] [DEBUG] [auth_mobile] Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+[2025-12-30 10:07:21] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+[2025-12-30 10:07:21] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+[2025-12-30 10:07:21] [DEBUG] [auth_mobile] Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+[2025-12-30 10:07:21] [DEBUG] [auth_mobile] Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+[2025-12-30 10:07:21] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+[2025-12-30 10:07:21] [DEBUG] [auth_mobile] Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+[2025-12-30 10:07:21] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+[2025-12-30 10:07:21] [DEBUG] [auth_mobile] Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+[2025-12-30 10:07:21] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/endpoints.json
+[2025-12-30 10:07:21] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/sdk-default-configuration.json
+[2025-12-30 10:07:21] [DEBUG] [auth_mobile] Event choose-service-name: calling handler <function handle_service_name_alias at 0x10e2f3d80>
+[2025-12-30 10:07:21] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.json.gz
+[2025-12-30 10:07:21] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.sdk-extras.json
+[2025-12-30 10:07:21] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/endpoint-rule-set-1.json.gz
+[2025-12-30 10:07:21] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/partitions.json
+[2025-12-30 10:07:21] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x10e27c400>
+[2025-12-30 10:07:21] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x10e383d80>
+[2025-12-30 10:07:21] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x10e27c180>
+[2025-12-30 10:07:21] [DEBUG] [auth_mobile] Setting s3 timeout as (60, 60)
+[2025-12-30 10:07:21] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/_retry.json
+[2025-12-30 10:07:21] [DEBUG] [auth_mobile] Registering retry handlers for service: s3
+[2025-12-30 10:07:21] [DEBUG] [auth_mobile] Registering S3 region redirector handler
+[2025-12-30 10:07:21] [DEBUG] [auth_mobile] Registering S3Express Identity Resolver
+[2025-12-30 10:07:21] [DEBUG] [auth_mobile] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-30 10:07:21] [DEBUG] [auth_mobile] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-30 10:07:21] [DEBUG] [auth_mobile] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-30 10:07:21] [DEBUG] [auth_mobile] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-30 10:07:21] [DEBUG] [auth_mobile] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-30 10:07:21] [DEBUG] [auth_mobile] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-30 10:07:21] [DEBUG] [auth_mobile] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-30 10:07:21] [DEBUG] [auth_mobile] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-30 10:07:21] [DEBUG] [auth_mobile] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-30 10:07:21] [DEBUG] [auth_mobile] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-30 10:07:21] [DEBUG] [auth_mobile] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-30 10:07:21] [DEBUG] [auth_mobile] loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2025-12-30 10:07:21] [DEBUG] [auth_mobile] loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2025-12-30 10:07:21] [DEBUG] [auth_mobile] loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2025-12-30 10:07:21] [DEBUG] [auth_mobile] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-30 10:07:21] [DEBUG] [auth_mobile] registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Changing event name from before-call.apigateway to before-call.api-gateway
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/endpoints.json
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Changing event name from before-call.apigateway to before-call.api-gateway
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/endpoints.json
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Changing event name from before-call.apigateway to before-call.api-gateway
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Changing event name from before-call.apigateway to before-call.api-gateway
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/endpoints.json
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/endpoints.json
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/sdk-default-configuration.json
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Event choose-service-name: calling handler <function handle_service_name_alias at 0x11018ff60>
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/sdk-default-configuration.json
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Event choose-service-name: calling handler <function handle_service_name_alias at 0x10c027f60>
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/sdk-default-configuration.json
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/sdk-default-configuration.json
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Event choose-service-name: calling handler <function handle_service_name_alias at 0x11020bf60>
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Event choose-service-name: calling handler <function handle_service_name_alias at 0x1105abf60>
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.json.gz
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.sdk-extras.json
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.json.gz
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.sdk-extras.json
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.json.gz
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.json.gz
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.sdk-extras.json
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/service-2.sdk-extras.json
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/endpoint-rule-set-1.json.gz
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/partitions.json
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x11011c5e0>
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x110223f60>
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/endpoint-rule-set-1.json.gz
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x11011c360>
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/partitions.json
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x10bfc45e0>
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x10c0cbf60>
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x10bfc4360>
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Setting s3 timeout as (60, 60)
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/_retry.json
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Registering retry handlers for service: s3
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Setting s3 timeout as (60, 60)
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Registering S3 region redirector handler
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Registering S3Express Identity Resolver
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/_retry.json
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Registering retry handlers for service: s3
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/endpoint-rule-set-1.json.gz
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Registering S3 region redirector handler
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Registering S3Express Identity Resolver
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/s3/2006-03-01/endpoint-rule-set-1.json.gz
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/partitions.json
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/partitions.json
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x1105385e0>
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x11063ff60>
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x1101945e0>
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x11029ff60>
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x110538360>
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x110194360>
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Setting s3 timeout as (60, 60)
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Setting s3 timeout as (60, 60)
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/_retry.json
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Loading JSON file: /Users/nikitasavvin/Desktop/Business/automobile/automobile_backend/.venv/lib/python3.13/site-packages/botocore/data/_retry.json
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Registering retry handlers for service: s3
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Registering retry handlers for service: s3
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Registering S3 region redirector handler
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Registering S3Express Identity Resolver
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Registering S3 region redirector handler
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Registering S3Express Identity Resolver
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Using selector: KqueueSelector
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Using selector: KqueueSelector
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Using selector: KqueueSelector
+[2025-12-30 10:07:22] [DEBUG] [auth_mobile] Using selector: KqueueSelector
